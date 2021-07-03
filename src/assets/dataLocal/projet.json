@@ -1,0 +1,229 @@
+[{
+        "id": 1,
+        "duration": "",
+        "name": "Apliaction de Protfolio",
+        "titre": "",
+        "description": "",
+        "titreTache": "",
+        "tache": "",
+        "technologies": ["Angular 11", "Bootstrap", "TypeScript", "Html", "Css", "Git", "PhpStorm"],
+        "show": 2,
+        "icon": "../../assets/images/img-tash-portfolio.svg",
+        "images": [],
+        "taches": [
+            { "id": 1, "name": "tache 1", "description": "" },
+            { "id": 2, "name": "tache 2", "description": "" },
+            { "id": 3, "name": "tache 3", "description": "" }
+        ],
+        "urlGit": []
+    },
+    {
+        "id": 2,
+        "duration": "",
+        "name": "Projet Web RTC",
+        "titre": "",
+        "description": "Réalisation d\"une couche Web RTC qui permet de faire des appels téléphoniques",
+        "titreTache": "",
+        "tache": "",
+        "technologies": ["JavaScript", "Bootstrap", "Html", "Css", "Git", "Ajax", "PhpStorm,"],
+        "show": 2,
+        "icon": "../../assets/images/img-tash-call.svg",
+        "images": [
+            { "id": 1, "name": "image 1", "description": "", "url": "assets/images/bg-0.jpg" },
+            { "id": 2, "name": "image 2", "description": "", "url": "assets/images/bg-1.jpg" },
+            { "id": 3, "name": "image 3", "description": "", "url": "assets/images/bg-1.jpg" },
+            { "id": 1, "name": "video", "description": "", "url": "" }
+        ],
+        "taches": [
+            { "id": 1, "name": "tache 1", "description": "" },
+            { "id": 2, "name": "tache 2", "description": "" },
+            { "id": 3, "name": "tache 3", "description": "" }
+        ],
+        "urlGit": []
+    },
+    {
+        "id": 3,
+        "duration": "",
+        "name": "Projet CRM",
+        "titre": "",
+        "description": "Création d'une application de Gestion de la relation client",
+        "titreTache": "",
+        "technologies": ["Symfony", "Php", "JavaScript", "Html", "Css", "Bootstrap", "MySql", "UML", "Git", "Ajax", "PhpStorm"],
+        "show": 3,
+        "icon": "../../assets/images/img-tash-crm.svg",
+        "images": [
+            { "id": 1, "name": "video", "description": "", "url": "" }
+        ],
+        "taches": [],
+        "urlGit": []
+    },
+    {
+        "id": 4,
+        "duration": "",
+        "name": "Templates site web",
+        "titre": "",
+        "description": "Un modèle simple pour démonstration",
+        "titreTache": "",
+        "tache": "",
+        "technologies": ["Bootstrap 4", "Git", "Html", "Css", "JQuery", "Php strom"],
+        "show": 2,
+        "icon": "../../assets/images/img-tash-site.svg",
+        "images": [],
+        "taches": [""],
+        "urlGit": ["https://achrafouakka.github.io/Templates-site-web/"]
+    },
+    {
+        "id": 5,
+        "duration": "",
+        "name": "Gestion des Emails",
+        "titre": "",
+        "description": "Gestion des e-mails (envoyer, recevoir)",
+        "titreTache": "",
+        "technologies": ["Spring Boot", "Spring Integration", "Java 8", "Rest API", "Git", "MySql"],
+        "show": 3,
+        "icon": "../../assets/images/img-tash-code.svg",
+        "images": [],
+        "taches": [
+            { "id": 1, "name": "tache 1", "description": "Traitement de texte" },
+            { "id": 2, "name": "tache 2", "description": "Traitement de texte" },
+            { "id": 3, "name": "tache 3", "description": "Traitement de texte" }
+        ],
+        "urlGit": ["https://github.com/achrafOuakka/-MailManagement_TreatmentText_Validation_by_SpringBoot_SIntegration"]
+    },
+    {
+        "id": 6,
+        "duration": "",
+        "name": "chargement et téléchargement de l\"image.",
+        "titre": "",
+        "description": "Gestion des e-mails (envoyer, recevoir)",
+        "titreTache": "",
+        "technologies": ["Spring Boot", "Java 8", "Spring Integration", "Rest API", "Git", "MySql"],
+        "show": 2,
+        "icon": "../../assets/images/img-tash-mobile.svg",
+        "images": [
+            { "id": 1, "name": "images 1", "description": "", "url": "" },
+            { "id": 2, "name": "images 2", "description": "", "url": "" },
+            { "id": 3, "name": "images 3", "description": "", "url": "" }
+        ],
+        "taches": [],
+        "urlGit": ["https://github.com/achrafOuakka/Upload_Dowload_image", "https://github.com/achrafOuakka/Ionic4-take-photo-resize-and-take-photo-by-gallery-"]
+    },
+    {
+        "id": 7,
+        "duration": "",
+        "name": "Application de scanner Barcode",
+        "titre": "",
+        "description": "Lecteur de code à barre par technologie Ionic",
+        "titreTache": "",
+        "technologies": ["Ionic 4", "TypeScript", "Git", "capacitor", "Visual Studio Code"],
+        "show": 3,
+        "icon": "../../assets/images/img-tash-mobile.svg",
+        "images": [
+            { "id": 1, "name": "images 1", "description": "", "url": "" },
+            { "id": 2, "name": "images 2", "description": "", "url": "" },
+            { "id": 3, "name": "images 3", "description": "", "url": "" }
+        ],
+        "taches": [],
+        "urlGit": ["https://github.com/achrafOuakka/codes-barres"]
+    },
+    {
+        "id": 8,
+        "duration": "",
+        "name": "Projet pour suivi d’un processus métier",
+        "titre": "Freelance développeur Java/Spring Boot/Ionic",
+        "description": "Conception et réalisation d'une application mobile et web avec une équipe de développeurs; qui assure le suivi d’un processus métier ,de l’installation de la fibre optique qui augmente le nombre des demandes à traiter par jour par 25%",
+        "titreTache": "",
+        "technologies": ["Spring Boot", "Angular", "Ionic 4", "MySql", "Rest API", "Spring Security", "Java 8", "TypeScript", "Git", "Inkscape"],
+        "show": 3,
+        "icon": "../../assets/images/img-tash-web-mobile.svg",
+        "images": [
+            { "id": 1, "name": "images 1", "description": "", "url": "" },
+            { "id": 2, "name": "images 2", "description": "", "url": "" },
+            { "id": 3, "name": "images 3", "description": "", "url": "" }
+        ],
+        "taches": [
+            { "id": 1, "name": "tache 1", "description": "" },
+            { "id": 2, "name": "tache 2", "description": "" },
+            { "id": 3, "name": "tache 3", "description": "" }
+        ],
+        "urlGit": []
+    },
+    {
+        "id": 9,
+        "duration": "",
+        "name": "Application WebMail",
+        "titre": "Freelance développeur web Spring Boot/Angular",
+        "description": "Conception et développement d’une application WebMail dédié au domaine de l’installation de la fibre optique",
+        "titreTache": "Les taches et les processus de l'App web : ",
+        "technologies": ["Spring Boot", "Angular", "Spring Security", "Rest API", "Spring Data MongoDB", "NoSql", "Java", "Html", "Css", "TypeScript", "Bootstrap"],
+        "show": 2,
+        "icon": "../../assets/images/img-tash-follow.svg",
+        "images": [
+            { "id": 1, "name": "Authentification", "description": "", "url": "../../assets/images/imges-projets/img-follow-1.jpg" },
+            { "id": 2, "name": "Statiqtique", "description": "", "url": "../../assets/images/imges-projets/img-follow-2.jpg" },
+            { "id": 3, "name": "Modification de Pofile", "description": "", "url": "../../assets/images/imges-projets/img-follow-3.jpg" },
+            { "id": 4, "name": "Les Information d'un ordre", "description": "", "url": "../../assets/images/imges-projets/img-follow-4.jpg" },
+            { "id": 5, "name": "E-mail de Confirmation", "description": "", "url": "../../assets/images/imges-projets/img-follow-5.jpg" }
+        ],
+        "taches": [
+            { "id": 1, "name": "tache 1", "description": "Analyse des besoins fonctionnels." },
+            { "id": 2, "name": "tache 2", "description": "Gestion des e-mails (envoyer, recevoir et traitement de texte)." },
+            {
+                "id": 3,
+                "name": "tache 3",
+                "description": "Programmation des réponses automatiques pour les ordres non valide et aussi des mails de confirmation aux clients."
+            },
+            { "id": 4, "name": "tache 1", "description": "Génération des statistiques." },
+            { "id": 5, "name": "tache 1", "description": "Extraction des données sous forme Pdf et Ecxel." },
+            { "id": 6, "name": "tache 1", "description": "Création des tests unitaires." }
+        ],
+        "urlGit": []
+    },
+    {
+        "id": 10,
+        "duration": "",
+        "name": "Application pour suivi d’un processus métier",
+        "titre": "Stage en développement web Java/Angular chez ITELSYS",
+        "description": "Conception et développement d’une application WebMail dédié au domaine de l’installation de la fibre optique",
+        "titreTache": "Les taches et les processus de l'App web : ",
+        "technologies": ["Spring Boot", "Angular", "Spring Security", "Rest API", "Spring Data MongoDB", "NoSql", "Java", "Html", "Css", "TypeScript", "Bootstrap"],
+        "show": 2,
+        "icon": "../../assets/images/img-tash-app.svg",
+        "images": [
+            { "id": 1, "name": "images 1", "description": "", "url": "" },
+            { "id": 2, "name": "images 2", "description": "", "url": "" },
+            { "id": 3, "name": "images 3", "description": "", "url": "" }
+        ],
+        "taches": [
+            { "id": 1, "name": "tache 1", "description": "Analyse des besoins fonctionnels." },
+            { "id": 2, "name": "tache 2", "description": "Gestion des e-mails (envoyer, recevoir et traitement de texte)." },
+            {
+                "id": 3,
+                "name": "tache 3",
+                "description": "Programmation des réponses automatiques pour les ordres non valide et aussi des mails de confirmation aux clients."
+            },
+            { "id": 4, "name": "tache 1", "description": "Génération des statistiques." },
+            { "id": 5, "name": "tache 1", "description": "Extraction des données sous forme Pdf et Ecxel." },
+            { "id": 6, "name": "tache 1", "description": "Création des tests unitaires." }
+        ],
+        "urlGit": []
+    },
+    {
+        "id": 11,
+        "duration": "",
+        "name": "Application pour suivi des factures des abonnées",
+        "titre": "Stage en développement web Java/Angular chez ITELSYS",
+        "description": "Développement d’une application web qui permet aux agents de service téléphonque la visualisation et le suivi des factures des abonnées et en plus les faire rappeler des dates des paiements.",
+        "titreTache": "",
+        "technologies": ["Spring Boot", "Angular 8", "Spring Security", "Spring Data MongoDB", ",NoSql", "Java", "J2ee", "Html", "Css", "TypeScript", "Bootstrap"],
+        "show": 2,
+        "icon": "../../assets/images/img-tash-follow-factor.svg",
+        "images": [
+            { "id": 1, "name": "images 1", "description": "", "url": "" },
+            { "id": 2, "name": "images 2", "description": "", "url": "" },
+            { "id": 3, "name": "images 3", "description": "", "url": "" }
+        ],
+        "taches": [],
+        "urlGit": []
+    }
+]
