@@ -1,1 +1,84 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.min.css";
+:root {
+    --main-color: #75cfeaff;
+    --second-color: #5b63acff;
+    --main-hover-color: rgb(39, 167, 206);
+    --third-color: #efecfd;
+    //--main-hover-color : #003d00;
+    //--main-disabled-color : #dcedc8;
+    //--third-color : #030303;
+    //--white-color : #ffffff;
+}
+
+* {
+    font-family: Poppins
+}
+
+html {
+    font-size: 14px !important
+}
+
+input:focus,
+button:focus,
+textarea:focus,
+select:focus,
+li:focus,
+.btn:focus,
+[role="button"] {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important
+}
+
+.color-main {
+    color: var(--main-color) !important;
+}
+
+.color-second {
+    color: var(--second-color) !important;
+}
+
+.color-third {
+    color: var(--third-color) !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.progress-bar {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(var(--second-color)), to(var(--main-color)));
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 10px;
+}
+
+
+/* Importing Bootstrap SCSS file. */
+
+//@import '~bootstrap/scss/bootstrap';

@@ -1,0 +1,235 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background: #F3F8FB;
+}
+
+
+/****** Start navBar ******/
+
+nav.bg-dark {
+    background: linear-gradient(135deg, var(--second-color), var(--main-color)) !important;
+    color: white;
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+}
+
+.circle {
+    background-color: #03494e;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+    line-height: 40px;
+    float: left;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.initials {
+    line-height: 2.1;
+    font-size: larger;
+    position: relative;
+    font-weight: 600;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/****** End navBar ******/
+
+
+/****** Start sidebar ******/
+
+.avatar {
+    margin-top: 16px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.list-group-item-action {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+    background: transparent;
+    color: white;
+    font-weight: 500;
+}
+
+.list-group-item-action:hover {
+    background: rgba(0, 0, 0, 0.03);
+    color: #565fa7;
+}
+
+.list-group-item.active {
+    background: rgba(0, 0, 0, 0.05) !important;
+    color: rgb(69 77 142) !important;
+}
+
+.my-hr {
+    margin: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.icon0 {
+    font-size: 1.65em;
+}
+
+.icon {
+    font-size: 1.35em;
+}
+
+
+/****** End sidebar ******/
+
+
+/****** Start sidebar/content ******/
+
+#wrapper {
+    margin-top: 61px;
+    min-height: 138%;
+}
+
+#sidebar-wrapper {
+    //height: 100%;
+    margin-left: -13.8rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+    width: 220px;
+}
+
+#sidebar-content {
+    width: 200px;
+    border-right: none;
+    background: linear-gradient(135deg, var(--second-color), var(--main-color));
+    color: white;
+    border-radius: 10px;
+    margin: 16px;
+    margin-right: 0;
+    text-align: center;
+    min-height: calc(100% - 32px);
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    max-width: 100%;
+}
+
+#wrapper .show {
+    margin-left: 0;
+}
+
+.content {
+    border-radius: 10px;
+    margin: 16px;
+    margin-left: 20px;
+    margin-top: 150px;
+    background: #fff;
+    min-height: 70%;
+}
+
+//-------------- media
+@media (max-width: 800px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+    #wrapper .show {
+        display: none;
+    }
+}
+
+
+/****** End sidebar/content ******/
+
+
+/****** Start background ******/
+
+#bg-img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 65%;
+    position: relative;
+}
+
+#bg-img h3.name-profil {
+    position: absolute;
+    top: 30%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    //color: #dde1e3;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+#cloud {
+    overflow: hidden;
+}
+
+#cloud img {
+    animation: cld calc(50s * var(--i)) linear infinite;
+    opacity: .6;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+@keyframes cld {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+
+/****** End background ******/
+
+
+/****** Start all componenet ******/
+
+#my-son-hr {
+    margin-top: -2;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 0;
+    background: linear-gradient( 135deg, var(--second-color), var(--main-color)) !important;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 4px;
+    resize: auto;
+}
+
+
+/****** End all componenet ******/
