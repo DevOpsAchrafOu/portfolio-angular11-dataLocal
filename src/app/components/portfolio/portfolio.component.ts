@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {AboutService} from '../../services/about.service';
-import * as $ from 'jquery';
+// import * as $ from 'jquery';
 //declare var $:any;
 
 @Component({
@@ -25,13 +25,13 @@ export class PortfolioComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    $(function () {
-      $('[data-toggle="tooltip"]');
-    });
-    $('#menu-toggler').on('click', function(): any {
-      $('#sidebar-wrapper').toggleClass('show');
-      // $('#sidebar-wrapper').addClass('show');
-    });
+    // $(function () {
+    //   $('[data-toggle="tooltip"]');
+    // });
+    // $('#menu-toggler').on('click', function(): any {
+    //   $('#sidebar-wrapper').toggleClass('show');
+    //   // $('#sidebar-wrapper').addClass('show');
+    // });
   }
 
   /********************************************************************************************/
