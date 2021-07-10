@@ -32,8 +32,8 @@
     <div class="d-flex  justify-content-center">
       <span (click)="OnModal(idPicture)" *ngFor="let img of projet.images;let idPicture = index">
         <ng-template #tipContent>Il n'y a pas d'information client sensible <b><u>{{img.name}}</u></b></ng-template>
-        <img class=" m-2 " placement="top" [ngbTooltip]="tipContent"
-             height="80" src="{{img.url}}" alt="">
+        <img class=" m-2 " placement="top"
+             height="80" src="{{img.url}}" alt=""> <!-- [ngbTooltip]="tipContent" -->
       </span>
     </div>
   </div>

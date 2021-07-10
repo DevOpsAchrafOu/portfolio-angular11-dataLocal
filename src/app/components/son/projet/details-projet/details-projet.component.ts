@@ -17,7 +17,7 @@ export class DetailsProjetComponent implements OnInit {
 
   projet: any;
   // popup pour affichier les images
-  @ViewChild('content', {static: false}) content;
+  @ViewChild('content', {static: false}) content: any;
   private modalReference: any;
   idPicture: any;
 
@@ -27,8 +27,8 @@ export class DetailsProjetComponent implements OnInit {
   /********************************************************************************************/
   constructor(private projetService: ProjetService,
               private route: ActivatedRoute,
-              private modalService: NgbModal,//pour popup
-              private config: NgbModalConfig//pour popup
+              private modalService: NgbModal,
+              private config: NgbModalConfig/*pour popup*/
   ) {
   }
 
@@ -41,10 +41,11 @@ export class DetailsProjetComponent implements OnInit {
   /**************************************  les fonctions **************************************/
   /********************************************************************************************/
 
-  //modale qui permet de affichier les images
+  // modale qui permet de affichier les images
   OnModal(idPicture: any): any {
-    console.log('OnModal => '+ idPicture);
-    this.idPicture = idPicture;//ouvrir le modale/popup pour affichier des images
+    // console.log('OnModal => '+ idPicture);
+    // ouvrir le modale/popup pour affichier des images
+    this.idPicture = idPicture;
     this.modalReference = this.modalService.open(this.content, {size: 'xl'});
   }
 
