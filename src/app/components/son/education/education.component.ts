@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {EducationService} from '../../../services/education.service';
+
 
 @Component({
   selector: 'app-education',
@@ -7,9 +9,34 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EducationComponent implements OnInit {
 
-  constructor() { }
+  /********************************************************************************************/
+  /**************************************** les Attributes  ***********************************/
+  /********************************************************************************************/
+
+  data: string = 'education';
+  @Output() dataEvent = new EventEmitter<string>();
+  educations: any;
+  formations: any;
+
+  /********************************************************************************************/
+  /********************************* les fonctions d'intialisations  **************************/
+  /********************************************************************************************/
+
+  constructor(private educationService: EducationService) { }
 
   ngOnInit(): void {
+    this.sendData();
+    this.educations = this.educationService.getEducations();
+    this.formations = this.educationService.getFormations();
+  }
+
+
+  /********************************************************************************************/
+  /**************************************  les fonctions **************************************/
+  /********************************************************************************************/
+
+  sendData(): void {
+    this.dataEvent.emit(this.data);
   }
 
 }
