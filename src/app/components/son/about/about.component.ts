@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {AboutService} from '../../../services/about.service';
+
 
 @Component({
   selector: 'app-about',
@@ -7,9 +9,32 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  /********************************************************************************************/
+  /**************************************** les Attributes  ***********************************/
+  /********************************************************************************************/
+
+  data: string = 'about';
+  @Output() dataEvent = new EventEmitter<string>();
+  about: any;
+
+  /********************************************************************************************/
+  /********************************* les fonctions d'intialisations  **************************/
+  /********************************************************************************************/
+
+  constructor(private aboutService: AboutService) { }
 
   ngOnInit(): void {
+    this.sendData();
+    this.about = this.aboutService.getAbout();
+  }
+
+
+  /********************************************************************************************/
+  /**************************************  les fonctions **************************************/
+  /********************************************************************************************/
+
+  sendData(): void {
+    this.dataEvent.emit(this.data);
   }
 
 }
