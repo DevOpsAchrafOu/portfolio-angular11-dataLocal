@@ -22,15 +22,14 @@
       </p>
     </div>
     <div class="col-md-6 d-flex  justify-content-center">
-            <div style="background-image:url('assets/images/img-about.svg'); background-size: cover;background-position: center;"></div>
-            <img class=" w-75 animate__animated animate__fadeInRight animate__slower" src="{{projet.icon}}" alt="">
+<!--            <img class=" w-75 animate__animated animate__fadeInRight animate__slower" src="{{projet.icon}}" alt="">-->
     </div>
   </div>
   <div class="mt-5">
     <div class="d-flex  justify-content-center">
       <span (click)="OnModal(idPicture)" *ngFor="let img of projet.images;let idPicture = index">
         <ng-template #tipContent>Il n'y a pas d'information client sensible <b><u>{{img.name}}</u></b></ng-template>
-        <img class=" m-2 " placement="top" [ngbTooltip]="tipContent" height="80" src="{{img.url}}" alt=""> <!-- [ngbTooltip]="tipContent" -->
+        <img class=" m-2 " placement="top"  height="80" src="{{img.url}}" alt=""> <!-- [ngbTooltip]="tipContent" -->
       </span>
     </div>
   </div>
