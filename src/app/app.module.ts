@@ -10,6 +10,8 @@ import { CvComponent } from './components/son/cv/cv.component';
 import { EducationComponent } from './components/son/education/education.component';
 import { ProjetComponent } from './components/son/projet/projet.component';
 import { DetailsProjetComponent } from './components/son/projet/details-projet/details-projet.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { DetailsProjetComponent } from './components/son/projet/details-projet/d
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
