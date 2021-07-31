@@ -1,8 +1,11 @@
 <section>
   <h3 class="color-second mb-2 "><i class="fa fa-graduation-cap icon mr-2"></i>Details du Projet</h3>
+  <!--  progress bar -->
   <div class="progress mb-4 " style="height: 2px;">
-    <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+    <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="25" aria-valuemin="0"
+         aria-valuemax="100"></div>
   </div>
+  <!-- Start info de projet -->
   <h4 class="color-second ">{{projet.name}}</h4>
   <div class="row">
     <div class="col-md-6">
@@ -10,76 +13,93 @@
       <p class="h5 description mt-4  "> {{projet.description}}</p>
       <ng-container *ngIf="projet.titreTache">
         <p class="h6 description mt-4 mb-2  "> {{projet.titreTache}}</p>
-
         <div class="" *ngFor="let tache of projet.taches">
           <i class="fa fa-angle-right icon-tash color-main mr-2"></i> {{tache.name}}
         </div>
       </ng-container>
       <p class="h6 description mt-4  "><strong>les Technologies : </strong>
-        <ng-container *ngFor="let tech of projet.technologies" >
+        <ng-container *ngFor="let tech of projet.technologies">
           {{tech}},
         </ng-container>
       </p>
+	  <a type="button" href="#">..</a>
+	  <button type="button" class="btn btn-light"><i class="fas fa-code text-red"></i> Code</button>
     </div>
     <div class="col-md-6 d-flex  justify-content-center">
-<!--            <img class=" w-75 animate__animated animate__fadeInRight animate__slower" src="{{projet.icon}}" alt="">-->
+      <!--            <img class=" w-75 animate__animated animate__fadeInRight animate__slower" src="{{projet.icon}}" alt="">-->
     </div>
   </div>
+  <!-- End info de projet -->
+  <!-- start sous images -->
   <div class="mt-5">
     <div class="d-flex  justify-content-center">
-      <span (click)="OnModal(idPicture)" *ngFor="let img of projet.images;let idPicture = index">
+      <span (click)="OnModal(idPicture)" class="pointer" *ngFor="let img of projet.images;let idPicture = index" (click)="changeCurrentImg(idPicture)">
         <ng-template #tipContent>Il n'y a pas d'information client sensible <b><u>{{img.name}}</u></b></ng-template>
-        <img class=" m-2 " placement="top"  height="80" src="{{img.url}}" alt=""> <!-- [ngbTooltip]="tipContent" -->
+        <img class=" m-2 " placement="top" height="80" src="{{img.url}}" alt=""> <!-- [ngbTooltip]="tipContent" -->
       </span>
     </div>
   </div>
+  <!-- End sous images -->
 </section>
 
-
+<!--<ng-template ngbSlide *ngFor="let image of images">-->
+<!--  {{image.url}}<br>-->
+<!--</ng-template>-->
 <!-- template(modal) pour affichier les images -->
 <ng-template #content let-c="close" let-d="dismiss">
   <!--Header-->
   <div class="modal-header text-center ">
-    <button type="button" class="close white-text d-flex justify-content-end py-0" aria-label="Close" (click)="d('Cross click')">
+    <button type="button" class="close white-text d-flex justify-content-end py-0" aria-label="Close"
+            (click)="d('Cross click')">
       <span class="close1 p-0" aria-hidden="true">&times;</span>
     </button>
   </div>
   <div class="modal-body" style="padding-bottom: 0;padding-top: 0">
 
-    <div>
-      <div class="row  align-items-center " >
-        <div id="slider">
+    <!-- Start slider carousel -->
+    <div class="row  align-items-center ">
+      <div id="slider">
+                <div id="carouselControls" class="carousel slide" data-ride="carousel"
+                     style="padding-left: 1px;padding-right: 1px;">
 
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"
-               style="padding-left: 1px;padding-right: 1px;">
-            <div class="carousel-inner">
-              <ng-container
-                *ngFor="let img of projet.images;let idP = index">
-                <div class="carousel-item " [ngClass]="{'active' : idP == idPicture }">
-                  <img [src]="img.url" style="width: 100%;">
-                  <div class="text-block">
-                    <p>{{img.name}}</p>
+                  <div class="carousel-inner">
+                    <ng-container *ngFor="let img of projet.images;let idP = index">
+                      <div [ngClass]="{'active' : idP == idPicture,'carousel-item':true }">
+                        <img [src]="img.url" class="d-block w-100" style="width: 100%;" alt="{{img.name}}">
+                        <div class="text-block">
+                          <p>{{img.name}}</p>
+                        </div>
+                      </div>
+                    </ng-container>
                   </div>
-                </div>
-              </ng-container>
+                  <ol class="carousel-indicators">
+                    <ng-container *ngFor="let img of projet.images;let idP = index">
+                      <li  data-target="#carouselControls" attr.data-slide-to="{{idP}}"  [ngClass]="{'active' : idP == idPicture }" ></li>
+                    </ng-container>
 
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
-               data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Précédent</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button"
-               data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Suivant</span>
-            </a>
-          </div>
-        </div>
+                  </ol>
+                </div>
+
+<!--        <ngb-carousel *ngIf="images"-->
+<!--                      [showNavigationArrows]="showNavigationArrows"-->
+<!--                      [showNavigationIndicators]="showNavigationIndicators"-->
+<!--                      activeId="{{indexCurrent}}"-->
+<!--                      >-->
+<!--          {{indexCurrent}}-->
+<!--          <ng-template ngbSlide *ngFor="let image of images;let i = index" id="{{i}}" >-->
+<!--            <div class="picsum-img-wrapper"  >-->
+<!--              <img [src]="image.url" alt="Random slide" class="w-100">-->
+<!--            </div>-->
+<!--            <div class="text-block">-->
+<!--              <p>{{image.name}}</p>-->
+<!--            </div>-->
+<!--          </ng-template>-->
+<!--        </ngb-carousel>-->
 
       </div>
-      <!--/main slider carousel-->
+
     </div>
+    <!-- End slider carousel -->
 
   </div>
 </ng-template>

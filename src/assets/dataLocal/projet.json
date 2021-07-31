@@ -1,5 +1,6 @@
-[{
-        "id": 1,
+[
+    {
+        "id": 20,
         "duration": "",
         "name": "Apliaction de Protfolio",
         "titre": "",
@@ -9,7 +10,10 @@
         "technologies": ["Angular 11", "Bootstrap", "TypeScript", "Html", "Css", "Git", "PhpStorm"],
         "show": 2,
         "icon": "../../assets/images/img-tash-portfolio.svg",
-        "images": [],
+        "mainImage": "/assets/images/imges-projets/img-porfolio-1.png",
+        "images": [
+          { "id": 1, "name": "image 1", "description": "", "url": "assets/images/img-about-1.png" }
+        ],
         "taches": [
             { "id": 1, "name": "tache 1", "description": "" },
             { "id": 2, "name": "tache 2", "description": "" },
@@ -18,7 +22,7 @@
         "urlGit": []
     },
     {
-        "id": 2,
+        "id": 21,
         "duration": "",
         "name": "Projet Web RTC",
         "titre": "",
@@ -28,6 +32,7 @@
         "technologies": ["JavaScript", "Bootstrap", "Html", "Css", "Git", "Ajax", "PhpStorm,"],
         "show": 2,
         "icon": "../../assets/images/img-tash-call.svg",
+        "mainImage": "/assets/images/imges-projets/img-follow-0.jpg",
         "images": [
             { "id": 1, "name": "image 1", "description": "", "url": "assets/images/bg-0.jpg" },
             { "id": 2, "name": "image 2", "description": "", "url": "assets/images/bg-1.jpg" },
@@ -42,7 +47,7 @@
         "urlGit": []
     },
     {
-        "id": 3,
+        "id": 22,
         "duration": "",
         "name": "Projet CRM",
         "titre": "",
@@ -51,6 +56,7 @@
         "technologies": ["Symfony", "Php", "JavaScript", "Html", "Css", "Bootstrap", "MySql", "UML", "Git", "Ajax", "PhpStorm"],
         "show": 3,
         "icon": "../../assets/images/img-tash-crm.svg",
+        "mainImage": "/assets/images/imges-projets/img-follow-0.jpg",
         "images": [
             { "id": 1, "name": "video", "description": "", "url": "" }
         ],
@@ -58,7 +64,7 @@
         "urlGit": []
     },
     {
-        "id": 4,
+        "id": 23,
         "duration": "",
         "name": "Templates site web",
         "titre": "",
@@ -68,12 +74,13 @@
         "technologies": ["Bootstrap 4", "Git", "Html", "Css", "JQuery", "Php strom"],
         "show": 2,
         "icon": "../../assets/images/img-tash-site.svg",
+        "mainImage": "/assets/images/imges-projets/img-follow-0.jpg",
         "images": [],
         "taches": [""],
         "urlGit": ["https://achrafouakka.github.io/Templates-site-web/"]
     },
     {
-        "id": 5,
+        "id": 24,
         "duration": "",
         "name": "Gestion des Emails",
         "titre": "",
@@ -82,6 +89,7 @@
         "technologies": ["Spring Boot", "Spring Integration", "Java 8", "Rest API", "Git", "MySql"],
         "show": 3,
         "icon": "../../assets/images/img-tash-code.svg",
+        "mainImage": "/assets/images/imges-projets/img-follow-0.jpg",
         "images": [],
         "taches": [
             { "id": 1, "name": "tache 1", "description": "Traitement de texte" },
@@ -91,7 +99,7 @@
         "urlGit": ["https://github.com/achrafOuakka/-MailManagement_TreatmentText_Validation_by_SpringBoot_SIntegration"]
     },
     {
-        "id": 6,
+        "id": 25,
         "duration": "",
         "name": "chargement et téléchargement de l\"image.",
         "titre": "",
@@ -100,6 +108,7 @@
         "technologies": ["Spring Boot", "Java 8", "Spring Integration", "Rest API", "Git", "MySql"],
         "show": 2,
         "icon": "../../assets/images/img-tash-mobile.svg",
+        "mainImage": "/assets/images/imges-projets/img-follow-0.jpg",
         "images": [
             { "id": 1, "name": "images 1", "description": "", "url": "" },
             { "id": 2, "name": "images 2", "description": "", "url": "" },
@@ -109,7 +118,7 @@
         "urlGit": ["https://github.com/achrafOuakka/Upload_Dowload_image", "https://github.com/achrafOuakka/Ionic4-take-photo-resize-and-take-photo-by-gallery-"]
     },
     {
-        "id": 7,
+        "id": 26,
         "duration": "",
         "name": "Application de scanner Barcode",
         "titre": "",
@@ -118,6 +127,7 @@
         "technologies": ["Ionic 4", "TypeScript", "Git", "capacitor", "Visual Studio Code"],
         "show": 3,
         "icon": "../../assets/images/img-tash-mobile.svg",
+        "mainImage": "/assets/images/imges-projets/img-follow-0.jpg",
         "images": [
             { "id": 1, "name": "images 1", "description": "", "url": "" },
             { "id": 2, "name": "images 2", "description": "", "url": "" },
@@ -127,7 +137,7 @@
         "urlGit": ["https://github.com/achrafOuakka/codes-barres"]
     },
     {
-        "id": 8,
+        "id": 27,
         "duration": "",
         "name": "Projet pour suivi d’un processus métier",
         "titre": "Freelance développeur Java/Spring Boot/Ionic",
@@ -136,6 +146,7 @@
         "technologies": ["Spring Boot", "Angular", "Ionic 4", "MySql", "Rest API", "Spring Security", "Java 8", "TypeScript", "Git", "Inkscape"],
         "show": 3,
         "icon": "../../assets/images/img-tash-web-mobile.svg",
+        "mainImage": "/assets/images/imges-projets/img-follow-0.jpg",
         "images": [
             { "id": 1, "name": "images 1", "description": "", "url": "" },
             { "id": 2, "name": "images 2", "description": "", "url": "" },
@@ -149,7 +160,7 @@
         "urlGit": []
     },
     {
-        "id": 9,
+        "id": 28,
         "duration": "",
         "name": "Application WebMail",
         "titre": "Freelance développeur web Spring Boot/Angular",
@@ -158,11 +169,12 @@
         "technologies": ["Spring Boot", "Angular", "Spring Security", "Rest API", "Spring Data MongoDB", "NoSql", "Java", "Html", "Css", "TypeScript", "Bootstrap"],
         "show": 2,
         "icon": "../../assets/images/img-tash-follow.svg",
+        "mainImage": "/assets/images/imges-projets/img-follow-0.jpg",
         "images": [
             { "id": 1, "name": "Authentification", "description": "", "url": "../../assets/images/imges-projets/img-follow-1.jpg" },
             { "id": 2, "name": "Statiqtique", "description": "", "url": "../../assets/images/imges-projets/img-follow-2.jpg" },
             { "id": 3, "name": "Modification de Pofile", "description": "", "url": "../../assets/images/imges-projets/img-follow-3.jpg" },
-            { "id": 4, "name": "Les Information d'un ordre", "description": "", "url": "../../assets/images/imges-projets/img-follow-4.jpg" },
+            { "id": 4, "name": "Les Information d'un ordre", "description": "", "url": "../../assets/images/imges-projets/img-follow-4.png" },
             { "id": 5, "name": "E-mail de Confirmation", "description": "", "url": "../../assets/images/imges-projets/img-follow-5.jpg" }
         ],
         "taches": [
@@ -180,7 +192,7 @@
         "urlGit": []
     },
     {
-        "id": 10,
+        "id": 29,
         "duration": "",
         "name": "Application pour suivi d’un processus métier",
         "titre": "Stage en développement web Java/Angular chez ITELSYS",
@@ -189,6 +201,7 @@
         "technologies": ["Spring Boot", "Angular", "Spring Security", "Rest API", "Spring Data MongoDB", "NoSql", "Java", "Html", "Css", "TypeScript", "Bootstrap"],
         "show": 2,
         "icon": "../../assets/images/img-tash-app.svg",
+        "mainImage": "/assets/images/imges-projets/img-follow-0.jpg",
         "images": [
             { "id": 1, "name": "images 1", "description": "", "url": "" },
             { "id": 2, "name": "images 2", "description": "", "url": "" },
@@ -209,7 +222,7 @@
         "urlGit": []
     },
     {
-        "id": 11,
+        "id": 30,
         "duration": "",
         "name": "Application pour suivi des factures des abonnées",
         "titre": "Stage en développement web Java/Angular chez ITELSYS",
@@ -218,6 +231,7 @@
         "technologies": ["Spring Boot", "Angular 8", "Spring Security", "Spring Data MongoDB", ",NoSql", "Java", "J2ee", "Html", "Css", "TypeScript", "Bootstrap"],
         "show": 2,
         "icon": "../../assets/images/img-tash-follow-factor.svg",
+        "mainImage": "/assets/images/imges-projets/img-follow-0.jpg",
         "images": [
             { "id": 1, "name": "images 1", "description": "", "url": "" },
             { "id": 2, "name": "images 2", "description": "", "url": "" },
