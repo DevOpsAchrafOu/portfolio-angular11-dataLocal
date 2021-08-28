@@ -10,20 +10,37 @@
   <div class="row">
     <div class="col-md-6">
       <!--      <h3 class="color-second mt-3 ">{{about.profil}}</h3>-->
-      <p class="h5 description mt-4  "> {{projet.description}}</p>
-      <ng-container *ngIf="projet.titreTache">
+      <p class="h6 description mt-4  "> {{projet.description}}</p>
+<!--      <ng-container *ngIf="projet.titreTache">-->
         <p class="h6 description mt-4 mb-2  "> {{projet.titreTache}}</p>
         <div class="" *ngFor="let tache of projet.taches">
-          <i class="fa fa-angle-right icon-tash color-main mr-2"></i> {{tache.name}}
+          <i class="fa fa-angle-right icon-tash color-main mr-2"></i> {{tache.name}}<br>
+          <small class="text-sm ml-3" *ngFor="let subTache of tache.sousTaches">
+            <i class="fa fa-arrow-right icon-tash color-second mr-2 fa-0x"></i> {{subTache.name}}<br>
+          </small>
         </div>
-      </ng-container>
+<!--      </ng-container>-->
       <p class="h6 description mt-4  "><strong>les Technologies : </strong>
         <ng-container *ngFor="let tech of projet.technologies">
           {{tech}},
         </ng-container>
       </p>
-	  <a type="button" href="#">..</a>
-	  <button type="button" class="btn btn-light"><i class="fas fa-code text-red"></i> Code</button>
+<!--	  <a type="button" href="#">..</a>-->
+        <div class="my-4 ">
+          <ng-container *ngIf="projet.urlGit && projet.urlGit[0]">
+            <a href="{{projet.urlGit[0]}}" class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2" >
+              <i class="fa fa-code fa-1x"></i>
+              <small class="w-100 "> Code</small>
+            </a>
+          </ng-container>
+          <ng-container *ngIf="projet.urlWeb && projet.urlWeb[0]">
+          <a href="{{projet.urlWeb[0]}}" class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2" >
+            <i class="fa fa-desktop fa-1x"></i>
+            <small class="w-100 "> Web</small>
+          </a>
+          </ng-container>
+        </div>
+
     </div>
     <div class="col-md-6 d-flex  justify-content-center">
       <!--            <img class=" w-75 animate__animated animate__fadeInRight animate__slower" src="{{projet.icon}}" alt="">-->

@@ -104,3 +104,44 @@
 .modal-header .close {
   margin: -0.7rem -1rem -1rem auto;
 }
+
+.btn-about{
+  width: 80px;
+}
+
+
+.btn-primary{
+  border: none;
+  background: none;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(var(--second-color)), to(var(--main-color)));
+  border-radius: 50px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  /* border-color: var(--main-color); */
+  border: 2px solid var(--second-color);
+  /* background: none; */
+  /* background-image: -webkit-gradient(linear, left top, right bottom, from(var(--second-color)), to(var(--main-color))); */
+  border-radius: 50px;
+  transition: 0.5s;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn-outline-primary:hover,
+.btn-primary:hover{
+
+  background: linear-gradient( 135deg , var(--second-color), var(--second-color));
+  color: white !important;
+}
+
+.fa-0x{
+  font-size: 0.85rem;
+}
