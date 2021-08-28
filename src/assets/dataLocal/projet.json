@@ -1,5 +1,4 @@
 [
-
   {
     "id": 18,
     "duration": "",
@@ -7,16 +6,16 @@
     "titre": "",
     "description": "Développement d’une plateforme des appels offres du Maroc.",
     "tache": "",
-    "technologies": ["Angular 11", "Bootstrap", "TypeScript", "Html", "Css", "Git", "PhpStorm"],
+    "technologies": ["Symfony", "Php", "JQuery", "Html", "Css", "Bootstrap", "MySql", "UML", "Git", "Ajax", "PhpStorm"],
     "show": 2,
-    "icon": "../../assets/images/img-tash-portfolio.svg",
+    "icon": "../../assets/images/img-tash-ao-bo.svg",
     "mainImage": "../../assets/images/imges-projets/img-ao-bo-1.png",
     "images": [
-      { "id": 1, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-ao-bo-1.png" },
-      { "id": 2, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-ao-bo-2.png" },
-      { "id": 3, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-ao-bo-3.png" },
-      { "id": 4, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-ao-bo-4.png" },
-      { "id": 5, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-ao-bo-5.png" }
+      { "id": 1, "name": "Statiqtique", "description": "", "url": "../../assets/images/imges-projets/img-ao-bo-1.png" },
+      { "id": 2, "name": "Tableau de borde", "description": "", "url": "../../assets/images/imges-projets/img-ao-bo-2.png" },
+      { "id": 3, "name": "Gestion des appels d'offres National", "description": "", "url": "../../assets/images/imges-projets/img-ao-bo-3.png" },
+      { "id": 4, "name": "Messagerie", "description": "", "url": "../../assets/images/imges-projets/img-ao-bo-4.png" },
+      { "id": 5, "name": "Notifivation par e-mail pour AO modifié", "description": "", "url": "../../assets/images/imges-projets/img-ao-bo-5.png" }
     ],
     "taches": [
       { "id": 1, "name": "Réalisation de spécifications technique.", "sousTaches": []},
@@ -44,14 +43,14 @@
     "titre": "",
     "description": "Développement d’une plateforme des appels offres du Maroc.",
     "tache": "",
-    "technologies": ["Angular 11", "Bootstrap", "TypeScript", "Html", "Css", "Git", "PhpStorm"],
+    "technologies": ["Symfony", "Php", "JQuery", "Html", "Css", "Bootstrap", "MySql", "UML", "Git", "Ajax", "PhpStorm"],
     "show": 2,
-    "icon": "../../assets/images/img-tash-portfolio.svg",
+    "icon": "../../assets/images/img-tash-ao-bo.svg",
     "mainImage": "assets/images/imges-projets/img-ao-fo-1.png",
     "images": [
-      { "id": 1, "name": "image 1", "description": "", "url": "assets/images/imges-projets/img-ao-fo-1.png" },
-      { "id": 2, "name": "image 1", "description": "", "url": "assets/images/imges-projets/img-ao-fo-2.png" },
-      { "id": 3, "name": "image 1", "description": "", "url": "assets/images/imges-projets/img-ao-fo-3.png" }
+      { "id": 1, "name": "Recherche avancée", "description": "", "url": "assets/images/imges-projets/img-ao-fo-1.png" },
+      { "id": 2, "name": "Index des prix", "description": "", "url": "assets/images/imges-projets/img-ao-fo-2.png" },
+      { "id": 3, "name": "Rappel par e-mail et notification", "description": "", "url": "assets/images/imges-projets/img-ao-fo-3.png" }
     ],
     "taches": [
       { "id": 1, "name": "Réalisation espace client avec les fonctionnalités suivantes :" ,
@@ -61,7 +60,8 @@
           { "id": 3, "name": "L’envoi de réclamation & suggestion."},
           { "id": 4, "name": "La réception d’un mail/notification lorsque l’utilisateur est modifié d’un appel d’offre."},
           { "id": 5, "name": "le chat partagé entre Client et Collaborateur avec notification de nouveaux messages."}
-        ]}
+        ]},
+      { "id": 2, "name": "Intégration de template", "sousTaches": []}
     ],
     "urlGit": [],
     "urlWeb": []
@@ -78,14 +78,14 @@
         "icon": "../../assets/images/img-tash-portfolio.svg",
         "mainImage": "/assets/images/imges-projets/img-porfolio-1.png",
         "images": [
-          { "id": 1, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-about-1.png" }
+          { "id": 1, "name": "Protfolio", "description": "", "url": "../../assets/images/imges-projets/img-about-1.png" }
         ],
         "taches": [
             { "id": 1, "name": "Création des services et des comparants.", "sousTaches": []},
             { "id": 2, "name": "Consommation des fichiers JSON local comme API.", "sousTaches": []}
         ],
-        "urlGit": [],
-        "urlWeb": []
+        "urlGit": ["https://github.com/achrafOuakka"],
+        "urlWeb": ["https://github.com/achrafOuakka"]
     },
     {
         "id": 21,
@@ -98,13 +98,13 @@
         "icon": "../../assets/images/img-tash-crm.svg",
         "mainImage": "/assets/images/imges-projets/img-crm-1.png",
         "images": [
-          { "id": 1, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-crm-1.png" },
-          { "id": 1, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-crm-2.png" },
-          { "id": 1, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-crm-3.png" },
-          { "id": 1, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-crm-4.png" },
-          { "id": 1, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-crm-5.png" },
-          { "id": 1, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-crm-6.png" },
-          { "id": 1, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-crm-7.png" },
+          { "id": 1, "name": "Statiqtique", "description": "", "url": "../../assets/images/imges-projets/img-crm-1.png" },
+          { "id": 2, "name": "Tableau de borde", "description": "", "url": "../../assets/images/imges-projets/img-crm-2.png" },
+          { "id": 3, "name": "Liste de tiers", "description": "", "url": "../../assets/images/imges-projets/img-crm-3.png" },
+          { "id": 4, "name": "Gestion des documents", "description": "", "url": "../../assets/images/imges-projets/img-crm-4.png" },
+          { "id": 5, "name": "Calendrier", "description": "", "url": "../../assets/images/imges-projets/img-crm-5.png" },
+          { "id": 6, "name": "Paramétrage", "description": "", "url": "../../assets/images/imges-projets/img-crm-6.png" },
+          { "id": 7, "name": "Génération une modéle documents juridique", "description": "", "url": "../../assets/images/imges-projets/img-crm-7.png" },
           { "id": 1, "name": "video", "description": "", "url": "" }
         ],
         "taches": [
@@ -138,10 +138,10 @@
     "icon": "../../assets/images/img-tash-call.svg",
     "mainImage": "/assets/images/imges-projets/img-call-1.png",
     "images": [
-      { "id": 1, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-call-1.png" },
-      { "id": 2, "name": "image 2", "description": "", "url": "../../assets/images/imges-projets/img-call-2.png" },
-      { "id": 3, "name": "image 3", "description": "", "url": "../../assets/images/imges-projets/img-call-3.png" },
-      { "id": 4, "name": "image 3", "description": "", "url": "../../assets/images/imges-projets/img-call-4.png" },
+      { "id": 1, "name": "Appel entrant", "description": "", "url": "../../assets/images/imges-projets/img-call-1.png" },
+      { "id": 2, "name": "Utilisateur connecté", "description": "", "url": "../../assets/images/imges-projets/img-call-2.png" },
+      { "id": 3, "name": "Appel sortant", "description": "", "url": "../../assets/images/imges-projets/img-call-3.png" },
+      { "id": 4, "name": "Conception graphique", "description": "", "url": "../../assets/images/imges-projets/img-call-4.png" },
       { "id": 1, "name": "video", "description": "", "url": "" }
     ],
     "taches": [],
@@ -159,7 +159,7 @@
         "icon": "../../assets/images/img-tash-site.svg",
         "mainImage": "/assets/images/imges-projets/img-site-1.png",
         "images": [
-          { "id": 1, "name": "image 1", "description": "", "url": "../../assets/images/imges-projets/img-site-1.png" }
+          { "id": 1, "name": "Site web", "description": "", "url": "../../assets/images/imges-projets/img-site-1.png" }
         ],
         "taches": [],
         "urlGit": ["https://github.com/achrafOuakka/Templates-site-web"],

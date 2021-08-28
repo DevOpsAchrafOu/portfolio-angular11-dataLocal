@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {ContactService} from '../../../services/contact.service';
 
 @Component({
   selector: 'app-contact',
@@ -7,9 +8,32 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  /********************************************************************************************/
+  /**************************************** les Attributes  ***********************************/
+  /********************************************************************************************/
+
+  data: string = 'contact';
+  @Output() dataEvent = new EventEmitter<string>();
+  contact: any;
+
+  /********************************************************************************************/
+  /********************************* les fonctions d'intialisations  **************************/
+  /********************************************************************************************/
+
+  constructor(private contactService: ContactService) { }
 
   ngOnInit(): void {
+    this.sendData();
+    this.contact = this.contactService.getcontact();
+  }
+
+
+  /********************************************************************************************/
+  /**************************************  les fonctions **************************************/
+  /********************************************************************************************/
+
+  sendData(): void {
+    this.dataEvent.emit(this.data);
   }
 
 }
