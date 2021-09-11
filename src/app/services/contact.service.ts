@@ -5,12 +5,28 @@ import contact from '../../assets/dataLocal/contact.json';
   providedIn: 'root'
 })
 export class ContactService {
+  /**{
+//  "site": "ouakka.achraf.com",
+//  "email": "ouakka.achraf@gmail.com",
+//  "linkedin": "https://ma.linkedin.com/in/achraf-ouakka-871250144",
+//  "git": "https://github.com/achrafOuakka",
+//  "psCode": "https://codeforces.com/submissions/ouakka.achraf",
+//  "phone": "06 01 73 46 93",
+//  "adresse": "Hay Salam Rue Ras Assouad NR 21,Salé",
+//  "map": "../../assets/images/img-tash-web-mobile.svg"
+}**/
 
   /********************************************************************************************/
   /**************************************** les Attributes  ***********************************/
   /********************************************************************************************/
 
-  private contact: {nameFull: string, profil: string, description: string} = contact;
+  private contacts: {
+    id: number,
+    lable: string,
+    name: string,
+    url: string,
+    isUrl: boolean
+  }[] = contact;
 
   /********************************************************************************************/
   /********************************* les fonctions d'intialisations  **************************/
@@ -24,7 +40,11 @@ export class ContactService {
   /********************************************************************************************/
 
 
-  getcontact(): any {
-    return this.contact;
+  getcontacts(): any {
+    return this.contacts;
+  }
+
+  getcontact(id: number): any {
+    return this.contacts.find((h: any) => h.id === id);
   }
 }

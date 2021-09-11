@@ -15,9 +15,9 @@
         <p class="h6 description mt-4 mb-2  "> {{projet.titreTache}}</p>
         <div class="" *ngFor="let tache of projet.taches">
           <i class="fa fa-angle-right icon-tash color-main mr-2"></i> {{tache.name}}<br>
-          <small class="text-sm ml-3" *ngFor="let subTache of tache.sousTaches">
+          <span class=" ml-3 subTash"  *ngFor="let subTache of tache.sousTaches">
             <i class="fa fa-arrow-right icon-tash color-second mr-2 fa-0x"></i> {{subTache.name}}<br>
-          </small>
+          </span>
         </div>
 <!--      </ng-container>-->
       <p class="h6 description mt-4  "><strong>les Technologies : </strong>
@@ -43,7 +43,8 @@
 
     </div>
     <div class="col-md-6 d-flex  justify-content-center">
-<!--                  <img class=" w-75 animate__animated animate__fadeInRight animate__slower" src="{{projet.icon}}" alt="">-->
+                  <img class=" w-75 animate__animated animate__fadeInRight animate__slower" src="{{projet.icon}}" alt="">
+
     </div>
   </div>
   <!-- End info de projet -->

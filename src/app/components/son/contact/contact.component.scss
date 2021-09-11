@@ -1,0 +1,29 @@
+.contact:hover {
+  background-color: rgba(0, 0, 0, 0.01) !important;
+  box-shadow: 0 0.6rem 1rem rgb(15 9 87 / 20%) !important;
+}
+//**-------------------overrid bootstrap
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 35%) !important;
+}
+
+//**------------------- Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+
+  .h5 {
+    font-size: 1rem !important;
+  }
+  .h6 {
+    font-size: 0.8rem !important;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit; /* no underline */
+}
+
+a:hover {
+  color: inherit;
+}
+

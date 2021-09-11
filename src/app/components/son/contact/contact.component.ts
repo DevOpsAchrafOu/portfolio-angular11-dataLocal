@@ -14,7 +14,7 @@ export class ContactComponent implements OnInit {
 
   data: string = 'contact';
   @Output() dataEvent = new EventEmitter<string>();
-  contact: any;
+  contacts: any;
 
   /********************************************************************************************/
   /********************************* les fonctions d'intialisations  **************************/
@@ -24,7 +24,7 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
     this.sendData();
-    this.contact = this.contactService.getcontact();
+    this.contacts = this.contactService.getcontacts();
   }
 
 

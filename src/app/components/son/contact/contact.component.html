@@ -8,38 +8,59 @@
   <!-- Start info de projet -->
   <div class="row">
     <div class="col-md-6">
-      <h6 class="my-3">
-        <i class="fa fa-angle-right icon-tash color-main mr-2"></i><b>Site : </b>
-        <br><span class="ml-4">{{contact.site}}</span> <br>
-      </h6>
-      <h6 class="my-3">
-        <i class="fa fa-angle-right icon-tash color-main mr-2"></i><b>E-mail : </b>
-        <br><span class="ml-4">{{contact.email}}</span> <br>
-      </h6>
-      <h6 class="my-3">
-        <i class="fa fa-angle-right icon-tash color-main mr-2"></i><b>Linkedin : </b>
-        <br><span class="ml-4">{{contact.linkedin}}</span> <br>
-      </h6>
-      <h6 class="my-3">
-        <i class="fa fa-angle-right icon-tash color-main mr-2"></i><b>Git : </b>
-        <br><span class="ml-4">{{contact.git}}</span> <br>
-      </h6>
-      <h6 class="my-3">
-        <i class="fa fa-angle-right icon-tash color-main mr-2"></i><b>Problem solving (<span class="color-second">Code</span>) : </b>
-        <br><span class="ml-4">{{contact.psCode}}</span> <br>
-      </h6>
-      <h6 class="my-3">
-        <i class="fa fa-angle-right icon-tash color-main mr-2"></i><b>N°Téléphone : </b>
-        <br><span class="ml-4">{{contact.phone}}</span> <br>
-      </h6>
-      <h6 class="my-3">
-        <i class="fa fa-angle-right icon-tash color-main mr-2"></i><b>Adresse : </b>
-        <br><span class="ml-4">{{contact.adresse}}</span> <br>
-      </h6>
+      <ng-container *ngFor="let contact of contacts">
+        <div class=" shadow-sm rounded mb-2 p-1 contact ">
+          <ng-container class="pointer" *ngIf="(contact.isUrl == true); else other">
+            <a href="{{contact.url}}" class="h6 ">
+              <i class="fa {{contact.icon}} icon-tash color-main mr-2"></i><b> {{contact.lable}} : </b>
+              <br><span class="ml-4">
+              {{contact.url}}
+            </span>
+              <br>
+            </a>
+          </ng-container>
+          <ng-template #other>
+            <a href="javascript:void(0);" class="h6">
+              <i class="fa {{contact.icon}} icon-tash color-main mr-2"></i><b>{{contact.lable}} : </b>
+              <br><span class="ml-4">
+              {{contact.name}}
+            </span>
+              <br>
+            </a>
+          </ng-template>
+        </div>
+      </ng-container>
+      <!--      <h6 class="my-3">-->
+      <!--        <i class="fa fa-angle-right icon-tash color-main mr-2"></i><b>E-mail : </b>-->
+      <!--        <br><span class="ml-4">{{contact.email}}</span> <br>-->
+      <!--      </h6>-->
+      <!--      <h6 class="my-3">-->
+      <!--        <i class="fa fa-angle-right icon-tash color-main mr-2"></i><b>Linkedin : </b>-->
+      <!--        <br><span class="ml-4">{{contact.linkedin}}</span> <br>-->
+      <!--      </h6>-->
+      <!--      <h6 class="my-3">-->
+      <!--        <i class="fa fa-angle-right icon-tash color-main mr-2"></i><b>Git : </b>-->
+      <!--        <br><span class="ml-4">{{contact.git}}</span> <br>-->
+      <!--      </h6>-->
+      <!--      <h6 class="my-3">-->
+      <!--        <i class="fa fa-angle-right icon-tash color-main mr-2"></i><b>Problem solving (<span class="color-second">Code</span>) : </b>-->
+      <!--        <br><span class="ml-4">{{contact.psCode}}</span> <br>-->
+      <!--      </h6>-->
+      <!--      <h6 class="my-3">-->
+      <!--        <i class="fa fa-angle-right icon-tash color-main mr-2"></i><b>N°Téléphone : </b>-->
+      <!--        <br><span class="ml-4">{{contact.phone}}</span> <br>-->
+      <!--      </h6>-->
+      <!--      <h6 class="my-3">-->
+      <!--        <i class="fa fa-angle-right icon-tash color-main mr-2"></i><b>Adresse : </b>-->
+      <!--        <br><span class="ml-4">{{contact.adresse}}</span> <br>-->
+      <!--      </h6>-->
       <!--      </ng-container>-->
     </div>
-    <div class="col-md-6 d-flex  justify-content-center">
-      <img class=" w-75 animate__animated animate__fadeInRight animate__slower" src="{{contact.map}}" alt="">
+    <div class="col-md-6 d-flex  justify-content-center align-items-center ">
+<!--      <img class=" w-75 animate__animated animate__fadeInRight animate__slower"-->
+<!--           src="../../assets/images/img-tash-web-mobile.svg" alt="">-->
+      <iframe class="shadow-sm contact rounded border-0  animate__animated animate__fadeInRight animate__slower" src="https://maps.google.com/maps?width=520&height=400&hl=en&q=%20sale+()&t=p&z=13&ie=UTF8&iwloc=B&output=embed"
+              style="height: 55vh;width: 90%"></iframe>
     </div>
   </div>
   <!-- End info de projet -->
