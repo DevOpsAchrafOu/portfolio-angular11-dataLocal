@@ -76,7 +76,7 @@
         "technologies": ["Angular 11", "Bootstrap", "TypeScript", "Html", "Css", "Git", "PhpStorm"],
         "show": 2,
         "icon": "assets/images/img-tash-portfolio.svg",
-        "mainImage": "/assets/images/imges-projets/img-porfolio-1.png",
+        "mainImage": "assets/images/imges-projets/img-porfolio-1.png",
         "images": [
           { "id": 1, "name": "Protfolio", "description": "", "url": "assets/images/imges-projets/img-about-1.png" }
         ],
@@ -96,7 +96,7 @@
         "technologies": ["Symfony", "Php", "JavaScript", "Html", "Css", "Bootstrap", "MySql", "UML", "Git", "Ajax", "PhpStorm"],
         "show": 3,
         "icon": "assets/images/img-tash-crm.svg",
-        "mainImage": "/assets/images/imges-projets/img-crm-1.png",
+        "mainImage": "assets/images/imges-projets/img-crm-1.png",
         "images": [
           { "id": 1, "name": "Statiqtique", "description": "", "url": "assets/images/imges-projets/img-crm-1.png" },
           { "id": 2, "name": "Tableau de borde", "description": "", "url": "assets/images/imges-projets/img-crm-2.png" },
@@ -136,7 +136,7 @@
     "technologies": ["JavaScript", "Bootstrap", "Html", "Css", "Git", "Ajax", "PhpStorm,"],
     "show": 2,
     "icon": "assets/images/img-tash-call.svg",
-    "mainImage": "/assets/images/imges-projets/img-call-1.png",
+    "mainImage": "assets/images/imges-projets/img-call-1.png",
     "images": [
       { "id": 1, "name": "Appel entrant", "description": "", "url": "assets/images/imges-projets/img-call-1.png" },
       { "id": 2, "name": "Utilisateur connecté", "description": "", "url": "assets/images/imges-projets/img-call-2.png" },
@@ -157,7 +157,7 @@
         "technologies": ["Bootstrap 4", "Git", "Html", "Css", "JQuery", "Php strom"],
         "show": 2,
         "icon": "assets/images/img-tash-site.svg",
-        "mainImage": "/assets/images/imges-projets/img-site-1.png",
+        "mainImage": "assets/images/imges-projets/img-site-1.png",
         "images": [
           { "id": 1, "name": "Site web", "description": "", "url": "assets/images/imges-projets/img-site-1.png" }
         ],
@@ -255,7 +255,7 @@
         "technologies": ["Spring Boot", "Angular", "Spring Security", "Rest API", "Spring Data MongoDB", "NoSql", "Java", "Html", "Css", "TypeScript", "Bootstrap"],
         "show": 2,
         "icon": "assets/images/img-tash-follow.svg",
-        "mainImage": "/assets/images/imges-projets/img-follow-4.png",
+        "mainImage": "assets/images/imges-projets/img-follow-4.png",
         "images": [
             { "id": 1, "name": "Authentification", "description": "", "url": "assets/images/imges-projets/img-follow-1.jpg" },
             { "id": 2, "name": "Statiqtique", "description": "", "url": "assets/images/imges-projets/img-follow-2.jpg" },
