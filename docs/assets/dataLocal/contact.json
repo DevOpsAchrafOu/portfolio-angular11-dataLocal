@@ -1,10 +1,59 @@
-{
-  "site": "ouakka.achraf.com",
-  "email": "ouakka.achraf@gmail.com",
-  "linkedin": "https://ma.linkedin.com/in/achraf-ouakka-871250144",
-  "git": "https://github.com/achrafOuakka",
-  "psCode": "https://codeforces.com/submissions/ouakka.achraf",
-  "phone": "06 01 73 46 93",
-  "adresse": "Hay Salam Rue Ras Assouad NR 21,Salé",
-  "map": "../../assets/images/img-tash-web-mobile.svg"
-}
+[
+  {
+    "id": 10,
+    "lable": "Site",
+    "name": "",
+    "url": "ouakka.achraf.com",
+    "isUrl": true,
+    "icon":"fa-globe"
+  },
+  {
+    "id": 12,
+    "lable": "E-mail",
+    "name": "ouakka.achraf@gmail.com",
+    "url": "",
+    "isUrl": false,
+    "icon":"fa-envelope"
+  },
+  {
+    "id": 13,
+    "lable": "Linkedin",
+    "name": "",
+    "url": "https://ma.linkedin.com/in/achraf-ouakka-871250144",
+    "isUrl": true,
+    "icon":"fa-linkedin"
+  },
+  {
+    "id": 14,
+    "lable": "Git",
+    "name": "",
+    "url": "https://github.com/achrafOuakka",
+    "isUrl": true,
+    "icon":"fa-git"
+  },
+  {
+    "id": 15,
+    "lable": "Problem solving",
+    "name": "",
+    "url": "https://codeforces.com/submissions/ouakka.achraf",
+    "isUrl": true,
+    "icon":"fa-code-fork"
+  },
+  {
+    "id": 16,
+    "lable": "N°Téléphone",
+    "name": "06 01 73 46 93",
+    "url": "",
+    "isUrl": false,
+    "icon":"fa-phone"
+  },
+  {
+    "id": 17,
+    "lable": "Adresse",
+    "name": "Hay Salam Rue Ras Assouad NR 21,Salé",
+    "url": "",
+    "isUrl": false,
+    "icon":"fa-map"
+  }
+]
+
