@@ -51,6 +51,9 @@ nav.bg-dark {
 
 /****** Start sidebar ******/
 
+/** --------- overred boostrap ----------- **/
+
+
 .avatar {
     margin-top: 16px;
     width: 100px;
@@ -106,10 +109,10 @@ nav.bg-dark {
 #sidebar-wrapper {
     //height: 100%;
     margin-left: -13.8rem;
-    -webkit-transition: margin .25s ease-out;
-    -moz-transition: margin .25s ease-out;
-    -o-transition: margin .25s ease-out;
-    transition: margin .25s ease-out;
+    -webkit-transition: margin .09s ease-out;
+    -moz-transition: margin .09s ease-out;
+    -o-transition: margin .09s ease-out;
+    transition: margin .09s ease-out;
     width: 220px;
 }
 
@@ -150,6 +153,10 @@ nav.bg-dark {
     margin-top: 150px;
     background: #fff;
     min-height: 70%;
+}
+
+.size-icon li i.fa-2x{
+  font-size: 1.5rem;
 }
 
 //-------------- media

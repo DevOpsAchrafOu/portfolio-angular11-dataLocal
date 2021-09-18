@@ -11,7 +11,7 @@
       <ng-container *ngFor="let contact of contacts">
         <div class=" shadow-sm rounded mb-2 p-1 contact ">
           <ng-container class="pointer" *ngIf="(contact.isUrl == true); else other">
-            <a href="{{contact.url}}" class="h6 ">
+            <a href="{{contact.url}}" class="h6 " target="_blank">
               <i class="fa {{contact.icon}} icon-tash color-main mr-2"></i><b> {{contact.lable}} : </b>
               <br><span class="ml-4">
               {{contact.url}}

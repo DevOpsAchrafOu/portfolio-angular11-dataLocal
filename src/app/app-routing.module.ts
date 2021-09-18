@@ -7,6 +7,8 @@ import {ContactComponent} from './components/son/contact/contact.component';
 import {EducationComponent} from './components/son/education/education.component';
 import {CvComponent} from './components/son/cv/cv.component';
 import { DetailsProjetComponent } from './components/son/projet/details-projet/details-projet.component';
+import {ExperienceComponent} from './components/son/experience/experience.component';
+import {DetailsExperienceComponent} from './components/son/experience/details-experience/details-experience.component';
 
 
 const routes: Routes = [
@@ -17,6 +19,8 @@ const routes: Routes = [
       { path: '', component: AboutComponent },
       { path: 'projet', component: ProjetComponent },
       { path: 'detailProject/:id', component: DetailsProjetComponent },
+      { path: 'experience', component: ExperienceComponent },
+      { path: 'detailExperience/:id', component: DetailsExperienceComponent },
       { path: 'contact', component: ContactComponent },
       { path: 'education', component: EducationComponent },
       { path: 'cv', component: CvComponent },

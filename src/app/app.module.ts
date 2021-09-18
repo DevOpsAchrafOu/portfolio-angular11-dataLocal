@@ -11,6 +11,8 @@ import { EducationComponent } from './components/son/education/education.compone
 import { ProjetComponent } from './components/son/projet/projet.component';
 import { DetailsProjetComponent } from './components/son/projet/details-projet/details-projet.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { ExperienceComponent } from './components/son/experience/experience.component';
+import { DetailsExperienceComponent } from './components/son/experience/details-experience/details-experience.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     CvComponent,
     EducationComponent,
     ProjetComponent,
-    DetailsProjetComponent
+    DetailsProjetComponent,
+    ExperienceComponent,
+    DetailsExperienceComponent
   ],
   imports: [
     BrowserModule,

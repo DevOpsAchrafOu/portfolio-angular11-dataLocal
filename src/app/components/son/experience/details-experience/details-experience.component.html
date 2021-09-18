@@ -1,20 +1,20 @@
 <section>
-  <h3 class="color-second mb-2 "><i class="fa fa-graduation-cap icon mr-2"></i>Détails du projet</h3>
+  <h3 class="color-second mb-2 "><i class="fa fa-graduation-cap icon mr-2"></i>Détails du expérience</h3>
   <!--  progress bar -->
   <div class="progress mb-4 " style="height: 2px;">
     <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="25" aria-valuemin="0"
          aria-valuemax="100"></div>
   </div>
 
-  <!-- Start info de projet -->
-  <h4 class="color-second ">{{projet.name}}</h4>
+  <!-- Start info de experience -->
+  <h4 class="color-second ">{{experience.name}}</h4>
   <div class="row">
     <div class="col-md-6">
       <!--      <h3 class="color-second mt-3 ">{{about.profil}}</h3>-->
-      <p class="h6 description mt-4  "> {{projet.description}}</p>
-      <!--      <ng-container *ngIf="projet.titreTache">-->
-      <p class="h6 description mt-4 mb-2  "> {{projet.titreTache}}</p>
-      <div class="" *ngFor="let tache of projet.taches">
+      <p class="h6 description mt-4  "> {{experience.description}}</p>
+      <!--      <ng-container *ngIf="experience.titreTache">-->
+      <p class="h6 description mt-4 mb-2  "> {{experience.titreTache}}</p>
+      <div class="" *ngFor="let tache of experience.taches">
         <i class="fa fa-angle-right icon-tash color-main mr-2"></i> {{tache.name}}<br>
         <span class=" ml-3 subTash" *ngFor="let subTache of tache.sousTaches">
             <i class="fa fa-arrow-right icon-tash color-second mr-2 fa-0x"></i> {{subTache.name}}<br>
@@ -22,20 +22,20 @@
       </div>
       <!--      </ng-container>-->
       <p class="h6 description mt-4  "><strong>les Technologies : </strong>
-        <ng-container *ngFor="let tech of projet.technologies">
+        <ng-container *ngFor="let tech of experience.technologies">
           {{tech}},
         </ng-container>
       </p>
       <!--	  <a type="button" href="#">..</a>-->
       <div class="my-4 ">
-        <ng-container *ngIf="projet.urlGit && projet.urlGit[0]">
-          <a href="{{projet.urlGit[0]}}" class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2">
+        <ng-container *ngIf="experience.urlGit && experience.urlGit[0]">
+          <a href="{{experience.urlGit[0]}}" class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2">
             <i class="fa fa-code fa-1x"></i>
             <small class="w-100 "> Code</small>
           </a>
         </ng-container>
-        <ng-container *ngIf="projet.urlWeb && projet.urlWeb[0]">
-          <a href="{{projet.urlWeb[0]}}" class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2">
+        <ng-container *ngIf="experience.urlWeb && experience.urlWeb[0]">
+          <a href="{{experience.urlWeb[0]}}" class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2">
             <i class="fa fa-desktop fa-1x"></i>
             <small class="w-100 "> Web</small>
           </a>
@@ -45,21 +45,21 @@
 
     </div>
     <div class="col-md-6 d-flex  justify-content-center">
-      <img class=" w-75 animate__animated animate__fadeInRight animate__slower" src="{{projet.icon}}" alt="">
+      <img class=" w-75 animate__animated animate__fadeInRight animate__slower" src="{{experience.icon}}" alt="">
     </div>
   </div>
-  <!-- End info de projet -->
+  <!-- End info de experience -->
 
   <!-- start sous images -->
   <div class="mt-5">
     <div class=" d-md-flex  justify-content-center d-none ">
-      <span (click)="OnModal(idPicture)" class="pointer" *ngFor="let img of projet.images;let idPicture = index"
+      <span (click)="OnModal(idPicture)" class="pointer" *ngFor="let img of experience.images;let idPicture = index"
             (click)="changeCurrentImg(idPicture)">
         <ng-template #tipContent>Il n'y a pas d'information client sensible <b><u>{{img.name}}</u></b></ng-template>
         <img class=" m-2 " [ngbTooltip]="tipContent" placement="top" height="80" src="{{img.url}}" alt="">
         <!-- [ngbTooltip]="tipContent" -->
       </span>
-      <ng-container *ngIf="projet.video">
+      <ng-container *ngIf="experience.video">
       <span> <!-- (click)="OnModal(999)" -->
         <iframe width="160" height="80"
                 src="https://www.youtube.com/embed/eXhfhQJ4nMs" title="WEB RTC"
@@ -95,7 +95,7 @@
              style="padding-left: 1px;padding-right: 1px;">
 
           <div class="carousel-inner">
-            <ng-container *ngFor="let img of projet.images;let idP = index">
+            <ng-container *ngFor="let img of experience.images;let idP = index">
               <div [ngClass]="{'active' : idP == idPicture,'carousel-item':true }">
                 <img [src]="img.url" class="d-block w-100" style="width: 100%;" alt="{{img.name}}">
                 <div class="text-block">
@@ -105,7 +105,7 @@
             </ng-container>
           </div>
           <ol class="carousel-indicators">
-            <ng-container *ngFor="let img of projet.images;let idP = index">
+            <ng-container *ngFor="let img of experience.images;let idP = index">
               <li data-target="#carouselControls" attr.data-slide-to="{{idP}}"
                   [ngClass]="{'active' : idP == idPicture }"></li>
             </ng-container>

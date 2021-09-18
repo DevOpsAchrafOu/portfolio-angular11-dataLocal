@@ -1,46 +1,40 @@
-import { Component, OnInit } from '@angular/core';
-import {AboutService} from '../../services/about.service';
-import * as $ from 'jquery';
-// declare var $:any;
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {ExperienceService} from '../../../services/experience.service';
 
 @Component({
-  selector: 'app-portfolio',
-  templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.scss']
+  selector: 'app-experience',
+  templateUrl: './experience.component.html',
+  styleUrls: ['./experience.component.scss']
 })
-export class PortfolioComponent implements OnInit {
-
+export class ExperienceComponent implements OnInit {
 
   /********************************************************************************************/
   /**************************************** les Attributes  ***********************************/
   /********************************************************************************************/
 
-    currentPage = '';
+  data: string = 'experience';
+  @Output() dataEvent = new EventEmitter<string>();
+  experiences: any;
 
 
   /********************************************************************************************/
   /********************************* les fonctions d'intialisations  **************************/
   /********************************************************************************************/
 
-  constructor() { }
+  constructor(private experienceService: ExperienceService) { }
 
   ngOnInit(): void {
-      // $('[data-toggle="tooltip"]');
-
-    $('#menu-toggler').on('click', function(): any {
-      $('#sidebar-wrapper').toggleClass('collapse ');
-      // $('#sidebar-wrapper').addClass('show');
-      console.log("toggleClass");
-    });
+    this.sendData();
+    this.experiences = this.experienceService.getExperiences();
   }
+
 
   /********************************************************************************************/
   /**************************************  les fonctions **************************************/
   /********************************************************************************************/
-  getChildData($event: any): void {
-      this.currentPage = $event.data;
-      console.log(this.currentPage);
-    }
 
+  sendData(): void {
+    this.dataEvent.emit(this.data);
+  }
 
 }

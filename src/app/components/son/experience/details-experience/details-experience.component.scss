@@ -1,0 +1,152 @@
+.btn-about{
+  width: 120px;
+}
+
+
+.btn-primary{
+  border: none;
+  background: none;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(var(--second-color)), to(var(--main-color)));
+  border-radius: 50px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  /* border-color: var(--main-color); */
+  border: 2px solid var(--second-color);
+  /* background: none; */
+  /* background-image: -webkit-gradient(linear, left top, right bottom, from(var(--second-color)), to(var(--main-color))); */
+  border-radius: 50px;
+  transition: 0.5s;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn-outline-primary:hover,
+.btn-primary:hover{
+
+  background: linear-gradient( 135deg , var(--second-color), var(--second-color));
+  color: white !important;
+}
+
+.description {
+  font-weight:normal;
+}
+
+.icon-tash{
+  font-size: 1.5em;
+}
+
+
+//----------------------style for Images is process---------------------------
+#ImgProcess .list-inline {
+  white-space:nowrap;
+  overflow-x:auto;
+}
+
+#ImgProcess .carousel-indicators {
+  position: static;
+  left: initial;
+  width: initial;
+  margin-left: initial;
+}
+
+#ImgProcess .carousel-indicators > li {
+  width: initial;
+  height: initial;
+  text-indent: initial;
+}
+
+#ImgProcess .carousel-indicators > li.active img {
+  opacity: 0.7;
+}
+//-----------------------------style for popup-------------------------------------
+.title-popup > strong{
+  font-weight: 800;
+  font-size: 1.75rem;
+}
+
+.title-popup > .p1{
+  color:rgb(255, 0, 108);;
+}
+
+#text1{
+  color: #cecece;
+
+}
+.modal-header .close {
+  font-weight: 900;
+  font-size: 1.50rem;
+}
+.close1{
+  font-size: 100%;
+
+}
+
+.text-block {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(5, 13, 64, 0.56);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin: 10px;
+}
+
+.modal-header .close {
+  margin: -0.7rem -1rem -1rem auto;
+}
+
+.btn-about{
+  width: 80px;
+}
+
+
+.btn-primary{
+  border: none;
+  background: none;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(var(--second-color)), to(var(--main-color)));
+  border-radius: 50px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  /* border-color: var(--main-color); */
+  border: 2px solid var(--second-color);
+  /* background: none; */
+  /* background-image: -webkit-gradient(linear, left top, right bottom, from(var(--second-color)), to(var(--main-color))); */
+  border-radius: 50px;
+  transition: 0.5s;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn-outline-primary:hover,
+.btn-primary:hover{
+
+  background: linear-gradient( 135deg , var(--second-color), var(--second-color));
+  color: white !important;
+}
+
+.fa-0x{
+  font-size: 0.85rem;
+}
+
+span.subTash{
+  font-size: 0.9rem;
+  color: #393c5d;
+}
