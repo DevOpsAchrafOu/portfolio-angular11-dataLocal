@@ -8,20 +8,13 @@
   },
   {
     "id": 2,
-    "duration": "Fér 01-Mai 29 2020",
-    "type": "Auto-formation non certifiant.",
-    "description": "(C#,ASP.NET MVC/Core)",
-    "other": ""
-  },
-  {
-    "id": 3,
     "duration": "Juin 20-Août 31 2019",
     "type": "Auto-formation non certifiant.",
     "description": "(Angular)",
     "other": ""
   },
   {
-    "id": 4,
+    "id": 3,
     "duration": "Août 01.2018-Juin 30.2019",
     "type": "Auto-formation non certifiant.",
     "description": "(JUnit, Java 8)",
