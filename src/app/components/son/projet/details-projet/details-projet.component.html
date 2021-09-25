@@ -29,13 +29,15 @@
       <!--	  <a type="button" href="#">..</a>-->
       <div class="my-4 ">
         <ng-container *ngIf="projet.urlGit && projet.urlGit[0]">
-          <a href="{{projet.urlGit[0]}}" class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2">
-            <i class="fa fa-code fa-1x"></i>
-            <small class="w-100 "> Code</small>
-          </a>
+          <ng-container *ngFor="let urlG of projet.urlGit">
+            <a href="{{urlG}}" target="_blank" class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2">
+              <i class="fa fa-code fa-1x"></i>
+              <small class="w-100 "> Code </small>
+            </a>
+          </ng-container>
         </ng-container>
         <ng-container *ngIf="projet.urlWeb && projet.urlWeb[0]">
-          <a href="{{projet.urlWeb[0]}}" class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2">
+          <a href="{{projet.urlWeb[0]}}" target="_blank" class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2">
             <i class="fa fa-desktop fa-1x"></i>
             <small class="w-100 "> Web</small>
           </a>

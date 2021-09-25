@@ -10,10 +10,10 @@
   <h4 class="color-second ">{{experience.name}}</h4>
   <div class="row">
     <div class="col-md-6">
-      <!--      <h3 class="color-second mt-3 ">{{about.profil}}</h3>-->
+
       <p class="h6 description mt-4  "> {{experience.description}}</p>
-      <!--      <ng-container *ngIf="experience.titreTache">-->
       <p class="h6 description mt-4 mb-2  "> {{experience.titreTache}}</p>
+
       <div class="" *ngFor="let tache of experience.taches">
         <i class="fa fa-angle-right icon-tash color-main mr-2"></i> {{tache.name}}<br>
         <span class=" ml-3 subTash" *ngFor="let subTache of tache.sousTaches">
@@ -21,7 +21,7 @@
           </span>
       </div>
       <!--      </ng-container>-->
-      <p class="h6 description mt-4  "><strong>les Technologies : </strong>
+      <p class="h6 description mt-4  "><strong> les Technologies : </strong>
         <ng-container *ngFor="let tech of experience.technologies">
           {{tech}},
         </ng-container>
@@ -29,10 +29,12 @@
       <!--	  <a type="button" href="#">..</a>-->
       <div class="my-4 ">
         <ng-container *ngIf="experience.urlGit && experience.urlGit[0]">
-          <a href="{{experience.urlGit[0]}}" class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2">
-            <i class="fa fa-code fa-1x"></i>
-            <small class="w-100 "> Code</small>
-          </a>
+          <ng-container *ngFor="let urlG of experience.urlGit">
+            <a href="{{urlG}}" target="_blank" class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2">
+              <i class="fa fa-code fa-1x"></i>
+              <small class="w-100 "> Code </small>
+            </a>
+          </ng-container>
         </ng-container>
         <ng-container *ngIf="experience.urlWeb && experience.urlWeb[0]">
           <a href="{{experience.urlWeb[0]}}" class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2">

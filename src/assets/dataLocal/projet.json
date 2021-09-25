@@ -17,7 +17,7 @@
         { "id": 1, "name": "Création des services et des comparants.", "sousTaches": []},
         { "id": 2, "name": "Consommation des fichiers JSON local comme API.", "sousTaches": []}
     ],
-    "urlGit": ["https://github.com/achrafOuakka"],
+    "urlGit": [],
     "urlWeb": ["https://github.com/achrafOuakka"]
 },
 {
@@ -56,10 +56,10 @@
 {
     "id": 23,
     "duration": "",
-    "name": "chargement et téléchargement de l\"image.",
+    "name": "Application Ionic pour prendre des photos [Front Mobile/Back End]",
     "titre": "",
-    "description": "Gestion des e-mails (envoyer, recevoir)",
-    "technologies": ["Spring Boot", "Java 8", "Spring Integration", "Rest API", "Git", "MySql"],
+    "description": "Application mobile qui permet de prendre une photo soit par caméra ou par galerie et redimensionnée et aussi charger et télécharger images avec Spring Boot",
+    "technologies": ["Spring Boot", "Java 8", "Ionic", "Rest API", "Git", "MySql"],
     "show": 2,
     "icon": "assets/images/img-tash-mobile.svg",
     "mainImage": "assets/images/img-tash-mobile.svg",

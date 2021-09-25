@@ -1,0 +1,186 @@
+[
+{
+"id": 20,
+"duration": "",
+"name": "Plateforme des appels offres   [Back Office]",
+"titre": "",
+"description": "Développement d’une plateforme des appels offres du Maroc.",
+"tache": "",
+"technologies": ["Symfony", "Php", "JQuery", "Html", "Css", "Bootstrap", "MySql", "UML", "Git", "Ajax", "PhpStorm"],
+"show": 2,
+"icon": "assets/images/img-tash-ao-bo.svg",
+"mainImage": "assets/images/imges-projets/img-ao-bo-1.png",
+"images": [
+  { "id": 1, "name": "Statiqtique", "description": "", "url": "assets/images/imges-projets/img-ao-bo-1.png" },
+  { "id": 2, "name": "Tableau de borde", "description": "", "url": "assets/images/imges-projets/img-ao-bo-2.png" },
+  { "id": 3, "name": "Gestion des appels d'offres National", "description": "", "url": "assets/images/imges-projets/img-ao-bo-3.png" },
+  { "id": 4, "name": "Messagerie", "description": "", "url": "assets/images/imges-projets/img-ao-bo-4.png" },
+  { "id": 5, "name": "Notifivation par e-mail pour AO modifié", "description": "", "url": "assets/images/imges-projets/img-ao-bo-5.png" }
+],
+"taches": [
+  { "id": 1, "name": "Réalisation de spécifications technique.", "sousTaches": []},
+  { "id": 2, "name": "Participation aux conceptions du projet.", "sousTaches": []},
+  { "id": 3, "name": "Planifier les durées de modules.", "sousTaches": []},
+  { "id": 4, "name": "Réalisation des modules suivant:",
+    "sousTaches": [
+      { "id": 1, "name": "Gestion des appels d’offre nationaux, prévisionnels, internationaux et résultats."},
+      { "id": 2, "name": "Un module de messagerie pour communication et la fidélisation des utilisateurs."},
+      { "id": 3, "name": "Gestion des fichiers joints pour les appels d’offres (CPS)."},
+      { "id": 4, "name": "Génération des Statistiques."},
+      { "id": 5, "name": "Consultation de l’historique de navigation de client avec recherche avancée."},
+      { "id": 6, "name": "Module de chat partagé entre Client et Collaborateur avec notification de nouveaux messages."}
+    ]},
+  { "id": 5, "name": "Faire les Tests pour chaque module.", "sousTaches": []},
+  { "id": 6, "name": "La réalisation de ce projet en collaboration.", "sousTaches": []}
+],
+"urlGit": [],
+"urlWeb": []
+},
+{
+"id": 21,
+"duration": "",
+"name": "Plateforme des appels offres [Front Office]",
+"titre": "",
+"description": "Développement d’une plateforme des appels offres du Maroc.",
+"tache": "",
+"technologies": ["Symfony", "Php", "JQuery", "Html", "Css", "Bootstrap", "MySql", "UML", "Git", "Ajax", "PhpStorm"],
+"show": 2,
+"icon": "assets/images/img-tash-ao-bo.svg",
+"mainImage": "assets/images/imges-projets/img-ao-fo-1.png",
+"images": [
+  { "id": 1, "name": "Recherche avancée", "description": "", "url": "assets/images/imges-projets/img-ao-fo-1.png" },
+  { "id": 2, "name": "Index des prix", "description": "", "url": "assets/images/imges-projets/img-ao-fo-2.png" },
+  { "id": 3, "name": "Rappel par e-mail et notification", "description": "", "url": "assets/images/imges-projets/img-ao-fo-3.png" }
+],
+"taches": [
+  { "id": 1, "name": "Réalisation espace client avec les fonctionnalités suivantes :" ,
+    "sousTaches": [
+      { "id": 1, "name": "La consultation des appels d’offre et résultats avec recherche avancée."},
+      { "id": 2, "name": "La programmation des notes de rappel (Email et notification via la plateforme)."},
+      { "id": 3, "name": "L’envoi de réclamation & suggestion."},
+      { "id": 4, "name": "La réception d’un mail/notification lorsque l’utilisateur est modifié d’un appel d’offre."},
+      { "id": 5, "name": "le chat partagé entre Client et Collaborateur avec notification de nouveaux messages."}
+    ]},
+  { "id": 2, "name": "Intégration de template", "sousTaches": []}
+],
+"urlGit": [],
+"urlWeb": []
+},
+{
+    "id": 22,
+    "duration": "",
+    "name": "Projet CRM",
+    "titre": "",
+    "description": "Développement d’une plateforme de gestion des relations Clients",
+    "technologies": ["Symfony", "Php", "JavaScript", "Html", "Css", "Bootstrap", "MySql", "UML", "Git", "Ajax", "PhpStorm"],
+    "show": 3,
+    "icon": "assets/images/img-tash-crm.svg",
+    "mainImage": "assets/images/imges-projets/img-crm-1.png",
+    "images": [
+      { "id": 1, "name": "Statiqtique", "description": "", "url": "assets/images/imges-projets/img-crm-1.png" },
+      { "id": 2, "name": "Tableau de borde", "description": "", "url": "assets/images/imges-projets/img-crm-2.png" },
+      { "id": 3, "name": "Liste de tiers", "description": "", "url": "assets/images/imges-projets/img-crm-3.png" },
+      { "id": 4, "name": "Gestion des documents", "description": "", "url": "assets/images/imges-projets/img-crm-4.png" },
+      { "id": 5, "name": "Calendrier", "description": "", "url": "assets/images/imges-projets/img-crm-5.png" },
+      { "id": 6, "name": "Paramétrage", "description": "", "url": "assets/images/imges-projets/img-crm-6.png" },
+      { "id": 7, "name": "Génération une modéle documents juridique", "description": "", "url": "assets/images/imges-projets/img-crm-7.png" }
+    ],
+    "taches": [
+      { "id": 1, "name": "Participation aux conceptions du projet", "sousTaches": []},
+      { "id": 2, "name": "Réalisation des modules suivant :",
+        "sousTaches": [
+          { "id": 1, "name": "Gestion des utilisateurs."},
+          { "id": 2, "name": "Gestion des rôles, des privilèges et logs."},
+          { "id": 3, "name": "Gestion des clients et prospect."},
+          { "id": 4, "name": "Gestion des factures et des devis."},
+          { "id": 5, "name": "Gestion des factures et des devis."},
+          { "id": 6, "name": "Gestion de calendrier avec les rappels par Email et notification."},
+          { "id": 7, "name": "Création de modèle de documents juridique."},
+          { "id": 8, "name": "Génération des Statistiques."}
+        ]},
+      { "id": 3, "name": "Faire les Tests croisés.", "sousTaches": []},
+      { "id": 4, "name": "Implémenter la solution tout en respectant les bonnes pratiques et standards de développement à travers des utilisés les designs paternes : DAO, MVC.", "sousTaches": []}
+    ],
+    "urlGit": [],
+    "urlWeb": []
+},
+{
+"id": 23,
+"duration": "",
+"name": "Projet Web RTC",
+"titre": "",
+"description": "Réalisation d\"une couche Web RTC qui permet de faire des appels téléphoniques",
+"tache": "",
+"technologies": ["JavaScript", "Bootstrap", "Html", "Css", "Git", "Ajax", "PhpStorm,"],
+"show": 2,
+"icon": "assets/images/img-tash-call.svg",
+"mainImage": "assets/images/imges-projets/img-call-1.png",
+"images": [
+  { "id": 1, "name": "Appel entrant", "description": "", "url": "assets/images/imges-projets/img-call-1.png" },
+  { "id": 2, "name": "Utilisateur connecté", "description": "", "url": "assets/images/imges-projets/img-call-2.png" },
+  { "id": 3, "name": "Appel sortant", "description": "", "url": "assets/images/imges-projets/img-call-3.png" },
+  { "id": 4, "name": "Conception graphique", "description": "", "url": "assets/images/imges-projets/img-call-4.png" }
+],
+"video" : true,
+"taches": [],
+"urlGit": []
+},
+{
+    "id": 24,
+    "duration": "",
+    "name": "Projet pour suivi d’un processus métier",
+    "titre": "Freelance développeur Java/Spring Boot/Ionic",
+    "description": "Conception et réalisation d'une application mobile et web avec une équipe de développeurs; qui assure le suivi d’un processus métier, de l’installation de la fibre optique qui augmente le nombre des demandes à traiter par jour par 25%",
+    "technologies": ["Spring Boot", "Angular", "Ionic 4", "MySql", "Rest API", "Spring Security", "Java 8", "TypeScript", "Git", "Inkscape"],
+    "show": 3,
+    "icon": "assets/images/img-tash-web-mobile.svg",
+    "mainImage": "assets/images/img-tash-web-mobile.svg",
+    "images": [
+      { "id": 1, "name": "Conception graphique", "description": "", "url": "assets/images/imges-projets/img-web-mobile-2.png" }
+    ],
+    "taches": [
+        { "id": 1, "name": "Participation aux conceptions du projet", "sousTaches": []},
+        { "id": 2, "name": "Réalisation et conception des interfaces graphiques pour front mobile ", "sousTaches": []},
+        { "id": 3, "name": "Réalisation des taches suivant:",
+          "sousTaches": [
+            { "id": 1, "name": "Développement du service web pour certain des entités"},
+            { "id": 2, "name": "Réalisation de la partie mobile"},
+            { "id": 3, "name": "Création des services qui donne le droit d’accès aux fonctionnalités native de Téléphone (caméra, jps et aussi  barre code)"}
+          ]}
+    ],
+    "urlGit": [],
+    "urlWeb": []
+},
+{
+    "id": 25,
+    "duration": "",
+    "name": "Application WebMail",
+    "titre": "Freelance développeur web Spring Boot/Angular",
+    "description": "Conception et développement d’une application WebMail dédié au domaine de l’installation de la fibre optique",
+    "technologies": ["Spring Boot", "Angular", "Spring Security", "Rest API", "Spring Data MongoDB", "NoSql", "Java", "Html", "Css", "TypeScript", "Bootstrap"],
+    "show": 2,
+    "icon": "assets/images/img-tash-follow.svg",
+    "mainImage": "assets/images/imges-projets/img-follow-4.png",
+    "images": [
+        { "id": 1, "name": "Authentification", "description": "", "url": "assets/images/imges-projets/img-follow-1.jpg" },
+        { "id": 2, "name": "Statiqtique", "description": "", "url": "assets/images/imges-projets/img-follow-2.jpg" },
+        { "id": 3, "name": "Modification de Pofile", "description": "", "url": "assets/images/imges-projets/img-follow-3.jpg" },
+        { "id": 4, "name": "Les Information d'un ordre", "description": "", "url": "assets/images/imges-projets/img-follow-4.png" },
+        { "id": 5, "name": "E-mail de Confirmation", "description": "", "url": "assets/images/imges-projets/img-follow-5.jpg" }
+    ],
+    "taches": [
+        { "id": 1, "name": "Analyse des besoins fonctionnels.", "sousTaches": []},
+        { "id": 2, "name": "Gestion des e-mails (envoyer, recevoir et traitement de texte).", "sousTaches": []},
+        {
+            "id": 3,
+            "name": "Programmation des réponses automatiques pour les ordres non valide et aussi des mails de confirmation aux clients."
+        , "sousTaches": []
+        },
+        { "id": 4, "name": "Génération des statistiques.", "sousTaches": []},
+        { "id": 5, "name": "Extraction des données sous forme Pdf et Ecxel.", "sousTaches": []},
+        { "id": 6, "name": "Création des tests unitaires.", "sousTaches": []}
+    ],
+    "urlGit": [],
+    "urlWeb": []
+}
+]
