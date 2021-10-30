@@ -24,8 +24,8 @@
                 "id": 4,
                 "name": "Réalisation des modules suivant:",
                 "sousTaches": [
-                    { "id": 1, "name": "Gestion des appels d’offre nationaux, prévisionnels, internationaux et résultats." },
-                    { "id": 2, "name": "Un module de messagerie pour communication et la fidélisation des utilisateurs." },
+                    { "id": 1, "name": "Gestion des appels d’offre." },
+                    { "id": 2, "name": "Un module de messagerie pour communication." },
                     { "id": 3, "name": "Gestion des fichiers joints pour les appels d’offres (CPS)." },
                     { "id": 4, "name": "Génération des Statistiques." },
                     { "id": 5, "name": "Consultation de l’historique de navigation de client avec recherche avancée." },
@@ -59,10 +59,10 @@
                 "id": 1,
                 "name": "Réalisation espace client avec les fonctionnalités suivantes :",
                 "sousTaches": [
-                    { "id": 1, "name": "La consultation des appels d’offre et résultats avec recherche avancée." },
+                    { "id": 1, "name": "La consultation des appels d’offre avec recherche avancée." },
                     { "id": 2, "name": "La programmation des notes de rappel (Email et notification via la plateforme)." },
                     { "id": 3, "name": "L’envoi de réclamation & suggestion." },
-                    { "id": 4, "name": "La réception d’un mail/notification lorsque l’utilisateur est modifié d’un appel d’offre." },
+                    { "id": 4, "name": "La réception d’un mail/notification lorsque d’un appel d’offre a été modifié." },
                     { "id": 5, "name": "le chat partagé entre Client et Collaborateur avec notification de nouveaux messages." }
                 ]
             },
@@ -96,14 +96,13 @@
                 "id": 2,
                 "name": "Réalisation des modules suivant :",
                 "sousTaches": [
-                    { "id": 1, "name": "Gestion des utilisateurs." },
-                    { "id": 2, "name": "Gestion des rôles, des privilèges et logs." },
+                    { "id": 1, "name": "Gestion des collaborateurs." },
+                    { "id": 2, "name": "Gestion des rôles, des privilèges avec logs." },
                     { "id": 3, "name": "Gestion des clients et prospect." },
                     { "id": 4, "name": "Gestion des factures et des devis." },
-                    { "id": 5, "name": "Gestion des factures et des devis." },
-                    { "id": 6, "name": "Gestion de calendrier avec les rappels par Email et notification." },
-                    { "id": 7, "name": "Création de modèle de documents juridique." },
-                    { "id": 8, "name": "Génération des Statistiques." }
+                    { "id": 5, "name": "Gestion de calendrier avec les rappels par Email et notification." },
+                    { "id": 6, "name": "Création de modèle de documents juridique." },
+                    { "id": 7, "name": "Génération des Statistiques." }
                 ]
             },
             { "id": 3, "name": "Faire les Tests croisés.", "sousTaches": [] },
