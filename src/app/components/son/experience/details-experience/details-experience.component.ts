@@ -14,6 +14,7 @@ export class DetailsExperienceComponent implements OnInit {
   /**************************************** les Attributes  ***********************************/
   /********************************************************************************************/
 
+
   experience: any;
   // popup pour affichier les images
   @ViewChild('content', {static: false}) content: any;
