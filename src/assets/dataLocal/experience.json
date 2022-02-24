@@ -1,4 +1,20 @@
 [{
+    "id": 19,
+    "duration": "",
+    "name": "Migration des web services (Rest API)",
+    "titre": "",
+    "description": "Migration de web service tout en respectant les bonnes pratiques et standards de développement à travers des utilisés les designs paternes : DAO, MVC.",
+    "tache": "",
+    "technologies": ["Symfony", "Rest API", "MySql", "symfony security", "JWT", "Git", "Ajax", "PhpStorm"],
+    "show": 2,
+    "icon": "assets/images/img-tash-migration.svg",
+    "mainImage": "assets/images/img-tash-migration.svg",
+    "images": [],
+    "taches": [],
+    "urlGit": [],
+    "urlWeb": []
+},
+{
         "id": 20,
         "duration": "",
         "name": "Plateforme des appels offres - Migration [Back Office]",
