@@ -26,12 +26,7 @@
         "icon": "assets/images/img-tash-ao-bo.svg",
         "mainImage": "assets/images/imges-projets/img-ao-bo-1.png",
         "images": [
-            { "id": 1, "name": "Statiqtique", "description": "", "url": "assets/images/imges-projets/img-ao-bo-1.png" },
-            { "id": 2, "name": "Tableau de borde", "description": "", "url": "assets/images/imges-projets/img-ao-bo-2.png" },
-            { "id": 3, "name": "Gestion des appels d'offres National", "description": "", "url": "assets/images/imges-projets/img-ao-bo-3.png" },
-            { "id": 4, "name": "Messagerie", "description": "", "url": "assets/images/imges-projets/img-ao-bo-4.png" },
-            { "id": 5, "name": "Notifivation par e-mail pour AO modifié", "description": "", "url": "assets/images/imges-projets/img-ao-bo-5.png" }
-        ],
+            { "id": 1, "name": "Statiqtique", "description": "", "url": "assets/images/imges-projets/img-ao-bo-1.png" }        ],
         "taches": [
             { "id": 1, "name": "Réalisation de spécifications technique.", "sousTaches": [] },
             { "id": 2, "name": "Participation aux conceptions du projet.", "sousTaches": [] },
@@ -68,7 +63,6 @@
         "mainImage": "assets/images/imges-projets/img-ao-fo-1.png",
         "images": [
             { "id": 1, "name": "Recherche avancée", "description": "", "url": "assets/images/imges-projets/img-ao-fo-1.png" },
-            { "id": 2, "name": "Index des prix", "description": "", "url": "assets/images/imges-projets/img-ao-fo-2.png" },
             { "id": 3, "name": "Rappel par e-mail et notification", "description": "", "url": "assets/images/imges-projets/img-ao-fo-3.png" }
         ],
         "taches": [{
