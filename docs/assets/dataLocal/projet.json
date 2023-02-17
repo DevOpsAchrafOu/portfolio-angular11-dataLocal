@@ -18,7 +18,7 @@
         { "id": 2, "name": "Consommation des fichiers JSON local comme API.", "sousTaches": []}
     ],
     "urlGit": [],
-    "urlWeb": ["https://achrafouakka.github.io/portfolio-angular11-dataLocal/"]
+    "urlWeb": ["https://devopsachrafou.github.io/portfolio-angular11-dataLocal/"]
 },
 {
     "id": 21,
@@ -35,8 +35,8 @@
       { "id": 1, "name": "Site web", "description": "", "url": "assets/images/imges-projets/img-site-1.png" }
     ],
     "taches": [],
-    "urlGit": ["https://github.com/achrafOuakka/Templates-site-web"],
-    "urlWeb": ["https://achrafouakka.github.io/Templates-site-web/"]
+    "urlGit": ["https://github.com/DevOpsAchrafOu/Templates-site-web"],
+    "urlWeb": ["https://devopsachrafou.github.io/Templates-site-web/"]
 },
 {
     "id": 22,
@@ -50,7 +50,7 @@
     "mainImage": "assets/images/img-tash-code.svg",
     "images": [],
     "taches": [],
-    "urlGit": ["https://github.com/achrafOuakka/-MailManagement_TreatmentText_Validation_by_SpringBoot_SIntegration"],
+    "urlGit": ["https://github.com/DevOpsAchrafOu/-MailManagement_TreatmentText_Validation_by_SpringBoot_SIntegration"],
     "urlWeb": []
 },
 {
@@ -69,7 +69,7 @@
         { "id": 3, "name": "images 3", "description": "", "url": "" }
     ],
     "taches": [],
-    "urlGit": ["https://github.com/achrafOuakka/Upload_Dowload_image", "https://github.com/achrafOuakka/Ionic4-take-photo-resize-and-take-photo-by-gallery-"],
+    "urlGit": ["https://github.com/DevOpsAchrafOu/Upload_Dowload_image", "https://github.com/DevOpsAchrafOu/Ionic4-take-photo-resize-and-take-photo-by-gallery-"],
     "urlWeb": []
 },
 {
@@ -88,7 +88,7 @@
         { "id": 3, "name": "images 3", "description": "", "url": "" }
     ],
     "taches": [],
-    "urlGit": ["https://github.com/achrafOuakka/codes-barres"],
+    "urlGit": ["https://github.com/DevOpsAchrafOu/codes-barres"],
     "urlWeb": []
 }
 ]
