@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteBase /portfolio-angular11-dataLocal
+  RewriteBase /
   RewriteRule ^index\.html$ - [L]
 
   RewriteCond %{REQUEST_FILENAME} !-f
