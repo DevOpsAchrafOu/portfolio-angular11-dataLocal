@@ -1,9 +1,12 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  RewriteBase /portfolio-angular11-dataLocal/
+  RewriteRule ^index\.html$ - [L]
+
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteCond %{REQUEST_URI} !index
-  RewriteRule (.*) index.html [L]
+  RewriteCond %{REQUEST_URI} !server-calls
+  RewriteRule . /index.html [L]
 </IfModule>
 
 
