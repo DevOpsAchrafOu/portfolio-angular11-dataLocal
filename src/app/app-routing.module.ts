@@ -15,7 +15,7 @@ const routes: Routes = [
   // { path: "login", component: LoginComponent },
   { path: '', redirectTo: '/portFolio', pathMatch: 'full' },
   {
-    path: 'portFolio', component: PortfolioComponent, children: [
+    path: '', component: PortfolioComponent, children: [
       { path: '', component: AboutComponent },
       { path: 'projet', component: ProjetComponent },
       { path: 'detailProject/:id', component: DetailsProjetComponent },

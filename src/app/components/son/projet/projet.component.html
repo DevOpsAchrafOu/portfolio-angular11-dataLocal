@@ -5,7 +5,7 @@
   </div>
   <div class="row  justify-content-around ">
     <div *ngFor="let projet of projets" class="col-lg-3 mx-2  mb-4 p-0 col-md-5 col-12 shadow min-h rounded pointer projet"
-         role="button" [routerLink]="['/portFolio/detailProject', projet.id]">
+         role="button" [routerLink]="['/detailProject', projet.id]">
       <div style="background: url('{{projet.mainImage}}') no-repeat center top / cover;
     background-size: 100%;
     height: 56%;" class="animate__animated animate__zoomIn" ></div>
