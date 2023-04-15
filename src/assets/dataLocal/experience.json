@@ -1,11 +1,31 @@
-[{
+  [{
+    "id": 16,
+    "isCurrent":true,
+    "isEnabled":false,
+    "duration": "",
+    "name": "Évolution de l'application E2C avec de nouvelles fonctionnalités [Front Office et Back Office]",
+    "titre": "",
+    "description": "",
+    "tache": "",
+    "technologies": ["Spring Boot", "Angular", "Rest API", "MySql", "TypeScript", "Html", "Css", "Bootstrap", "Git", "Swagger"],
+    "show": 2,
+    "icon": "assets/images/imges-projets/img-e2c-1.svg",
+    "mainImage": "assets/images/imges-projets/img-e2c-1.svg",
+    "images": [],
+    "taches": [],
+    "urlGit": [],
+    "urlWeb": []
+  },
+  {
       "id": 17,
+      "isCurrent":false,
+      "isEnabled":false,
       "duration": "",
       "name": "Site Web (Angular/NodeJS)",
       "titre": "",
-      "description": "Développement d'un site web basé sur le framework Angular/NodeJS",
+      "description": "Développement d'un site web dynamique basé sur le framework Angular/NodeJS et aussi Spring Boot pour Back-Office",
       "tache": "",
-      "technologies": ["Node JS", "Angular","MySql", "TypeScript", "Html", "Css", "Bootstrap", "Git"],
+      "technologies": ["Node JS", "Angular","MySql", "TypeScript", "Html", "Css", "Bootstrap", "Git", "Spring boot" , "Java"],
       "show": 2,
       "icon": "assets/images/imges-projets/img-site-web-1.svg",
       "mainImage": "assets/images/imges-projets/img-site-web-1.svg",
@@ -16,6 +36,8 @@
 },
 {
       "id": 18,
+      "isCurrent":false,
+      "isEnabled":true,
       "duration": "",
       "name": "Développement une application E2C [Front Office et Back Office]",
       "titre": "",
@@ -32,6 +54,8 @@
 },
 {
       "id": 19,
+      "isCurrent":false,
+      "isEnabled":true,
       "duration": "",
       "name": "Migration des web services (Rest API)",
       "titre": "",
@@ -42,12 +66,17 @@
       "icon": "assets/images/img-tash-migration.svg",
       "mainImage": "assets/images/img-tash-migration.svg",
       "images": [],
-      "taches": [],
+      "taches": [
+        { "id": 1, "name": "Factorisation, optimisation du code existant.", "sousTaches": [] },
+        { "id": 2, "name": "Revue de code.", "sousTaches": [] }
+        ],
       "urlGit": [],
       "urlWeb": []
 },
 {
         "id": 20,
+        "isCurrent":false,
+        "isEnabled":true,
         "duration": "",
         "name": "Plateforme des appels offres - Migration [Back Office]",
         "titre": "",
@@ -81,6 +110,8 @@
     },
     {
         "id": 21,
+        "isCurrent":false,
+        "isEnabled":true,
         "duration": "",
         "name": "Plateforme des appels offres [Front Office]",
         "titre": "",
@@ -109,6 +140,8 @@
     },
     {
         "id": 22,
+        "isCurrent":false,
+        "isEnabled":true,
         "duration": "",
         "name": "Projet CRM",
         "titre": "",
@@ -149,6 +182,8 @@
     },
     {
         "id": 23,
+        "isCurrent":false,
+        "isEnabled":true,
         "duration": "",
         "name": "Projet Web RTC",
         "titre": "",
@@ -170,6 +205,8 @@
     },
     {
         "id": 24,
+        "isCurrent":false,
+        "isEnabled":true,
         "duration": "",
         "name": "Projet pour suivi d’un processus métier",
         "titre": "Freelance développeur Java/Spring Boot/Ionic",
@@ -199,6 +236,8 @@
     },
     {
         "id": 25,
+        "isCurrent":false,
+        "isEnabled":true,
         "duration": "",
         "name": "Application WebMail",
         "titre": "Freelance développeur web Spring Boot/Angular",

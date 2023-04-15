@@ -1,6 +1,31 @@
 [
+  {
+    "id": 20,
+    "isCurrent":true,
+    "isEnabled":false,
+    "duration": "",
+    "name": "SmartClientManagement",
+    "titre": "",
+    "description": "Développement d'un portfolio basé sur le framework angular 11",
+    "tache": "",
+    "technologies": ["Angular 11", "Bootstrap", "TypeScript", "Html", "Css", "Git", "PhpStorm"],
+    "show": 2,
+    "icon": "assets/images/img-tash-portfolio.svg",
+    "mainImage": "assets/images/imges-projets/img-porfolio-1.png",
+    "images": [
+      { "id": 1, "name": "Protfolio", "description": "", "url": "assets/images/imges-projets/img-about-1.png" }
+    ],
+    "taches": [
+        { "id": 1, "name": "Création des services et des comparants.", "sousTaches": []},
+        { "id": 2, "name": "Consommation des fichiers JSON local comme API.", "sousTaches": []}
+    ],
+    "urlGit": ["https://github.com/DevOpsAchrafOu/portfolio-angular11-dataLocal"],
+    "urlWeb": ["https://devopsachrafou.github.io/portfolio-angular11-dataLocal/"]
+},
 {
     "id": 20,
+    "isCurrent":false,
+    "isEnabled":true,
     "duration": "",
     "name": "Protfolio",
     "titre": "",
@@ -22,6 +47,8 @@
 },
 {
     "id": 21,
+    "isCurrent":false,
+    "isEnabled":true,
     "duration": "",
     "name": "Templates site web",
     "titre": "",
@@ -40,6 +67,8 @@
 },
 {
     "id": 22,
+    "isCurrent":false,
+    "isEnabled":true,
     "duration": "",
     "name": "Gestion des Emails",
     "titre": "",
@@ -55,6 +84,8 @@
 },
 {
     "id": 23,
+    "isCurrent":false,
+    "isEnabled":true,
     "duration": "",
     "name": "Application Ionic pour prendre des photos [Front Mobile/Back End]",
     "titre": "",
@@ -74,6 +105,8 @@
 },
 {
     "id": 24,
+    "isCurrent":false,
+    "isEnabled":true,
     "duration": "",
     "name": "Application mobile pour scanner Barcode",
     "titre": "",
