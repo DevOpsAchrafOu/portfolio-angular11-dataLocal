@@ -91,15 +91,15 @@
   <div class="modal-body" style="padding-bottom: 0;padding-top: 0">
 
     <!-- Start slider carousel -->
-    <div class="row  align-items-center ">
+    <div class="row   justify-content-center">
       <div id="slider">
         <div id="carouselControls" class="carousel slide" data-ride="carousel"
              style="padding-left: 1px;padding-right: 1px;">
 
-          <div class="carousel-inner">
-            <ng-container *ngFor="let img of projet.images;let idP = index">
-              <div [ngClass]="{'active' : idP == idPicture,'carousel-item':true }">
-                <img [src]="img.url" class="d-block w-100" style="width: 100%;" alt="{{img.name}}">
+          <div class="carousel-inner ">
+            <ng-container *ngFor="let img of projet.images;let idP = index" class="">
+              <div class=""  [ngClass]="{'active' : idP == idPicture,'carousel-item':true }">
+                <img [src]="img.url" class="d-block w-100 " style="width: 100%;" alt="{{img.name}}">
                 <div class="text-block">
                   <p>{{img.name}}</p>
                 </div>
