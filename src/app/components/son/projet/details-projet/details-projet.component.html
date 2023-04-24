@@ -29,11 +29,24 @@
       <!--	  <a type="button" href="#">..</a>-->
       <div class="my-4 ">
         <ng-container *ngIf="projet.urlGit && projet.urlGit[0]">
-          <ng-container *ngFor="let urlG of projet.urlGit">
-            <a href="{{urlG}}" target="_blank" class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2">
-              <i class="fa fa-code fa-1x"></i>
-              <small class="w-100 "> Code </small>
-            </a>
+          <ng-container *ngFor="let urlG of projet.urlGit; let i =index; let first = first; let last = last">
+            <ng-template [ngIf]="projet.id != 19" [ngIfElse]="other">
+              <a href="{{urlG}}" target="_blank"  class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2">
+                <i class="fa fa-code fa-1x"></i>
+                <small class="w-100 "> Code </small>
+              </a>
+            </ng-template>
+            <ng-template #other>
+              <ng-template #tipContentUrl>
+                <span *ngIf="first">Code Source de la Front-End</span>
+                <span *ngIf="last">Code Source de la Back-End</span>
+              </ng-template>
+              <a href="{{urlG}}" target="_blank" [ngbTooltip]="tipContentUrl" placement="top"  class="btn btn-primary  py-1 px-1 shadow-sm btn-about mx-2">
+                <i class="fa fa-code fa-1x"></i>
+                <small class="w-100 "> Code </small>
+              </a>
+            </ng-template>
+
           </ng-container>
         </ng-container>
         <ng-container *ngIf="projet.urlWeb && projet.urlWeb[0]">

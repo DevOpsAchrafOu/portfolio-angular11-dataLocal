@@ -11,7 +11,7 @@
     "technologies": ["Angular 12", "Spring Boot ", "TypeScript", "Java", "Rest API",  "Bootstrap", "Html", "Css","MySQL [mode Dev]", "PostgreSQL [mode Prod]", "Git"],
     "show": 2,
     "icon": "assets/images/img-tash-smartCM-01.svg",
-    "mainImage": "assets/images/imges-projets/img-smartCM-01.png",
+    "mainImage": "assets/images/imges-projets/img-smartCM-02.png",
     "images": [
       { "id": 1, "name": "Login", "description": "", "url": "assets/images/imges-projets/img-smartCM-01.png" },
       { "id": 2, "name": "Home", "description": "", "url": "assets/images/imges-projets/img-smartCM-02.png" },
