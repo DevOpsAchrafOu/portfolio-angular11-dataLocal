@@ -1,11 +1,35 @@
-[{
+  [{
+    "id": 16,
+    "isCurrent":true,
+    "isEnabled":true,
+    "duration": "",
+    "name": "Évolution de l'application E2C avec de nouvelles fonctionnalités [Front Office et Back Office]",
+    "titre": "",
+    "description": "",
+    "tache": "",
+    "technologies": ["Spring Boot", "Angular", "Rest API", "MySql", "TypeScript", "Html", "Css", "Bootstrap", "Git", "Swagger"],
+    "show": 2,
+    "icon": "assets/images/imges-projets/img-e2c-v10-1.svg",
+    "mainImage": "assets/images/imges-projets/img-e2c-v10-1.svg",
+    "images": [],
+    "taches": [
+      { "id": 1, "name": "Optimisation des performances de chargement. ", "sousTaches": [] },
+      { "id": 2, "name": "Ajouter des fonctionnalités.", "sousTaches": [] },
+      { "id": 3, "name": "Création de tableau de bord", "sousTaches": [] }
+    ],
+    "urlGit": [],
+    "urlWeb": []
+  },
+  {
       "id": 17,
+      "isCurrent":false,
+      "isEnabled":true,
       "duration": "",
       "name": "Site Web (Angular/NodeJS)",
       "titre": "",
-      "description": "Développement d'un site web basé sur le framework Angular/NodeJS",
+      "description": "Développement d'un site web dynamique basé sur le framework Angular/NodeJS et aussi Spring Boot pour Back-Office",
       "tache": "",
-      "technologies": ["Node JS", "Angular","MySql", "TypeScript", "Html", "Css", "Bootstrap", "Git"],
+      "technologies": ["Node JS", "Angular","MySql", "TypeScript", "Html", "Css", "Bootstrap", "Git", "Spring boot" , "Java"],
       "show": 2,
       "icon": "assets/images/imges-projets/img-site-web-1.svg",
       "mainImage": "assets/images/imges-projets/img-site-web-1.svg",
@@ -16,22 +40,36 @@
 },
 {
       "id": 18,
+      "isCurrent":false,
+      "isEnabled":true,
       "duration": "",
       "name": "Développement une application E2C [Front Office et Back Office]",
       "titre": "",
-      "description": "Développement d’une application qui permet au ministère de gestionner les dossiers, vérifier et d'autoriser une association à démarrer un nouveau programme d'études s'il est validé [Front Office(FrontEnd, RestApi) et Back Office(FrontEnd, RestApi)]",
+      "description": "Développement d’une application pour permettre au ministère de gérer les dossiers, de vérifier et d'autoriser les associations à lancer de nouveaux programmes d'études, ainsi que de suivre l'avancement des travaux à distance [Front Office(FrontEnd, RestApi) et Back Office(FrontEnd, RestApi)]",
       "tache": "",
       "technologies": ["Spring Boot", "Angular","Rest API", "MySql", "TypeScript", "Html", "Css", "Bootstrap", "Git", "Swagger"],
       "show": 2,
-      "icon": "assets/images/imges-projets/img-e2c-1.svg",
-      "mainImage": "assets/images/imges-projets/img-e2c-1.svg",
-      "images": [],
-      "taches": [],
+      "icon": "assets/images/imges-projets/img-e2c-v01-1.svg",
+      "mainImage": "assets/images/imges-projets/img-e2c-v01-1.svg",
+      "images": [
+        { "id": 1, "name": "Page Login (Front-End)", "description": "", "url": "assets/images/imges-projets/img-e2c-fo-v01.png" },
+        { "id": 1, "name": "Page Login (Back-End)", "description": "", "url": "assets/images/imges-projets/img-e2c-bo-v01.png" }
+      ],
+      "taches": [
+        { "id": 1, "name": "Respect des normes et indicateurs qualité du code.", "sousTaches": [] },
+        { "id": 2, "name": "Réalisation des différentes fonctionnalités.", "sousTaches": [] },
+        { "id": 3, "name": "Réalisation et mise en place des interfaces utilisateur UI avec Angular 12.", "sousTaches": [] },
+        { "id": 4, "name": "Développement de micro-services avec Java en utilisant Spring Boot.", "sousTaches": [] },
+        { "id": 5, "name": "Participer aux différents cycle de vie du projet (tests, build, déploiement,…)", "sousTaches": [] },
+        { "id": 6, "name": "Participation à la réunion quotidienne (Daily Meeting)[remote].", "sousTaches": [] }
+      ],
       "urlGit": [],
       "urlWeb": []
 },
 {
       "id": 19,
+      "isCurrent":false,
+      "isEnabled":true,
       "duration": "",
       "name": "Migration des web services (Rest API)",
       "titre": "",
@@ -42,12 +80,17 @@
       "icon": "assets/images/img-tash-migration.svg",
       "mainImage": "assets/images/img-tash-migration.svg",
       "images": [],
-      "taches": [],
+      "taches": [
+        { "id": 1, "name": "Factorisation, optimisation du code existant.", "sousTaches": [] },
+        { "id": 2, "name": "Revue de code.", "sousTaches": [] }
+        ],
       "urlGit": [],
       "urlWeb": []
 },
 {
         "id": 20,
+        "isCurrent":false,
+        "isEnabled":true,
         "duration": "",
         "name": "Plateforme des appels offres - Migration [Back Office]",
         "titre": "",
@@ -67,7 +110,7 @@
                     { "id": 1, "name": "Gestion des appels d’offre." },
                     { "id": 2, "name": "Un module de messagerie pour communication." },
                     { "id": 3, "name": "Gestion des fichiers joints pour les appels d’offres (CPS)." },
-                    { "id": 4, "name": "Génération des Statistiques." },
+                    { "id": 4, "name": "Création de tableau de bord." },
                     { "id": 5, "name": "Consultation de l’historique de navigation de client avec recherche avancée." },
                     { "id": 6, "name": "Module de chat partagé entre Client et Collaborateur avec notification de nouveaux messages." }
                 ]
@@ -81,6 +124,8 @@
     },
     {
         "id": 21,
+        "isCurrent":false,
+        "isEnabled":true,
         "duration": "",
         "name": "Plateforme des appels offres [Front Office]",
         "titre": "",
@@ -109,6 +154,8 @@
     },
     {
         "id": 22,
+        "isCurrent":false,
+        "isEnabled":true,
         "duration": "",
         "name": "Projet CRM",
         "titre": "",
@@ -138,7 +185,7 @@
                     { "id": 4, "name": "Gestion des factures et des devis." },
                     { "id": 5, "name": "Gestion de calendrier avec les rappels par Email et notification." },
                     { "id": 6, "name": "Création de modèle de documents juridique." },
-                    { "id": 7, "name": "Génération des Statistiques." }
+                    { "id": 7, "name": "Création de tableau de bord." }
                 ]
             },
             { "id": 3, "name": "Faire les Tests croisés.", "sousTaches": [] },
@@ -149,6 +196,8 @@
     },
     {
         "id": 23,
+        "isCurrent":false,
+        "isEnabled":true,
         "duration": "",
         "name": "Projet Web RTC",
         "titre": "",
@@ -170,6 +219,8 @@
     },
     {
         "id": 24,
+        "isCurrent":false,
+        "isEnabled":true,
         "duration": "",
         "name": "Projet pour suivi d’un processus métier",
         "titre": "Freelance développeur Java/Spring Boot/Ionic",
@@ -199,6 +250,8 @@
     },
     {
         "id": 25,
+        "isCurrent":false,
+        "isEnabled":true,
         "duration": "",
         "name": "Application WebMail",
         "titre": "Freelance développeur web Spring Boot/Angular",
@@ -222,7 +275,7 @@
                 "name": "Programmation des réponses automatiques pour les ordres non valide et aussi des mails de confirmation aux clients.",
                 "sousTaches": []
             },
-            { "id": 4, "name": "Génération des statistiques.", "sousTaches": [] },
+            { "id": 4, "name": "Création de tableau de bord.", "sousTaches": [] },
             { "id": 5, "name": "Extraction des données sous forme Pdf et Ecxel.", "sousTaches": [] },
             { "id": 6, "name": "Création des tests unitaires.", "sousTaches": [] }
         ],

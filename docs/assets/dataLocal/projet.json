@@ -1,6 +1,58 @@
 [
+  {
+    "id": 19,
+    "isCurrent":true,
+    "isEnabled":true,
+    "duration": "",
+    "name": "SmartClientManagement",
+    "titre": "",
+    "description": "Réalisation une application de gestion des utilisateurs basé sur le framework angular 12 et Spring Boot",
+    "tache": "",
+    "technologies": ["Angular 12", "Spring Boot ", "TypeScript", "Java", "Rest API",  "Bootstrap", "Html", "Css","MySQL [mode Dev]", "PostgreSQL [mode Prod]", "Git"],
+    "show": 2,
+    "icon": "assets/images/img-tash-smartCM-01.svg",
+    "mainImage": "assets/images/imges-projets/img-smartCM-02.png",
+    "images": [
+      { "id": 1, "name": "Login", "description": "", "url": "assets/images/imges-projets/img-smartCM-01.png" },
+      { "id": 2, "name": "Home", "description": "", "url": "assets/images/imges-projets/img-smartCM-02.png" },
+      { "id": 3, "name": "Gestion des utilisateur", "description": "", "url": "assets/images/imges-projets/img-smartCM-03.png" },
+      { "id": 4, "name": "Ajout/Modification d'un compte utilisateur", "description": "", "url": "assets/images/imges-projets/img-smartCM-04.png" },
+      { "id": 5, "name": "Ajout/modification d'un rôle avec des privilèges (Menu)", "description": "", "url": "assets/images/imges-projets/img-smartCM-05.png" },
+      { "id": 6, "name": "Structure du BackEnd", "description": "", "url": "assets/images/imges-projets/img-smartCM-06.png" },
+      { "id": 7, "name": "Test d'API (PostMan)", "description": "", "url": "assets/images/imges-projets/img-smartCM-07.png" },
+      { "id": 8, "name": "Documentation de l'API (Swagger)", "description": "", "url": "assets/images/imges-projets/img-smartCM-08.png" },
+      { "id": 9, "name": "Structure du FrontEnd", "description": "", "url": "assets/images/imges-projets/img-smartCM-09.png" },
+      { "id": 10, "name": "Structure du FrontEnd détaillée", "description": "", "url": "assets/images/imges-projets/img-smartCM-10.png" }
+    ],
+    "taches": [
+      { "id": 1, "name": "API & micro services", "sousTaches": [] },
+      {
+          "id": 2,
+          "name": "Assurer le respect des bonnes pratiques de développement.",
+          "sousTaches": [
+              { "id": 1, "name": "Traitement des exceptions(code status)[FrontEnd]" },
+              { "id": 2, "name": "Mise en place d'un affichage de Menu dynamique en fonction des privilèges de l'utilisateur[FrontEnd]" },
+              { "id": 2, "name": "Gestion des exceptions [BackEnd]" },
+              { "id": 2, "name": "Utilisation de PostMan et Swagger pour la documentation et le test d'API." },
+              { "id": 2, "name": "Mise en place de multiples environnements pour le Développement, la Recette et la production." }
+            ]
+      },
+      {
+        "id": 3,
+        "name": "Optimisation des performances de chargement.",
+        "sousTaches": [
+            { "id": 1, "name": "L'ajout et la modification d'une entité sont combinés dans un seul Modal(Popup) [FrontEnd]" }
+
+          ]
+      }
+    ],
+    "urlGit": ["https://github.com/DevOpsAchrafOu/smartClientManagement-FrontEnd","https://github.com/DevOpsAchrafOu/smartClientManagementBackEnd"],
+    "urlWeb": ["https://devopsachrafou.github.io/smartClientManagement-FrontEnd"]
+},
 {
     "id": 20,
+    "isCurrent":false,
+    "isEnabled":true,
     "duration": "",
     "name": "Protfolio",
     "titre": "",
@@ -22,6 +74,8 @@
 },
 {
     "id": 21,
+    "isCurrent":false,
+    "isEnabled":true,
     "duration": "",
     "name": "Templates site web",
     "titre": "",
@@ -40,6 +94,8 @@
 },
 {
     "id": 22,
+    "isCurrent":false,
+    "isEnabled":true,
     "duration": "",
     "name": "Gestion des Emails",
     "titre": "",
@@ -55,6 +111,8 @@
 },
 {
     "id": 23,
+    "isCurrent":false,
+    "isEnabled":true,
     "duration": "",
     "name": "Application Ionic pour prendre des photos [Front Mobile/Back End]",
     "titre": "",
@@ -74,6 +132,8 @@
 },
 {
     "id": 24,
+    "isCurrent":false,
+    "isEnabled":true,
     "duration": "",
     "name": "Application mobile pour scanner Barcode",
     "titre": "",
