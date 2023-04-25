@@ -1,1 +1,1 @@
-ng build --output-path docs  --prod --base-href './'
+ng build --prod --base-href './'
