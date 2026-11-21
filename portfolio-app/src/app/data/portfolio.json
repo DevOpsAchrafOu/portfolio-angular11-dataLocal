@@ -1,0 +1,1224 @@
+{
+ "person": {
+  "name": "Achraf Ouakka",
+  "role": [
+   "Développeur web full stack",
+   "Full-stack web developer"
+  ],
+  "about": [
+   "Titulaire d’un master en informatique, signaux et télécommunications, j’ai fait des stages dans divers établissements et entreprises, et développé des applications web pendant mon cursus. Pendant mon temps libre, je réalise des projets personnels pour développer mes compétences techniques et approfondir mes connaissances.",
+   "I hold a master’s degree in computer science, signals and telecommunications. I did internships in various organisations and companies, and built web applications during my studies. In my free time, I work on side projects to grow my technical skills and deepen my knowledge."
+  ],
+  "city": [
+   "Salé, Maroc",
+   "Salé, Morocco"
+  ],
+  "photo": "img/moi.png",
+  "email": "ouakka.achraf@gmail.com",
+  "phone": "06 01 73 46 93",
+  "linkedin": "https://ma.linkedin.com/in/achraf-ouakka-871250144",
+  "github": "https://github.com/DevOpsAchrafOu",
+  "codeforces": "https://codeforces.com/submissions/ouakka.achraf"
+ },
+ "experiences": [
+  {
+   "slug": "e2c-evolution",
+   "kind": "experience",
+   "current": true,
+   "title": [
+    "Évolution de l’application E2C avec de nouvelles fonctionnalités (Front Office et Back Office)",
+    "E2C application: new features (Front Office and Back Office)"
+   ],
+   "role": null,
+   "summary": null,
+   "tech": [
+    "Spring Boot",
+    "Angular",
+    "Rest API",
+    "MySql",
+    "TypeScript",
+    "Html",
+    "Css",
+    "Bootstrap",
+    "Git",
+    "Swagger"
+   ],
+   "cover": "img/projects/img-e2c-v10-1.svg",
+   "illustration": "img/projects/img-e2c-v10-1.svg",
+   "gallery": [],
+   "video": false,
+   "tasks": [
+    {
+     "text": [
+      "Optimisation des performances de chargement.",
+      "Optimised loading performance."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Ajout de nouvelles fonctionnalités.",
+      "Added new features."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Création d’un tableau de bord.",
+      "Built a dashboard."
+     ],
+     "sub": []
+    }
+   ],
+   "git": [],
+   "web": []
+  },
+  {
+   "slug": "site-web-angular-nodejs",
+   "kind": "experience",
+   "current": false,
+   "title": [
+    "Site web (Angular / Node.js)",
+    "Website (Angular / Node.js)"
+   ],
+   "role": null,
+   "summary": [
+    "Développement d’un site web dynamique avec Angular et Node.js, et d’un back-office en Spring Boot.",
+    "Built a dynamic website with Angular and Node.js, with a Spring Boot back office."
+   ],
+   "tech": [
+    "Node JS",
+    "Angular",
+    "MySql",
+    "TypeScript",
+    "Html",
+    "Css",
+    "Bootstrap",
+    "Git",
+    "Spring boot",
+    "Java"
+   ],
+   "cover": "img/projects/img-site-web-1.svg",
+   "illustration": "img/projects/img-site-web-1.svg",
+   "gallery": [],
+   "video": false,
+   "tasks": [],
+   "git": [],
+   "web": []
+  },
+  {
+   "slug": "e2c-application",
+   "kind": "experience",
+   "current": false,
+   "title": [
+    "Développement de l’application E2C (Front Office et Back Office)",
+    "E2C application development (Front Office and Back Office)"
+   ],
+   "role": null,
+   "summary": [
+    "Application permettant au ministère de gérer les dossiers, de vérifier et d’autoriser les associations à lancer de nouveaux programmes d’études, et de suivre l’avancement des travaux à distance (Front Office et Back Office : front-end et API REST).",
+    "An application that lets the ministry manage applications, check and authorise associations to launch new study programmes, and follow the progress of the work remotely (Front Office and Back Office: front end and REST API)."
+   ],
+   "tech": [
+    "Spring Boot",
+    "Angular",
+    "Rest API",
+    "MySql",
+    "TypeScript",
+    "Html",
+    "Css",
+    "Bootstrap",
+    "Git",
+    "Swagger"
+   ],
+   "cover": "img/projects/img-e2c-v01-1.svg",
+   "illustration": "img/projects/img-e2c-v01-1.svg",
+   "gallery": [
+    {
+     "src": "img/projects/img-e2c-fo-v01.png",
+     "caption": [
+      "Page de connexion (Front Office)",
+      "Login page (Front Office)"
+     ]
+    },
+    {
+     "src": "img/projects/img-e2c-bo-v01.png",
+     "caption": [
+      "Page de connexion (Back Office)",
+      "Login page (Back Office)"
+     ]
+    }
+   ],
+   "video": false,
+   "tasks": [
+    {
+     "text": [
+      "Respect des normes et des indicateurs de qualité du code.",
+      "Followed code quality standards and indicators."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Réalisation des différentes fonctionnalités.",
+      "Built the various features."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Réalisation des interfaces utilisateur avec Angular 12.",
+      "Built the user interfaces with Angular 12."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Développement de microservices en Java avec Spring Boot.",
+      "Developed microservices in Java with Spring Boot."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Participation à tout le cycle de vie du projet (tests, build, déploiement…).",
+      "Took part in the whole project life cycle (tests, build, deployment…)."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Participation aux réunions quotidiennes (daily meeting), à distance.",
+      "Attended the daily meetings, remotely."
+     ],
+     "sub": []
+    }
+   ],
+   "git": [],
+   "web": []
+  },
+  {
+   "slug": "migration-web-services",
+   "kind": "experience",
+   "current": false,
+   "title": [
+    "Migration des web services (API REST)",
+    "Web services migration (REST API)"
+   ],
+   "role": null,
+   "summary": [
+    "Migration de web services en respectant les bonnes pratiques et les standards de développement, avec les design patterns DAO et MVC.",
+    "Migrated web services following development best practices and standards, using the DAO and MVC design patterns."
+   ],
+   "tech": [
+    "Symfony",
+    "Rest API",
+    "MySql",
+    "symfony security",
+    "JWT",
+    "Git",
+    "Ajax",
+    "PhpStorm"
+   ],
+   "cover": "img/img-tash-migration.svg",
+   "illustration": "img/img-tash-migration.svg",
+   "gallery": [],
+   "video": false,
+   "tasks": [
+    {
+     "text": [
+      "Factorisation et optimisation du code existant.",
+      "Refactored and optimised the existing code."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Revue de code.",
+      "Code review."
+     ],
+     "sub": []
+    }
+   ],
+   "git": [],
+   "web": []
+  },
+  {
+   "slug": "appels-offres-back-office",
+   "kind": "experience",
+   "current": false,
+   "title": [
+    "Plateforme des appels d’offres : migration (Back Office)",
+    "Public tenders platform: migration (Back Office)"
+   ],
+   "role": null,
+   "summary": [
+    "Développement d’une plateforme des appels d’offres du Maroc.",
+    "Built a platform for public tenders in Morocco."
+   ],
+   "tech": [
+    "Symfony",
+    "Php",
+    "JQuery",
+    "Html",
+    "Css",
+    "Bootstrap",
+    "MySql",
+    "UML",
+    "Git",
+    "Ajax",
+    "PhpStorm"
+   ],
+   "cover": "img/img-tash-ao-bo.svg",
+   "illustration": "img/img-tash-ao-bo.svg",
+   "gallery": [],
+   "video": false,
+   "tasks": [
+    {
+     "text": [
+      "Participation à la conception du projet.",
+      "Took part in the project design."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Réalisation des modules suivants :",
+      "Built the following modules:"
+     ],
+     "sub": [
+      [
+       "Gestion des appels d’offres.",
+       "Tender management."
+      ],
+      [
+       "Messagerie interne.",
+       "Internal messaging."
+      ],
+      [
+       "Gestion des pièces jointes des appels d’offres (CPS).",
+       "Attachments for tenders (specifications)."
+      ],
+      [
+       "Création d’un tableau de bord.",
+       "Dashboard."
+      ],
+      [
+       "Historique de navigation des clients avec recherche avancée.",
+       "Customer browsing history with advanced search."
+      ],
+      [
+       "Chat entre client et collaborateur, avec notification des nouveaux messages.",
+       "Chat between customer and staff, with new-message notifications."
+      ]
+     ]
+    },
+    {
+     "text": [
+      "Tests de chaque module.",
+      "Tested each module."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Réalisation du projet en équipe.",
+      "Built the project as a team."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Scripts de migration de la base de données.",
+      "Wrote database migration scripts."
+     ],
+     "sub": []
+    }
+   ],
+   "git": [],
+   "web": []
+  },
+  {
+   "slug": "appels-offres-front-office",
+   "kind": "experience",
+   "current": false,
+   "title": [
+    "Plateforme des appels d’offres (Front Office)",
+    "Public tenders platform (Front Office)"
+   ],
+   "role": null,
+   "summary": [
+    "Développement d’une plateforme des appels d’offres du Maroc.",
+    "Built a platform for public tenders in Morocco."
+   ],
+   "tech": [
+    "Symfony",
+    "Php",
+    "JQuery",
+    "Html",
+    "Css",
+    "Bootstrap",
+    "MySql",
+    "UML",
+    "Git",
+    "Ajax",
+    "PhpStorm"
+   ],
+   "cover": "img/img-tash-ao-bo.svg",
+   "illustration": "img/img-tash-ao-bo.svg",
+   "gallery": [],
+   "video": false,
+   "tasks": [
+    {
+     "text": [
+      "Réalisation de l’espace client, avec :",
+      "Built the customer area, with:"
+     ],
+     "sub": [
+      [
+       "la consultation des appels d’offres avec recherche avancée ;",
+       "tender search with advanced filters;"
+      ],
+      [
+       "des rappels programmés (e-mail et notification sur la plateforme) ;",
+       "scheduled reminders (e-mail and in-app notification);"
+      ],
+      [
+       "l’envoi de réclamations et de suggestions ;",
+       "complaints and suggestions;"
+      ],
+      [
+       "un e-mail ou une notification quand un appel d’offres est modifié ;",
+       "an e-mail or notification when a tender changes;"
+      ],
+      [
+       "un chat entre client et collaborateur, avec notification des nouveaux messages.",
+       "a chat between customer and staff, with new-message notifications."
+      ]
+     ]
+    },
+    {
+     "text": [
+      "Intégration du template.",
+      "Template integration."
+     ],
+     "sub": []
+    }
+   ],
+   "git": [],
+   "web": []
+  },
+  {
+   "slug": "crm",
+   "kind": "experience",
+   "current": false,
+   "title": [
+    "CRM (gestion de la relation client)",
+    "CRM (customer relationship management)"
+   ],
+   "role": null,
+   "summary": [
+    "Développement d’une plateforme de gestion de la relation client.",
+    "Built a customer relationship management platform."
+   ],
+   "tech": [
+    "Symfony",
+    "Php",
+    "JavaScript",
+    "Html",
+    "Css",
+    "Bootstrap",
+    "MySql",
+    "UML",
+    "Git",
+    "Ajax",
+    "PhpStorm"
+   ],
+   "cover": "img/projects/img-crm-1.png",
+   "illustration": "img/img-tash-crm.svg",
+   "gallery": [
+    {
+     "src": "img/projects/img-crm-1.png",
+     "caption": [
+      "Statistiques",
+      "Statistics"
+     ]
+    },
+    {
+     "src": "img/projects/img-crm-2.png",
+     "caption": [
+      "Tableau de bord",
+      "Dashboard"
+     ]
+    },
+    {
+     "src": "img/projects/img-crm-3.png",
+     "caption": [
+      "Liste des tiers",
+      "Contacts list"
+     ]
+    },
+    {
+     "src": "img/projects/img-crm-4.png",
+     "caption": [
+      "Gestion des documents",
+      "Documents"
+     ]
+    },
+    {
+     "src": "img/projects/img-crm-5.png",
+     "caption": [
+      "Calendrier",
+      "Calendar"
+     ]
+    },
+    {
+     "src": "img/projects/img-crm-6.png",
+     "caption": [
+      "Paramétrage",
+      "Settings"
+     ]
+    },
+    {
+     "src": "img/projects/img-crm-7.png",
+     "caption": [
+      "Génération de modèles de documents juridiques",
+      "Legal document templates"
+     ]
+    }
+   ],
+   "video": false,
+   "tasks": [
+    {
+     "text": [
+      "Participation à la conception du projet.",
+      "Took part in the project design."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Réalisation des modules suivants :",
+      "Built the following modules:"
+     ],
+     "sub": [
+      [
+       "Gestion des collaborateurs.",
+       "Staff management."
+      ],
+      [
+       "Gestion des rôles et des privilèges, avec journalisation.",
+       "Roles and permissions, with audit logs."
+      ],
+      [
+       "Gestion des clients et des prospects.",
+       "Customers and prospects."
+      ],
+      [
+       "Gestion des factures et des devis.",
+       "Invoices and quotes."
+      ],
+      [
+       "Calendrier avec rappels par e-mail et notification.",
+       "Calendar with e-mail and notification reminders."
+      ],
+      [
+       "Modèles de documents juridiques.",
+       "Legal document templates."
+      ],
+      [
+       "Création d’un tableau de bord.",
+       "Dashboard."
+      ]
+     ]
+    },
+    {
+     "text": [
+      "Tests croisés.",
+      "Cross-testing."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Implémentation en respectant les bonnes pratiques et les standards de développement, avec les design patterns DAO et MVC.",
+      "Implemented following development best practices and standards, using the DAO and MVC design patterns."
+     ],
+     "sub": []
+    }
+   ],
+   "git": [],
+   "web": []
+  },
+  {
+   "slug": "webrtc",
+   "kind": "experience",
+   "current": false,
+   "title": [
+    "WebRTC : appels téléphoniques",
+    "WebRTC phone calls"
+   ],
+   "role": null,
+   "summary": [
+    "Réalisation d’une couche WebRTC qui permet de passer des appels téléphoniques.",
+    "Built a WebRTC layer to make phone calls."
+   ],
+   "tech": [
+    "JavaScript",
+    "Bootstrap",
+    "Html",
+    "Css",
+    "Git",
+    "Ajax",
+    "PhpStorm"
+   ],
+   "cover": "img/projects/img-call-1.png",
+   "illustration": "img/img-tash-call.svg",
+   "gallery": [
+    {
+     "src": "img/projects/img-call-1.png",
+     "caption": [
+      "Appel entrant",
+      "Incoming call"
+     ]
+    },
+    {
+     "src": "img/projects/img-call-2.png",
+     "caption": [
+      "Utilisateur connecté",
+      "Signed-in user"
+     ]
+    },
+    {
+     "src": "img/projects/img-call-3.png",
+     "caption": [
+      "Appel sortant",
+      "Outgoing call"
+     ]
+    },
+    {
+     "src": "img/projects/img-call-4.png",
+     "caption": [
+      "Conception graphique",
+      "UI design"
+     ]
+    }
+   ],
+   "video": true,
+   "tasks": [],
+   "git": [],
+   "web": []
+  },
+  {
+   "slug": "suivi-processus-metier",
+   "kind": "experience",
+   "current": false,
+   "title": [
+    "Suivi d’un processus métier (web et mobile)",
+    "Business process tracking (web and mobile)"
+   ],
+   "role": [
+    "Freelance · développeur Java / Spring Boot / Ionic",
+    "Freelance · Java / Spring Boot / Ionic developer"
+   ],
+   "summary": [
+    "Conception et réalisation, en équipe, d’une application web et mobile de suivi du processus d’installation de la fibre optique, qui a augmenté de 25 % le nombre de demandes traitées par jour.",
+    "Designed and built, as a team, a web and mobile app to track the fibre-optic installation process, which increased the number of requests handled per day by 25%."
+   ],
+   "tech": [
+    "Spring Boot",
+    "Angular",
+    "Ionic 4",
+    "MySql",
+    "Rest API",
+    "Spring Security",
+    "Java 8",
+    "TypeScript",
+    "Git",
+    "Inkscape"
+   ],
+   "cover": "img/img-tash-web-mobile.svg",
+   "illustration": "img/img-tash-web-mobile.svg",
+   "gallery": [
+    {
+     "src": "img/projects/img-web-mobile-2.png",
+     "caption": [
+      "Conception graphique",
+      "UI design"
+     ]
+    }
+   ],
+   "video": false,
+   "tasks": [
+    {
+     "text": [
+      "Participation à la conception du projet.",
+      "Took part in the project design."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Conception et réalisation des interfaces de l’application mobile.",
+      "Designed and built the mobile app interfaces."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Réalisation des tâches suivantes :",
+      "Delivered the following tasks:"
+     ],
+     "sub": [
+      [
+       "web services pour une partie des entités ;",
+       "web services for part of the entities;"
+      ],
+      [
+       "la partie mobile ;",
+       "the mobile app;"
+      ],
+      [
+       "l’accès aux fonctions natives du téléphone (caméra, GPS, code-barres).",
+       "access to native phone features (camera, GPS, barcode)."
+      ]
+     ]
+    }
+   ],
+   "git": [],
+   "web": []
+  },
+  {
+   "slug": "webmail",
+   "kind": "experience",
+   "current": false,
+   "title": [
+    "Application WebMail",
+    "WebMail application"
+   ],
+   "role": [
+    "Freelance · développeur web Spring Boot / Angular",
+    "Freelance · Spring Boot / Angular web developer"
+   ],
+   "summary": [
+    "Conception et développement d’une application WebMail dédiée à l’installation de la fibre optique.",
+    "Designed and built a WebMail application for fibre-optic installation."
+   ],
+   "tech": [
+    "Spring Boot",
+    "Angular",
+    "Spring Security",
+    "Rest API",
+    "Spring Data MongoDB",
+    "NoSql",
+    "Java",
+    "Html",
+    "Css",
+    "TypeScript",
+    "Bootstrap"
+   ],
+   "cover": "img/projects/img-follow-4.png",
+   "illustration": "img/img-tash-follow.svg",
+   "gallery": [
+    {
+     "src": "img/projects/img-follow-1.jpg",
+     "caption": [
+      "Connexion",
+      "Sign-in"
+     ]
+    },
+    {
+     "src": "img/projects/img-follow-2.jpg",
+     "caption": [
+      "Statistiques",
+      "Statistics"
+     ]
+    },
+    {
+     "src": "img/projects/img-follow-3.jpg",
+     "caption": [
+      "Modification du profil",
+      "Profile editing"
+     ]
+    },
+    {
+     "src": "img/projects/img-follow-4.png",
+     "caption": [
+      "Détails d’un ordre",
+      "Order details"
+     ]
+    },
+    {
+     "src": "img/projects/img-follow-5.jpg",
+     "caption": [
+      "E-mail de confirmation",
+      "Confirmation e-mail"
+     ]
+    }
+   ],
+   "video": false,
+   "tasks": [
+    {
+     "text": [
+      "Analyse des besoins fonctionnels.",
+      "Analysed the functional requirements."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Gestion des e-mails (envoi, réception et traitement du texte).",
+      "E-mail handling (sending, receiving and text processing)."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Réponses automatiques pour les ordres non valides et e-mails de confirmation aux clients.",
+      "Automatic replies for invalid orders and confirmation e-mails to customers."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Création d’un tableau de bord.",
+      "Dashboard."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Export des données en PDF et Excel.",
+      "Data export to PDF and Excel."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Tests unitaires.",
+      "Unit tests."
+     ],
+     "sub": []
+    }
+   ],
+   "git": [],
+   "web": []
+  }
+ ],
+ "projects": [
+  {
+   "slug": "smartclientmanagement",
+   "kind": "project",
+   "current": true,
+   "title": [
+    "SmartClientManagement",
+    "SmartClientManagement"
+   ],
+   "role": null,
+   "summary": [
+    "Application de gestion des utilisateurs, des rôles et des privilèges, avec Angular 12 et Spring Boot.",
+    "A user, role and permission management application, built with Angular 12 and Spring Boot."
+   ],
+   "tech": [
+    "Angular 12",
+    "Spring Boot",
+    "TypeScript",
+    "Java",
+    "Rest API",
+    "Bootstrap",
+    "Html",
+    "Css",
+    "MySQL [mode Dev]",
+    "PostgreSQL [mode Prod]",
+    "Git"
+   ],
+   "cover": "img/projects/img-smartCM-02.png",
+   "illustration": "img/img-tash-smartCM-01.svg",
+   "gallery": [
+    {
+     "src": "img/projects/img-smartCM-01.png",
+     "caption": [
+      "Connexion",
+      "Sign-in"
+     ]
+    },
+    {
+     "src": "img/projects/img-smartCM-02.png",
+     "caption": [
+      "Accueil",
+      "Home"
+     ]
+    },
+    {
+     "src": "img/projects/img-smartCM-03.png",
+     "caption": [
+      "Gestion des utilisateurs",
+      "User management"
+     ]
+    },
+    {
+     "src": "img/projects/img-smartCM-04.png",
+     "caption": [
+      "Ajout / modification d’un compte utilisateur",
+      "Add / edit a user account"
+     ]
+    },
+    {
+     "src": "img/projects/img-smartCM-05.png",
+     "caption": [
+      "Ajout / modification d’un rôle et de ses privilèges (menu)",
+      "Add / edit a role and its permissions (menu)"
+     ]
+    },
+    {
+     "src": "img/projects/img-smartCM-06.png",
+     "caption": [
+      "Structure du back-end",
+      "Back-end structure"
+     ]
+    },
+    {
+     "src": "img/projects/img-smartCM-07.png",
+     "caption": [
+      "Test de l’API (Postman)",
+      "API testing (Postman)"
+     ]
+    },
+    {
+     "src": "img/projects/img-smartCM-08.png",
+     "caption": [
+      "Documentation de l’API (Swagger)",
+      "API documentation (Swagger)"
+     ]
+    },
+    {
+     "src": "img/projects/img-smartCM-09.png",
+     "caption": [
+      "Structure du front-end",
+      "Front-end structure"
+     ]
+    },
+    {
+     "src": "img/projects/img-smartCM-10.png",
+     "caption": [
+      "Structure détaillée du front-end",
+      "Detailed front-end structure"
+     ]
+    }
+   ],
+   "video": false,
+   "tasks": [
+    {
+     "text": [
+      "API et microservices",
+      "API and microservices"
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Respect des bonnes pratiques de développement.",
+      "Followed development best practices."
+     ],
+     "sub": [
+      [
+       "Traitement des erreurs HTTP (codes de statut) côté front-end.",
+       "HTTP error handling (status codes) on the front end."
+      ],
+      [
+       "Menu dynamique selon les privilèges de l’utilisateur (front-end).",
+       "Dynamic menu based on the user’s permissions (front end)."
+      ],
+      [
+       "Gestion des exceptions côté back-end.",
+       "Exception handling on the back end."
+      ],
+      [
+       "Postman et Swagger pour tester et documenter l’API.",
+       "Postman and Swagger to test and document the API."
+      ],
+      [
+       "Environnements séparés pour le développement, la recette et la production.",
+       "Separate development, staging and production environments."
+      ]
+     ]
+    },
+    {
+     "text": [
+      "Optimisation des performances de chargement.",
+      "Optimised loading performance."
+     ],
+     "sub": [
+      [
+       "Ajout et modification d’une entité dans une seule fenêtre modale (front-end).",
+       "Adding and editing an entity in a single modal (front end)."
+      ]
+     ]
+    }
+   ],
+   "git": [
+    "https://github.com/DevOpsAchrafOu/smartClientManagement-FrontEnd",
+    "https://github.com/DevOpsAchrafOu/smartClientManagementBackEnd"
+   ],
+   "web": [
+    "https://devopsachrafou.github.io/smartClientManagement-FrontEnd"
+   ]
+  },
+  {
+   "slug": "portfolio",
+   "kind": "project",
+   "current": false,
+   "title": [
+    "Portfolio",
+    "Portfolio"
+   ],
+   "role": null,
+   "summary": [
+    "Développement de ce portfolio, d’abord en Angular 11, refait en Angular 22.",
+    "Built this portfolio, first in Angular 11, rebuilt in Angular 22."
+   ],
+   "tech": [
+    "Angular 11",
+    "Bootstrap",
+    "TypeScript",
+    "Html",
+    "Css",
+    "Git",
+    "PhpStorm"
+   ],
+   "cover": "img/projects/img-porfolio-1.png",
+   "illustration": "img/img-tash-portfolio.svg",
+   "gallery": [],
+   "video": false,
+   "tasks": [
+    {
+     "text": [
+      "Création des services et des composants.",
+      "Built the services and components."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Fichiers JSON locaux utilisés comme API.",
+      "Local JSON files used as an API."
+     ],
+     "sub": []
+    }
+   ],
+   "git": [
+    "https://github.com/DevOpsAchrafOu/portfolio-angular11-dataLocal"
+   ],
+   "web": [
+    "https://devopsachrafou.github.io/portfolio-angular11-dataLocal/"
+   ]
+  },
+  {
+   "slug": "template-site-web",
+   "kind": "project",
+   "current": false,
+   "title": [
+    "Template de site web",
+    "Website template"
+   ],
+   "role": null,
+   "summary": [
+    "Un modèle de site simple, pour démonstration.",
+    "A simple website template, for demonstration."
+   ],
+   "tech": [
+    "Bootstrap 4",
+    "Git",
+    "Html",
+    "Css",
+    "JQuery",
+    "Php strom"
+   ],
+   "cover": "img/projects/img-site-1.png",
+   "illustration": "img/img-tash-site.svg",
+   "gallery": [
+    {
+     "src": "img/projects/img-site-1.png",
+     "caption": [
+      "Site web",
+      "Website"
+     ]
+    }
+   ],
+   "video": false,
+   "tasks": [],
+   "git": [
+    "https://github.com/DevOpsAchrafOu/Templates-site-web"
+   ],
+   "web": [
+    "https://devopsachrafou.github.io/Templates-site-web/"
+   ]
+  },
+  {
+   "slug": "gestion-emails",
+   "kind": "project",
+   "current": false,
+   "title": [
+    "Gestion des e-mails",
+    "E-mail management"
+   ],
+   "role": null,
+   "summary": [
+    "Web service de gestion des e-mails (envoi, réception et traitement du texte) avec Spring Integration.",
+    "An e-mail management web service (sending, receiving and text processing) built with Spring Integration."
+   ],
+   "tech": [
+    "Spring Boot",
+    "Spring Integration",
+    "Java 8",
+    "Rest API",
+    "Git",
+    "MySql"
+   ],
+   "cover": "img/img-tash-code.svg",
+   "illustration": "img/img-tash-code.svg",
+   "gallery": [],
+   "video": false,
+   "tasks": [],
+   "git": [
+    "https://github.com/DevOpsAchrafOu/-MailManagement_TreatmentText_Validation_by_SpringBoot_SIntegration"
+   ],
+   "web": []
+  },
+  {
+   "slug": "ionic-photo",
+   "kind": "project",
+   "current": false,
+   "title": [
+    "Application Ionic de prise de photos (mobile et back-end)",
+    "Ionic photo app (mobile and back end)"
+   ],
+   "role": null,
+   "summary": [
+    "Application mobile pour prendre une photo (caméra ou galerie), la redimensionner, puis l’envoyer et la télécharger via un back-end Spring Boot.",
+    "A mobile app to take a photo (camera or gallery), resize it, then upload and download it through a Spring Boot back end."
+   ],
+   "tech": [
+    "Spring Boot",
+    "Java 8",
+    "Ionic",
+    "Rest API",
+    "Git",
+    "MySql"
+   ],
+   "cover": "img/img-tash-mobile.svg",
+   "illustration": "img/img-tash-mobile.svg",
+   "gallery": [],
+   "video": false,
+   "tasks": [],
+   "git": [
+    "https://github.com/DevOpsAchrafOu/Upload_Dowload_image",
+    "https://github.com/DevOpsAchrafOu/Ionic4-take-photo-resize-and-take-photo-by-gallery-"
+   ],
+   "web": []
+  },
+  {
+   "slug": "scanner-codes-barres",
+   "kind": "project",
+   "current": false,
+   "title": [
+    "Application mobile de scan de codes-barres",
+    "Barcode scanner mobile app"
+   ],
+   "role": null,
+   "summary": [
+    "Lecteur de codes-barres réalisé avec Ionic.",
+    "A barcode reader built with Ionic."
+   ],
+   "tech": [
+    "Ionic 4",
+    "TypeScript",
+    "Git",
+    "capacitor",
+    "Visual Studio Code"
+   ],
+   "cover": "img/img-tash-mobile.svg",
+   "illustration": "img/img-tash-mobile.svg",
+   "gallery": [],
+   "video": false,
+   "tasks": [],
+   "git": [
+    "https://github.com/DevOpsAchrafOu/codes-barres"
+   ],
+   "web": []
+  }
+ ],
+ "education": [
+  {
+   "years": "2015-2017",
+   "degree": [
+    "Master Informatique, Signaux et Télécommunications",
+    "Master’s degree in Computer Science, Signals and Telecommunications"
+   ],
+   "school": [
+    "Université Mohammed V, Rabat",
+    "Mohammed V University, Rabat"
+   ],
+   "note": [
+    "Option informatique",
+    "Computer science track"
+   ]
+  },
+  {
+   "years": "2014-2015",
+   "degree": [
+    "Licence en Électronique et Informatique",
+    "Bachelor’s degree in Electronics and Computer Science"
+   ],
+   "school": [
+    "Université Mohammed V, Rabat",
+    "Mohammed V University, Rabat"
+   ],
+   "note": null
+  }
+ ],
+ "training": [
+  {
+   "period": [
+    "Août – septembre 2020",
+    "August – September 2020"
+   ],
+   "type": [
+    "Autoformation certifiante",
+    "Self-study, certified"
+   ],
+   "subject": [
+    "OCA Java 8",
+    "OCA Java 8"
+   ]
+  },
+  {
+   "period": [
+    "Juin – août 2019",
+    "June – August 2019"
+   ],
+   "type": [
+    "Autoformation",
+    "Self-study"
+   ],
+   "subject": [
+    "Angular",
+    "Angular"
+   ]
+  },
+  {
+   "period": [
+    "Août 2018 – juin 2019",
+    "August 2018 – June 2019"
+   ],
+   "type": [
+    "Autoformation",
+    "Self-study"
+   ],
+   "subject": [
+    "JUnit, Java 8",
+    "JUnit, Java 8"
+   ]
+  }
+ ]
+}
