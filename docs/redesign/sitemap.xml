@@ -169,6 +169,34 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://devopsachrafou.github.io/portfolio/redesign/work/webmail/"/>
   </url>
   <url>
+    <loc>https://devopsachrafou.github.io/portfolio/redesign/work/nexproma/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://devopsachrafou.github.io/portfolio/redesign/work/nexproma/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devopsachrafou.github.io/portfolio/redesign/en/work/nexproma/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devopsachrafou.github.io/portfolio/redesign/work/nexproma/"/>
+  </url>
+  <url>
+    <loc>https://devopsachrafou.github.io/portfolio/redesign/en/work/nexproma/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://devopsachrafou.github.io/portfolio/redesign/work/nexproma/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devopsachrafou.github.io/portfolio/redesign/en/work/nexproma/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devopsachrafou.github.io/portfolio/redesign/work/nexproma/"/>
+  </url>
+  <url>
+    <loc>https://devopsachrafou.github.io/portfolio/redesign/work/focal/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://devopsachrafou.github.io/portfolio/redesign/work/focal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devopsachrafou.github.io/portfolio/redesign/en/work/focal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devopsachrafou.github.io/portfolio/redesign/work/focal/"/>
+  </url>
+  <url>
+    <loc>https://devopsachrafou.github.io/portfolio/redesign/en/work/focal/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://devopsachrafou.github.io/portfolio/redesign/work/focal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://devopsachrafou.github.io/portfolio/redesign/en/work/focal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://devopsachrafou.github.io/portfolio/redesign/work/focal/"/>
+  </url>
+  <url>
     <loc>https://devopsachrafou.github.io/portfolio/redesign/work/smartclientmanagement/</loc>
     <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://devopsachrafou.github.io/portfolio/redesign/work/smartclientmanagement/"/>
@@ -195,20 +223,6 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://devopsachrafou.github.io/portfolio/redesign/work/portfolio/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://devopsachrafou.github.io/portfolio/redesign/en/work/portfolio/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://devopsachrafou.github.io/portfolio/redesign/work/portfolio/"/>
-  </url>
-  <url>
-    <loc>https://devopsachrafou.github.io/portfolio/redesign/work/template-site-web/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://devopsachrafou.github.io/portfolio/redesign/work/template-site-web/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://devopsachrafou.github.io/portfolio/redesign/en/work/template-site-web/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://devopsachrafou.github.io/portfolio/redesign/work/template-site-web/"/>
-  </url>
-  <url>
-    <loc>https://devopsachrafou.github.io/portfolio/redesign/en/work/template-site-web/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://devopsachrafou.github.io/portfolio/redesign/work/template-site-web/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://devopsachrafou.github.io/portfolio/redesign/en/work/template-site-web/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://devopsachrafou.github.io/portfolio/redesign/work/template-site-web/"/>
   </url>
   <url>
     <loc>https://devopsachrafou.github.io/portfolio/redesign/work/gestion-emails/</loc>

@@ -3,7 +3,7 @@ import { Router, RouterLink } from '@angular/router';
 import { I18n } from '../i18n';
 import { Seo } from '../seo';
 import { Icon } from '../shared/icon';
-import { ALL_WORK, DATA, SITE_URL, workBySlug } from '../data/portfolio';
+import { ALL_WORK, DATA, SITE_URL, Tr, workBySlug } from '../data/portfolio';
 
 /** One experience or project: summary, tech, tasks, screenshots, links, previous / next. */
 @Component({
@@ -45,6 +45,28 @@ import { ALL_WORK, DATA, SITE_URL, workBySlug } from '../data/portfolio';
 
       <div class="mx-auto grid max-w-6xl gap-10 px-5 py-16 md:grid-cols-[1fr_300px]">
         <div class="space-y-12">
+          @if (w.versions.length) {
+            <section class="reveal">
+              <h2 class="text-2xl font-bold text-ink">{{ i18n.t('versions_h') }}</h2>
+              <p class="mt-1 mb-5 text-slate-600">{{ i18n.t('versions_sub') }}</p>
+              <div class="grid gap-4 sm:grid-cols-2">
+                @for (v of w.versions; track v.shot; let last = $last) {
+                  <a [href]="href(v.url)" target="_blank" rel="noopener" class="group overflow-hidden rounded-2xl border bg-white transition hover:shadow-xl hover:shadow-slate-900/5"
+                    [class]="last ? 'border-accent/40 ring-1 ring-accent/20' : 'border-slate-200'">
+                    <span class="relative block aspect-[16/9] overflow-hidden bg-slate-100">
+                      <img [src]="v.shot" [alt]="i18n.pick(v.label)" loading="lazy" class="size-full object-cover object-top transition duration-500 group-hover:scale-[1.03]" />
+                      <span class="absolute top-3 left-3 rounded-full px-3 py-1 text-xs font-bold tracking-wide uppercase shadow"
+                        [class]="last ? 'bg-accent text-white' : 'bg-white text-slate-700'">{{ i18n.t(last ? 'after' : 'before') }}</span>
+                    </span>
+                    <span class="flex items-center justify-between gap-3 px-4 py-3">
+                      <span class="text-sm font-semibold text-ink">{{ i18n.pick(v.label) }}</span>
+                      <span class="inline-flex items-center gap-1 text-sm font-semibold text-accent">{{ i18n.t('open_version') }}<app-icon name="external" class="size-3.5" /></span>
+                    </span>
+                  </a>
+                }
+              </div>
+            </section>
+          }
           @if (w.tasks.length) {
             <section class="reveal">
               <h2 class="mb-5 text-2xl font-bold text-ink">{{ i18n.t('tasks_h') }}</h2>
@@ -156,6 +178,11 @@ export class WorkPage {
         },
       });
     });
+  }
+
+  /** A version link can differ by language ([fr, en]). */
+  protected href(url: string | Tr): string {
+    return typeof url === 'string' ? url : this.i18n.pick(url);
   }
 
   protected openShot(i: number): void {

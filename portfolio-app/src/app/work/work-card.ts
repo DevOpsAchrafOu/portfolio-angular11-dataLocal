@@ -16,6 +16,9 @@ const MAX_TECH = 5;
     @if (w.kind === 'project') {
       <a [routerLink]="link()" class="relative block aspect-[16/10] overflow-hidden bg-gradient-to-br from-slate-100 to-indigo-50" tabindex="-1" aria-hidden="true">
         <img [src]="w.cover" alt="" loading="lazy" class="size-full object-cover object-top transition duration-500 group-hover:scale-[1.04]" [class.object-contain]="isIllustration()" [class.p-6]="isIllustration()" />
+        @if (w.versions.length) {
+          <span class="absolute top-3 left-3 rounded-full bg-ink/85 px-3 py-1 text-xs font-bold text-white backdrop-blur">{{ i18n.t('versions_h') }}</span>
+        }
       </a>
     }
     <div class="flex flex-1 flex-col gap-3 p-6">
