@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- "AO" monogram on the portfolio gradient (indigo → sky). -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b6cf0"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="13" fill="url(#g)"/>
+  <text x="24" y="31" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-size="19" font-weight="700" fill="#fff">AO</text>
+</svg>
