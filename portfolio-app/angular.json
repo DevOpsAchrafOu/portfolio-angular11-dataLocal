@@ -55,10 +55,10 @@
             "server": "src/main.server.ts",
             "outputMode": "static",
             "outputPath": {
-              "base": "../docs",
+              "base": "../docs/redesign",
               "browser": ""
             },
-            "baseHref": "/portfolio-angular11-dataLocal/"
+            "baseHref": "/portfolio/redesign/"
           },
           "configurations": {
             "production": {

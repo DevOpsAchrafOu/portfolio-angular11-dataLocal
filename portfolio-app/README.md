@@ -1,6 +1,6 @@
 # Portfolio — Achraf Ouakka (Angular 22)
 
-Published at https://devopsachrafou.github.io/portfolio-angular11-dataLocal/
+Published at https://devopsachrafou.github.io/portfolio/redesign/ (the original Angular 11 version stays at https://devopsachrafou.github.io/portfolio/)
 
 Angular 22 (standalone components, signals, zoneless), **Tailwind CSS 4**, static prerendering (SSG),
 View Transitions between pages and CSS scroll-driven animations. French by default, English under `/en/`.
@@ -10,8 +10,8 @@ Needs Node 22.22+ (or 24.15+). The original Angular 11 version is still in `../s
 ```bash
 cd portfolio-app
 npm install
-npm start        # http://localhost:4200/portfolio-angular11-dataLocal/
-npm run build    # writes the static site, sitemap.xml and 404.html to ../docs/ (commit it)
+npm start        # http://localhost:4200/portfolio/redesign/
+npm run build    # writes the static site and sitemap.xml to ../docs/redesign/ (commit it)
 ```
 
 ## Pages
