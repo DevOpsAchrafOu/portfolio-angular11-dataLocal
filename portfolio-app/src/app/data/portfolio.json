@@ -71,7 +71,8 @@
     }
    ],
    "git": [],
-   "web": []
+   "web": [],
+   "versions": []
   },
   {
    "slug": "site-web-angular-nodejs",
@@ -104,7 +105,8 @@
    "video": false,
    "tasks": [],
    "git": [],
-   "web": []
+   "web": [],
+   "versions": []
   },
   {
    "slug": "e2c-application",
@@ -195,7 +197,8 @@
     }
    ],
    "git": [],
-   "web": []
+   "web": [],
+   "versions": []
   },
   {
    "slug": "migration-web-services",
@@ -241,7 +244,8 @@
     }
    ],
    "git": [],
-   "web": []
+   "web": [],
+   "versions": []
   },
   {
    "slug": "appels-offres-back-office",
@@ -336,7 +340,8 @@
     }
    ],
    "git": [],
-   "web": []
+   "web": [],
+   "versions": []
   },
   {
    "slug": "appels-offres-front-office",
@@ -406,7 +411,8 @@
     }
    ],
    "git": [],
-   "web": []
+   "web": [],
+   "versions": []
   },
   {
    "slug": "crm",
@@ -548,7 +554,8 @@
     }
    ],
    "git": [],
-   "web": []
+   "web": [],
+   "versions": []
   },
   {
    "slug": "webrtc",
@@ -607,7 +614,8 @@
    "video": true,
    "tasks": [],
    "git": [],
-   "web": []
+   "web": [],
+   "versions": []
   },
   {
    "slug": "suivi-processus-metier",
@@ -686,7 +694,8 @@
     }
    ],
    "git": [],
-   "web": []
+   "web": [],
+   "versions": []
   },
   {
    "slug": "webmail",
@@ -802,10 +811,182 @@
     }
    ],
    "git": [],
-   "web": []
+   "web": [],
+   "versions": []
   }
  ],
  "projects": [
+  {
+   "slug": "nexproma",
+   "kind": "project",
+   "current": false,
+   "title": [
+    "nexProMa : boutique en ligne, refaite en Angular 22",
+    "nexProMa: online store, rebuilt in Angular 22"
+   ],
+   "role": null,
+   "summary": [
+    "Boutique en ligne marocaine (électronique, sport, accessoires, maison) avec commande sur WhatsApp et paiement à la livraison. D’abord en Angular 12, refaite en Angular 22 : une page par produit pour Google, panier WhatsApp, favoris, français et anglais.",
+    "A Moroccan online store (electronics, sport, accessories, home) with ordering on WhatsApp and cash on delivery. First built in Angular 12, rebuilt in Angular 22: one page per product for Google, a WhatsApp cart, favourites, French and English."
+   ],
+   "tech": [
+    "Angular 22",
+    "TypeScript",
+    "SSG (prerendering)",
+    "Signals",
+    "CSS",
+    "SEO",
+    "Angular 12",
+    "Bootstrap",
+    "Git"
+   ],
+   "cover": "img/projects/nexproma-new.jpg",
+   "illustration": "img/img-tash-site.svg",
+   "gallery": [],
+   "video": false,
+   "tasks": [
+    {
+     "text": [
+      "Refonte complète en Angular 22 (composants standalone, signals, sans zone.js).",
+      "Full rebuild in Angular 22 (standalone components, signals, zoneless)."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "74 pages générées en HTML à l’avance : une page par produit, en français et en anglais, avec plan du site et données produit pour Google.",
+      "74 pages prerendered to HTML: one page per product, in French and English, with a sitemap and product data for Google."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Commande sur WhatsApp : formulaire avec vérification du numéro marocain, puis panier pour commander plusieurs produits en un seul message.",
+      "Ordering on WhatsApp: a form with Moroccan phone validation, then a cart to order several products in one message."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Favoris, produits récemment consultés et panier gardés dans le navigateur.",
+      "Favourites, recently viewed products and cart kept in the browser."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Nouveau design, photos produits nettoyées, descriptions, pages Contact, Livraison, Retours, Conditions de vente et Confidentialité.",
+      "New design, cleaned-up product photos, descriptions, Contact, Delivery, Returns, Terms and Privacy pages."
+     ],
+     "sub": []
+    }
+   ],
+   "git": [
+    "https://github.com/DevOpsAchrafOu/nexProMa-frontend"
+   ],
+   "web": [],
+   "versions": [
+    {
+     "label": [
+      "Ancienne version (Angular 12)",
+      "Old version (Angular 12)"
+     ],
+     "url": "https://devopsachrafou.github.io/nexProMa-frontend/",
+     "shot": "img/projects/nexproma-old.jpg"
+    },
+    {
+     "label": [
+      "Nouvelle version (Angular 22)",
+      "New version (Angular 22)"
+     ],
+     "url": [
+      "https://devopsachrafou.github.io/nexProMa-frontend/redesign/fr/",
+      "https://devopsachrafou.github.io/nexProMa-frontend/redesign/"
+     ],
+     "shot": "img/projects/nexproma-new.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "focal",
+   "kind": "project",
+   "current": false,
+   "title": [
+    "FOCAL : du template à la landing page",
+    "FOCAL: from template to landing page"
+   ],
+   "role": null,
+   "summary": [
+    "Un template Bootstrap 4 transformé en landing page professionnelle pour un atelier de réparation de téléphones (commerce fictif, démo) : design moderne, devis en ligne, badge « ouvert / fermé » selon l’heure, logo et icône.",
+    "A Bootstrap 4 template turned into a professional landing page for a phone repair shop (fictional business, demo): modern design, online quote, live open / closed badge, logo and icon."
+   ],
+   "tech": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "SVG",
+    "Bootstrap 4",
+    "jQuery",
+    "Git"
+   ],
+   "cover": "img/projects/focal-new.jpg",
+   "illustration": "img/img-tash-site.svg",
+   "gallery": [
+    {
+     "src": "img/projects/img-site-1.png",
+     "caption": [
+      "Site web",
+      "Website"
+     ]
+    }
+   ],
+   "video": false,
+   "tasks": [
+    {
+     "text": [
+      "Refonte du template d’origine en landing page orientée conversion : appel, devis, tableau des prix, FAQ.",
+      "Turned the original template into a conversion-focused landing page: call, quote, price table, FAQ."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Badge « ouvert / fermé » calculé selon l’heure locale, formulaire de devis avec vérification.",
+      "Open / closed badge computed from the local time, quote form with validation."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Nouveau logo et icône (SVG), polices Sora et Inter, animations douces.",
+      "New logo and icon (SVG), Sora and Inter fonts, soft animations."
+     ],
+     "sub": []
+    }
+   ],
+   "git": [
+    "https://github.com/DevOpsAchrafOu/Templates-site-web"
+   ],
+   "web": [],
+   "versions": [
+    {
+     "label": [
+      "Ancienne version (template)",
+      "Old version (template)"
+     ],
+     "url": "https://devopsachrafou.github.io/Templates-site-web/",
+     "shot": "img/projects/focal-old.jpg"
+    },
+    {
+     "label": [
+      "Nouvelle version (landing page)",
+      "New version (landing page)"
+     ],
+     "url": "https://devopsachrafou.github.io/Templates-site-web/redesign/",
+     "shot": "img/projects/focal-new.jpg"
+    }
+   ]
+  },
   {
    "slug": "smartclientmanagement",
    "kind": "project",
@@ -962,46 +1143,62 @@
    ],
    "web": [
     "https://devopsachrafou.github.io/smartClientManagement-FrontEnd"
-   ]
+   ],
+   "versions": []
   },
   {
    "slug": "portfolio",
    "kind": "project",
    "current": false,
    "title": [
-    "Portfolio",
-    "Portfolio"
+    "Portfolio : d’Angular 11 à Angular 22",
+    "Portfolio: from Angular 11 to Angular 22"
    ],
    "role": null,
    "summary": [
-    "Développement de ce portfolio, d’abord en Angular 11, refait en Angular 22.",
-    "Built this portfolio, first in Angular 11, rebuilt in Angular 22."
+    "Ce portfolio, d’abord en Angular 11 avec Bootstrap, refait en Angular 22 avec Tailwind CSS 4 : pages générées à l’avance, français et anglais, transitions et animations modernes.",
+    "This portfolio, first built in Angular 11 with Bootstrap, rebuilt in Angular 22 with Tailwind CSS 4: prerendered pages, French and English, modern transitions and animations."
    ],
    "tech": [
+    "Angular 22",
+    "Tailwind CSS 4",
+    "TypeScript",
+    "SSG (prerendering)",
+    "View Transitions",
     "Angular 11",
     "Bootstrap",
-    "TypeScript",
-    "Html",
-    "Css",
-    "Git",
-    "PhpStorm"
+    "Git"
    ],
-   "cover": "img/projects/img-porfolio-1.png",
+   "cover": "img/projects/portfolio-new.jpg",
    "illustration": "img/img-tash-portfolio.svg",
    "gallery": [],
    "video": false,
    "tasks": [
     {
      "text": [
-      "Création des services et des composants.",
-      "Built the services and components."
+      "Version 1 en Angular 11 : services et composants, fichiers JSON locaux utilisés comme API.",
+      "Version 1 in Angular 11: services and components, local JSON files used as an API."
      ],
      "sub": []
     },
     {
      "text": [
-      "Fichiers JSON locaux utilisés comme API.",
-      "Local JSON files used as an API."
+      "Version 2 en Angular 22 et Tailwind CSS 4 : 36 pages générées à l’avance, une page par expérience et par projet.",
+      "Version 2 in Angular 22 and Tailwind CSS 4: 36 prerendered pages, one page per experience and project."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Contenu bilingue français / anglais, référencement (Open Graph, JSON-LD, plan du site).",
+      "Bilingual French / English content, SEO (Open Graph, JSON-LD, sitemap)."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Transitions entre pages (View Transitions) et animations CSS au défilement.",
+      "Page transitions (View Transitions) and CSS scroll-driven animations."
      ],
      "sub": []
     }
@@ -1009,49 +1206,24 @@
    "git": [
     "https://github.com/DevOpsAchrafOu/portfolio"
    ],
-   "web": [
-    "https://devopsachrafou.github.io/portfolio/redesign/"
-   ]
-  },
-  {
-   "slug": "template-site-web",
-   "kind": "project",
-   "current": false,
-   "title": [
-    "Template de site web",
-    "Website template"
-   ],
-   "role": null,
-   "summary": [
-    "Un modèle de site simple, pour démonstration.",
-    "A simple website template, for demonstration."
-   ],
-   "tech": [
-    "Bootstrap 4",
-    "Git",
-    "Html",
-    "Css",
-    "JQuery",
-    "Php strom"
-   ],
-   "cover": "img/projects/img-site-1.png",
-   "illustration": "img/img-tash-site.svg",
-   "gallery": [
+   "web": [],
+   "versions": [
     {
-     "src": "img/projects/img-site-1.png",
-     "caption": [
-      "Site web",
-      "Website"
-     ]
+     "label": [
+      "Ancienne version (Angular 11)",
+      "Old version (Angular 11)"
+     ],
+     "url": "https://devopsachrafou.github.io/portfolio/",
+     "shot": "img/projects/portfolio-old.jpg"
+    },
+    {
+     "label": [
+      "Nouvelle version (Angular 22)",
+      "New version (Angular 22)"
+     ],
+     "url": "https://devopsachrafou.github.io/portfolio/redesign/",
+     "shot": "img/projects/portfolio-new.jpg"
     }
-   ],
-   "video": false,
-   "tasks": [],
-   "git": [
-    "https://github.com/DevOpsAchrafOu/Templates-site-web"
-   ],
-   "web": [
-    "https://devopsachrafou.github.io/Templates-site-web/"
    ]
   },
   {
@@ -1083,7 +1255,8 @@
    "git": [
     "https://github.com/DevOpsAchrafOu/-MailManagement_TreatmentText_Validation_by_SpringBoot_SIntegration"
    ],
-   "web": []
+   "web": [],
+   "versions": []
   },
   {
    "slug": "ionic-photo",
@@ -1115,7 +1288,8 @@
     "https://github.com/DevOpsAchrafOu/Upload_Dowload_image",
     "https://github.com/DevOpsAchrafOu/Ionic4-take-photo-resize-and-take-photo-by-gallery-"
    ],
-   "web": []
+   "web": [],
+   "versions": []
   },
   {
    "slug": "scanner-codes-barres",
@@ -1145,7 +1319,8 @@
    "git": [
     "https://github.com/DevOpsAchrafOu/codes-barres"
    ],
-   "web": []
+   "web": [],
+   "versions": []
   }
  ],
  "education": [

@@ -29,6 +29,8 @@ export interface Work {
   tasks: Task[];
   git: string[];
   web: string[];
+  /** Old and new versions online (before / after), each with a screenshot. Empty when there is only one. */
+  versions: { label: Tr; url: string | Tr; shot: string }[];
 }
 
 export interface Person {
@@ -108,6 +110,11 @@ export const UI = {
   tasks_h: ['Ce que j’ai réalisé', 'What I did'],
   tech_h: ['Technologies', 'Tech stack'],
   gallery_h: ['Captures d’écran', 'Screenshots'],
+  versions_h: ['Avant / après', 'Before / after'],
+  versions_sub: ['Les deux versions sont en ligne : comparez-les.', 'Both versions are online: compare them.'],
+  before: ['Avant', 'Before'],
+  after: ['Après', 'After'],
+  open_version: ['Voir en ligne', 'Open live'],
   experience: ['Expérience', 'Experience'],
   project: ['Projet personnel', 'Side project'],
   home: ['Accueil', 'Home'],
