@@ -6,7 +6,7 @@ export type Lang = 'fr' | 'en';
 export const LANGS: Lang[] = ['fr', 'en'];
 
 /** Public address of the site. Change it here (and baseHref in angular.json) if the site moves. */
-export const SITE_URL = 'https://devopsachrafou.github.io/portfolio-angular11-dataLocal/';
+export const SITE_URL = 'https://devopsachrafou.github.io/portfolio/redesign/';
 
 export interface Task {
   text: Tr;

@@ -69,8 +69,8 @@
         { "id": 1, "name": "Création des services et des comparants.", "sousTaches": []},
         { "id": 2, "name": "Consommation des fichiers JSON local comme API.", "sousTaches": []}
     ],
-    "urlGit": ["https://github.com/DevOpsAchrafOu/portfolio-angular11-dataLocal"],
-    "urlWeb": ["https://devopsachrafou.github.io/portfolio-angular11-dataLocal/"]
+    "urlGit": ["https://github.com/DevOpsAchrafOu/portfolio"],
+    "urlWeb": ["https://devopsachrafou.github.io/portfolio/"]
 },
 {
     "id": 21,
