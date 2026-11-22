@@ -992,28 +992,32 @@
    "kind": "project",
    "current": true,
    "title": [
-    "SmartClientManagement",
-    "SmartClientManagement"
+    "SmartClientManagement : gestion des accès, refaite en Angular 22",
+    "SmartClientManagement: access management, rebuilt in Angular 22"
    ],
    "role": null,
    "summary": [
-    "Application de gestion des utilisateurs, des rôles et des privilèges, avec Angular 12 et Spring Boot.",
-    "A user, role and permission management application, built with Angular 12 and Spring Boot."
+    "Application de gestion des utilisateurs, des rôles, des menus et des paramètres (pays, villes), avec Angular et Spring Boot. D’abord en Angular 12, refaite en Angular 22 avec Tailwind CSS : tableau de bord, français et arabe, mode sombre. Déployée gratuitement : API sur Render, base PostgreSQL sur Neon.",
+    "A user, role, menu and settings (countries, cities) management application, built with Angular and Spring Boot. First built in Angular 12, rebuilt in Angular 22 with Tailwind CSS: dashboard, French and Arabic, dark mode. Deployed for free: API on Render, PostgreSQL database on Neon."
    ],
    "tech": [
-    "Angular 12",
+    "Angular 22",
+    "Tailwind CSS",
+    "Signals",
     "Spring Boot",
     "TypeScript",
     "Java",
     "Rest API",
+    "JWT",
+    "PostgreSQL",
+    "Docker",
+    "Render",
+    "Neon",
+    "Angular 12",
     "Bootstrap",
-    "Html",
-    "Css",
-    "MySQL [mode Dev]",
-    "PostgreSQL [mode Prod]",
     "Git"
    ],
-   "cover": "img/projects/img-smartCM-02.png",
+   "cover": "img/projects/smartcm-new.jpg",
    "illustration": "img/img-tash-smartCM-01.svg",
    "gallery": [
     {
@@ -1091,6 +1095,42 @@
    "tasks": [
     {
      "text": [
+      "Refonte complète du front-end en Angular 22 (composants standalone, signals, sans zone.js) et Tailwind CSS 4.",
+      "Full front-end rebuild in Angular 22 (standalone components, signals, zoneless) and Tailwind CSS 4."
+     ],
+     "sub": [
+      [
+       "Tableau de bord : chiffres clés, villes par pays, utilisateurs par rôle, derniers inscrits.",
+       "Dashboard: key figures, cities by country, users by role, latest sign-ups."
+      ],
+      [
+       "Recherche, filtres, fenêtres d’ajout / modification avec validation, confirmation avant suppression.",
+       "Search, filters, add / edit dialogs with validation, confirmation before deleting."
+      ],
+      [
+       "Français et arabe (de droite à gauche), mode clair et sombre, version mobile.",
+       "French and Arabic (right to left), light and dark mode, mobile layout."
+      ]
+     ]
+    },
+    {
+     "text": [
+      "Déploiement gratuit : API Spring Boot en conteneur Docker sur Render, base PostgreSQL sur Neon, front-end sur GitHub Pages.",
+      "Free deployment: Spring Boot API in a Docker container on Render, PostgreSQL database on Neon, front end on GitHub Pages."
+     ],
+     "sub": [
+      [
+       "Secrets (base de données, clé JWT) sortis du code et passés en variables d’environnement.",
+       "Secrets (database, JWT key) moved out of the code into environment variables."
+      ],
+      [
+       "La page de connexion réveille le serveur gratuit et prévient l’utilisateur pendant le démarrage.",
+       "The sign-in page wakes the free server and tells the user while it starts."
+      ]
+     ]
+    },
+    {
+     "text": [
       "API et microservices",
       "API and microservices"
      ],
@@ -1141,10 +1181,25 @@
     "https://github.com/DevOpsAchrafOu/smartClientManagement-FrontEnd",
     "https://github.com/DevOpsAchrafOu/smartClientManagementBackEnd"
    ],
-   "web": [
-    "https://devopsachrafou.github.io/smartClientManagement-FrontEnd"
-   ],
-   "versions": []
+   "web": [],
+   "versions": [
+    {
+     "label": [
+      "Ancienne version (Angular 12)",
+      "Old version (Angular 12)"
+     ],
+     "url": "https://devopsachrafou.github.io/smartClientManagement-FrontEnd/",
+     "shot": "img/projects/smartcm-old.jpg"
+    },
+    {
+     "label": [
+      "Nouvelle version (Angular 22)",
+      "New version (Angular 22)"
+     ],
+     "url": "https://devopsachrafou.github.io/smartClientManagement-FrontEnd/redesign/",
+     "shot": "img/projects/smartcm-new.jpg"
+    }
+   ]
   },
   {
    "slug": "portfolio",
