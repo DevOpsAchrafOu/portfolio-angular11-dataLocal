@@ -997,24 +997,26 @@
    ],
    "role": null,
    "summary": [
-    "Application de gestion des utilisateurs, des rôles, des menus et des paramètres (pays, villes), avec Angular et Spring Boot. D’abord en Angular 12, refaite en Angular 22 avec Tailwind CSS : tableau de bord, français et arabe, mode sombre. Déployée gratuitement : API sur Render, base PostgreSQL sur Neon.",
-    "A user, role, menu and settings (countries, cities) management application, built with Angular and Spring Boot. First built in Angular 12, rebuilt in Angular 22 with Tailwind CSS: dashboard, French and Arabic, dark mode. Deployed for free: API on Render, PostgreSQL database on Neon."
+    "Application de gestion des utilisateurs, des rôles, des menus et des paramètres (pays, villes). D’abord en Angular 12 et Spring Boot 2.7, refaite en deux parties : front-end Angular 22 avec Tailwind CSS (tableau de bord, français et arabe, mode sombre) et API Spring Boot 4 / Java 21 (sécurité renforcée, migrations Flyway, tests). Les deux versions restent en ligne gratuitement : API sur Render, base PostgreSQL sur Neon.",
+    "A user, role, menu and settings (countries, cities) management application. First built with Angular 12 and Spring Boot 2.7, then rebuilt on both sides: an Angular 22 front end with Tailwind CSS (dashboard, French and Arabic, dark mode) and a Spring Boot 4 / Java 21 API (stronger security, Flyway migrations, tests). Both versions stay online for free: API on Render, PostgreSQL database on Neon."
    ],
    "tech": [
     "Angular 22",
     "Tailwind CSS",
     "Signals",
-    "Spring Boot",
-    "TypeScript",
-    "Java",
-    "Rest API",
+    "Spring Boot 4",
+    "Java 21",
+    "Spring Security",
     "JWT",
     "PostgreSQL",
+    "Flyway",
+    "Testcontainers",
+    "OpenAPI",
     "Docker",
     "Render",
     "Neon",
     "Angular 12",
-    "Bootstrap",
+    "Spring Boot 2.7",
     "Git"
    ],
    "cover": "img/projects/smartcm-new.jpg",
@@ -1115,6 +1117,30 @@
     },
     {
      "text": [
+      "Nouvelle API en Spring Boot 4.1 et Java 21, avec les mêmes adresses et le même JSON que la première, pour que l’ancien et le nouveau front-end fonctionnent.",
+      "New API in Spring Boot 4.1 and Java 21, with the same URLs and JSON as the first one, so both the old and the new front end work."
+     ],
+     "sub": [
+      [
+       "Jetons JWT sans état (plusieurs sessions en même temps), droits réservés aux administrateurs pour les modifications.",
+       "Stateless JWT tokens (several sessions at once), changes restricted to administrators."
+      ],
+      [
+       "Règles métier : compte de démo protégé, dernier super administrateur impossible à supprimer.",
+       "Business rules: protected demo account, the last super admin cannot be deleted."
+      ],
+      [
+       "Schéma versionné avec Flyway, sur la base existante sans perte de données.",
+       "Versioned schema with Flyway, on the existing database without losing data."
+      ],
+      [
+       "Erreurs normalisées (RFC 9457), documentation OpenAPI, tests d’intégration sur PostgreSQL (Testcontainers).",
+       "Standard errors (RFC 9457), OpenAPI documentation, integration tests on PostgreSQL (Testcontainers)."
+      ]
+     ]
+    },
+    {
+     "text": [
       "Déploiement gratuit : API Spring Boot en conteneur Docker sur Render, base PostgreSQL sur Neon, front-end sur GitHub Pages.",
       "Free deployment: Spring Boot API in a Docker container on Render, PostgreSQL database on Neon, front end on GitHub Pages."
      ],
@@ -1185,16 +1211,16 @@
    "versions": [
     {
      "label": [
-      "Ancienne version (Angular 12)",
-      "Old version (Angular 12)"
+      "Ancienne version (Angular 12 + Spring Boot 2.7)",
+      "Old version (Angular 12 + Spring Boot 2.7)"
      ],
      "url": "https://devopsachrafou.github.io/smartClientManagement-FrontEnd/",
      "shot": "img/projects/smartcm-old.jpg"
     },
     {
      "label": [
-      "Nouvelle version (Angular 22)",
-      "New version (Angular 22)"
+      "Nouvelle version (Angular 22 + Spring Boot 4)",
+      "New version (Angular 22 + Spring Boot 4)"
      ],
      "url": "https://devopsachrafou.github.io/smartClientManagement-FrontEnd/redesign/",
      "shot": "img/projects/smartcm-new.jpg"
