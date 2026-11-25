@@ -992,13 +992,13 @@
    "kind": "project",
    "current": true,
    "title": [
-    "SmartClientManagement : gestion des accès, refaite en Angular 22",
-    "SmartClientManagement: access management, rebuilt in Angular 22"
+    "SmartClientManagement : CRM avec assistant IA, en Angular 22 et Spring Boot 4",
+    "SmartClientManagement: a CRM with an AI assistant, in Angular 22 and Spring Boot 4"
    ],
    "role": null,
    "summary": [
-    "Application de gestion des utilisateurs, des rôles, des menus et des paramètres (pays, villes). D’abord en Angular 12 et Spring Boot 2.7, refaite en deux parties : front-end Angular 22 avec Tailwind CSS (tableau de bord, français et arabe, mode sombre) et API Spring Boot 4 / Java 21 (sécurité renforcée, migrations Flyway, tests). Les deux versions restent en ligne gratuitement : API sur Render, base PostgreSQL sur Neon.",
-    "A user, role, menu and settings (countries, cities) management application. First built with Angular 12 and Spring Boot 2.7, then rebuilt on both sides: an Angular 22 front end with Tailwind CSS (dashboard, French and Arabic, dark mode) and a Spring Boot 4 / Java 21 API (stronger security, Flyway migrations, tests). Both versions stay online for free: API on Render, PostgreSQL database on Neon."
+    "Application de gestion des utilisateurs, des rôles, des menus et des paramètres (pays, villes), devenue un petit CRM : clients et contacts, activités et tâches, pipeline d’opportunités, tableau de bord commercial, import / export CSV et historique des modifications. Un assistant IA (microservice Spring AI + Google Gemini) répond aux questions sur les données du CRM et prépare des actions. D’abord en Angular 12 et Spring Boot 2.7, refaite avec un front-end Angular 22 + Tailwind CSS et une API Spring Boot 4 / Java 21. Tout reste en ligne gratuitement : API et microservice IA sur Render, base PostgreSQL sur Neon, front-end sur GitHub Pages.",
+    "A user, role, menu and settings (countries, cities) management application that grew into a small CRM: clients and contacts, activities and tasks, an opportunity pipeline, a sales dashboard, CSV import / export and a change history. An AI assistant (a Spring AI + Google Gemini microservice) answers questions about the CRM data and prepares actions. First built with Angular 12 and Spring Boot 2.7, then rebuilt with an Angular 22 + Tailwind CSS front end and a Spring Boot 4 / Java 21 API. Everything stays online for free: API and AI microservice on Render, PostgreSQL database on Neon, front end on GitHub Pages."
    ],
    "tech": [
     "Angular 22",
@@ -1011,6 +1011,11 @@
     "PostgreSQL",
     "Flyway",
     "Testcontainers",
+    "Spring AI",
+    "Google Gemini",
+    "Server-Sent Events",
+    "GitHub Actions",
+    "Vitest",
     "OpenAPI",
     "Docker",
     "Render",
@@ -1141,6 +1146,30 @@
     },
     {
      "text": [
+      "Module CRM ajouté à la nouvelle version (front-end et API).",
+      "CRM module added to the new version (front end and API)."
+     ],
+     "sub": [
+      [
+       "Clients et contacts, activités et tâches (appels, rendez-vous, relances), tableau de bord commercial.",
+       "Clients and contacts, activities and tasks (calls, meetings, follow-ups), sales dashboard."
+      ],
+      [
+       "Pipeline d’opportunités avec glisser-déposer entre les étapes.",
+       "Opportunity pipeline with drag and drop between stages."
+      ],
+      [
+       "Rôles métier : manager (toute l’équipe), commercial (seulement ses fiches), lecture seule.",
+       "Business roles: manager (whole team), sales rep (own records only), read-only."
+      ],
+      [
+       "Import / export CSV et historique des modifications (qui a changé quoi, et quand), avec une frise sur la fiche client.",
+       "CSV import / export and a change history (who changed what, and when), with a timeline on the client page."
+      ]
+     ]
+    },
+    {
+     "text": [
       "Déploiement gratuit : API Spring Boot en conteneur Docker sur Render, base PostgreSQL sur Neon, front-end sur GitHub Pages.",
       "Free deployment: Spring Boot API in a Docker container on Render, PostgreSQL database on Neon, front end on GitHub Pages."
      ],
@@ -1160,7 +1189,28 @@
       "API et microservices",
       "API and microservices"
      ],
-     "sub": []
+     "sub": [
+      [
+       "Microservice séparé (Spring Boot 4 + Spring AI) pour l’assistant IA du CRM, avec Google Gemini (offre gratuite).",
+       "Separate microservice (Spring Boot 4 + Spring AI) for the CRM’s AI assistant, using Google Gemini (free tier)."
+      ],
+      [
+       "L’assistant lit le CRM par des outils (tool calling) qui appellent l’API avec le jeton de l’utilisateur : il ne voit que ce que l’utilisateur a le droit de voir.",
+       "The assistant reads the CRM through tools (tool calling) that call the API with the user’s token: it only sees what the user is allowed to see."
+      ],
+      [
+       "Il propose des actions (nouvelle activité, changement d’étape) que l’utilisateur confirme avant l’enregistrement.",
+       "It proposes actions (new activity, stage change) that the user confirms before anything is saved."
+      ],
+      [
+       "Réponses en direct (streaming SSE), contexte de la fiche client ouverte, « brief du jour » (tâches en retard, rendez-vous, opportunités).",
+       "Live answers (SSE streaming), context from the open client page, a “daily brief” (late tasks, meetings, opportunities)."
+      ],
+      [
+       "Modèles de secours quand Gemini est saturé, quota par utilisateur, français et arabe.",
+       "Fallback models when Gemini is overloaded, a per-user quota, French and Arabic."
+      ]
+     ]
     },
     {
      "text": [
@@ -1187,6 +1237,10 @@
       [
        "Environnements séparés pour le développement, la recette et la production.",
        "Separate development, staging and production environments."
+      ],
+      [
+       "Intégration continue avec GitHub Actions : tests de l’API, du microservice IA et du front-end (Vitest) à chaque pull request.",
+       "Continuous integration with GitHub Actions: API, AI microservice and front-end (Vitest) tests on every pull request."
       ]
      ]
     },
@@ -1205,7 +1259,7 @@
    ],
    "git": [
     "https://github.com/DevOpsAchrafOu/smartClientManagement-FrontEnd",
-    "https://github.com/DevOpsAchrafOu/smartClientManagementBackEnd"
+    "https://github.com/DevOpsAchrafOu/smartClientManagement-BackEnd"
    ],
    "web": [],
    "versions": [
@@ -1219,8 +1273,8 @@
     },
     {
      "label": [
-      "Nouvelle version (Angular 22 + Spring Boot 4)",
-      "New version (Angular 22 + Spring Boot 4)"
+      "Nouvelle version (Angular 22 + Spring Boot 4, CRM et assistant IA)",
+      "New version (Angular 22 + Spring Boot 4, CRM and AI assistant)"
      ],
      "url": "https://devopsachrafou.github.io/smartClientManagement-FrontEnd/redesign/",
      "shot": "img/projects/smartcm-new.jpg"
