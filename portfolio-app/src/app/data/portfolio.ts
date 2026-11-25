@@ -33,6 +33,12 @@ export interface Work {
   web: string[];
   /** Old and new versions online (before / after), each with a screenshot. Empty when there is only one. */
   versions: { label: Tr; url: string | Tr; shot: string }[];
+  /** Public demo account (not a secret): the page shows it next to an "Try the demo" button. */
+  demo?: { url: string; login: string; password: string; note: Tr };
+  /** Short screen recording (muted, looped), with a still image shown before it plays. */
+  clip?: { src: string; poster: string; caption: Tr };
+  /** Architecture diagram (SVG), one file per language. */
+  diagram?: { src: Tr; caption: Tr };
 }
 
 export interface Person {
@@ -118,6 +124,14 @@ export const UI = {
   before: ['Avant', 'Before'],
   after: ['Après', 'After'],
   open_version: ['Voir en ligne', 'Open live'],
+  demo_h: ['Essayer la démo', 'Try the demo'],
+  demo_login: ['Identifiant', 'Username'],
+  demo_password: ['Mot de passe', 'Password'],
+  demo_open: ['Ouvrir la démo', 'Open the demo'],
+  demo_copy: ['Copier', 'Copy'],
+  demo_copied: ['Copié', 'Copied'],
+  clip_h: ['En action', 'In action'],
+  diagram_h: ['Architecture', 'Architecture'],
   experience: ['Expérience', 'Experience'],
   project: ['Projet personnel', 'Side project'],
   home: ['Accueil', 'Home'],

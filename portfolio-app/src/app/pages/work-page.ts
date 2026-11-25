@@ -27,8 +27,9 @@ import { ALL_WORK, DATA, SITE_URL, Tr, workBySlug } from '../data/portfolio';
             <h1 class="mt-5 text-3xl leading-tight font-bold sm:text-5xl">{{ i18n.pick(w.title) }}</h1>
             @if (w.role) { <p class="mt-3 font-semibold text-accent-2">{{ i18n.pick(w.role) }}</p> }
             @if (w.summary) { <p class="mt-5 max-w-2xl text-lg leading-relaxed text-slate-300">{{ i18n.pick(w.summary) }}</p> }
-            @if (w.git.length || w.web.length) {
+            @if (w.git.length || w.web.length || w.demo) {
               <div class="mt-8 flex flex-wrap gap-3">
+                @if (w.demo; as dm) { <a [href]="dm.url" target="_blank" rel="noopener" class="btn btn-primary"><app-icon name="spark" class="size-4" />{{ i18n.t('demo_h') }}</a> }
                 @for (u of w.web; track u) { <a [href]="u" target="_blank" rel="noopener" class="btn btn-primary"><app-icon name="external" class="size-4" />{{ i18n.t('live') }}</a> }
                 @for (u of w.git; track u; let i = $index) { <a [href]="u" target="_blank" rel="noopener" class="btn btn-ghost"><app-icon name="github" class="size-4" />{{ i18n.t('code') }}@if (w.git.length > 1) { {{ i + 1 }} }</a> }
               </div>
@@ -67,6 +68,24 @@ import { ALL_WORK, DATA, SITE_URL, Tr, workBySlug } from '../data/portfolio';
               </div>
             </section>
           }
+          @if (w.clip; as c) {
+            <section class="reveal">
+              <h2 class="mb-5 text-2xl font-bold text-ink">{{ i18n.t('clip_h') }}</h2>
+              <figure class="overflow-hidden rounded-2xl border border-slate-200 bg-white">
+                <video [src]="c.src" [poster]="c.poster" [muted]="true" autoplay loop playsinline preload="metadata" (canplay)="autoplay($event)" class="block aspect-[1440/860] w-full bg-slate-100" [attr.aria-label]="i18n.pick(c.caption)"></video>
+                <figcaption class="px-4 py-3 text-sm font-medium text-slate-700">{{ i18n.pick(c.caption) }}</figcaption>
+              </figure>
+            </section>
+          }
+          @if (w.diagram; as d) {
+            <section class="reveal">
+              <h2 class="mb-5 text-2xl font-bold text-ink">{{ i18n.t('diagram_h') }}</h2>
+              <figure class="overflow-hidden rounded-2xl border border-slate-200 bg-white p-4 sm:p-6">
+                <img [src]="i18n.pick(d.src)" [alt]="i18n.pick(d.caption)" loading="lazy" class="w-full" />
+                <figcaption class="mt-3 text-sm text-slate-600">{{ i18n.pick(d.caption) }}</figcaption>
+              </figure>
+            </section>
+          }
           @if (w.tasks.length) {
             <section class="reveal">
               <h2 class="mb-5 text-2xl font-bold text-ink">{{ i18n.t('tasks_h') }}</h2>
@@ -100,6 +119,25 @@ import { ALL_WORK, DATA, SITE_URL, Tr, workBySlug } from '../data/portfolio';
         </div>
 
         <aside class="space-y-6 md:sticky md:top-24 md:self-start">
+          @if (w.demo; as dm) {
+            <div class="rounded-2xl border border-accent/40 bg-white p-5 ring-1 ring-accent/20">
+              <h2 class="mb-3 flex items-center gap-2 text-sm font-semibold text-ink"><app-icon name="spark" class="size-4 text-accent" />{{ i18n.t('demo_h') }}</h2>
+              <dl class="space-y-2 text-sm">
+                <div class="flex items-center justify-between gap-2 rounded-lg bg-slate-50 px-3 py-2">
+                  <dt class="text-slate-500">{{ i18n.t('demo_login') }}</dt>
+                  <dd class="flex items-center gap-2"><code class="font-semibold text-ink">{{ dm.login }}</code>
+                    <button type="button" class="rounded-md px-1.5 py-0.5 text-xs font-semibold text-accent hover:bg-indigo-50" (click)="copy(dm.login)">{{ i18n.t(copied() === dm.login ? 'demo_copied' : 'demo_copy') }}</button></dd>
+                </div>
+                <div class="flex items-center justify-between gap-2 rounded-lg bg-slate-50 px-3 py-2">
+                  <dt class="text-slate-500">{{ i18n.t('demo_password') }}</dt>
+                  <dd class="flex items-center gap-2"><code class="font-semibold text-ink">{{ dm.password }}</code>
+                    <button type="button" class="rounded-md px-1.5 py-0.5 text-xs font-semibold text-accent hover:bg-indigo-50" (click)="copy(dm.password)">{{ i18n.t(copied() === dm.password ? 'demo_copied' : 'demo_copy') }}</button></dd>
+                </div>
+              </dl>
+              <a [href]="dm.url" target="_blank" rel="noopener" class="btn btn-primary mt-4 w-full"><app-icon name="external" class="size-4" />{{ i18n.t('demo_open') }}</a>
+              <p class="mt-3 text-xs leading-relaxed text-slate-500">{{ i18n.pick(dm.note) }}</p>
+            </div>
+          }
           <div class="rounded-2xl border border-slate-200 bg-white p-5">
             <h2 class="mb-3 text-sm font-semibold text-ink">{{ i18n.t('tech_h') }}</h2>
             <ul class="flex flex-wrap gap-1.5">@for (t of w.tech; track t) { <li class="chip">{{ t }}</li> }</ul>
@@ -150,6 +188,8 @@ export class WorkPage {
   protected readonly prev = computed(() => ALL_WORK[this.index() - 1] ?? null);
   protected readonly next = computed(() => ALL_WORK[this.index() + 1] ?? null);
   protected readonly shot = signal(0);
+  /** The demo value just copied, to show "Copied" next to it. */
+  protected readonly copied = signal<string | null>(null);
 
   constructor() {
     effect(() => {
@@ -183,6 +223,23 @@ export class WorkPage {
   /** A version link can differ by language ([fr, en]). */
   protected href(url: string | Tr): string {
     return typeof url === 'string' ? url : this.i18n.pick(url);
+  }
+
+  /** Browsers only autoplay muted videos; Angular sets the attribute, not the property, so start it here. */
+  protected autoplay(e: Event): void {
+    const v = e.target as HTMLVideoElement;
+    v.muted = true;
+    if (v.paused) v.play().catch(() => {});
+  }
+
+  protected copy(value: string): void {
+    navigator.clipboard?.writeText(value).then(
+      () => {
+        this.copied.set(value);
+        setTimeout(() => this.copied.set(null), 1500);
+      },
+      () => {},
+    );
   }
 
   protected openShot(i: number): void {

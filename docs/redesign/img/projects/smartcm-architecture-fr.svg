@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" font-family="Inter, 'Segoe UI', system-ui, sans-serif" role="img" aria-label="SmartClientManagement architecture">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5B6CF0"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#5B6CF0"/></marker>
+  </defs>
+  <rect width="1000" height="470" fill="#F8FAFC"/>
+  <text x="40" y="196" font-size="12" font-weight="700" letter-spacing="1.5" fill="#64748B">NAVIGATEUR</text>
+  
+  <g>
+    <rect x="30" y="205" width="240" height="104" rx="16" fill="url(#g)" stroke="none" stroke-width="1.5"/>
+    <text x="50" y="239" font-size="19" font-weight="700" fill="#ffffff">Front-end</text>
+    <text x="50" y="265" font-size="14" fill="#E0E7FF">Angular 22 · Tailwind CSS 4</text>
+    <text x="50" y="289" font-size="13" font-weight="600" fill="#BAE6FD">GitHub Pages</text>
+  </g>
+  
+  <g>
+    <rect x="380" y="40" width="260" height="104" rx="16" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+    <text x="400" y="74" font-size="19" font-weight="700" fill="#0A0F1C">Microservice IA</text>
+    <text x="400" y="100" font-size="14" fill="#475569">Spring Boot 4 · Spring AI</text>
+    <text x="400" y="124" font-size="13" font-weight="600" fill="#5B6CF0">Render (Docker)</text>
+  </g>
+  
+  <g>
+    <rect x="380" y="300" width="260" height="104" rx="16" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+    <text x="400" y="334" font-size="19" font-weight="700" fill="#0A0F1C">API v2</text>
+    <text x="400" y="360" font-size="14" fill="#475569">Spring Boot 4 · Java 21</text>
+    <text x="400" y="384" font-size="13" font-weight="600" fill="#5B6CF0">JWT · Flyway · Render (Docker)</text>
+  </g>
+  
+  <g>
+    <rect x="730" y="40" width="240" height="104" rx="16" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+    <text x="750" y="74" font-size="19" font-weight="700" fill="#0A0F1C">Google Gemini</text>
+    <text x="750" y="100" font-size="14" fill="#475569">API compatible OpenAI</text>
+    <text x="750" y="124" font-size="13" font-weight="600" fill="#5B6CF0">modèles de secours</text>
+  </g>
+  
+  <g>
+    <rect x="730" y="300" width="240" height="104" rx="16" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+    <text x="750" y="334" font-size="19" font-weight="700" fill="#0A0F1C">PostgreSQL</text>
+    <text x="750" y="360" font-size="14" fill="#475569">Clients, activités, opportunités</text>
+    <text x="750" y="384" font-size="13" font-weight="600" fill="#5B6CF0">Neon</text>
+  </g>
+  <path d="M270 230 C 320 230, 330 92, 376 92" fill="none" stroke="#5B6CF0" stroke-width="2.2" marker-end="url(#arr)"/>
+  <text x="318" y="112" font-size="13" font-weight="600" fill="#334155" text-anchor="end">questions · réponses en direct (SSE)</text>
+  <path d="M270 285 C 320 285, 330 352, 376 352" fill="none" stroke="#5B6CF0" stroke-width="2.2" marker-end="url(#arr)"/>
+  <text x="292" y="376" font-size="13" font-weight="600" fill="#334155" text-anchor="middle">REST + JWT</text>
+  <path d="M510 144 L510 296" fill="none" stroke="#5B6CF0" stroke-width="2.2" marker-end="url(#arr)"/>
+  <text x="522" y="214" font-size="13" font-weight="600" fill="#334155" text-anchor="start">outils : lit le CRM</text>
+  <text x="522" y="232" font-size="13" font-weight="600" fill="#334155" text-anchor="start">avec le jeton de l’utilisateur</text>
+  <path d="M640 92 L726 92" fill="none" stroke="#5B6CF0" stroke-width="2.2" marker-end="url(#arr)"/>
+  <text x="683" y="82" font-size="13" font-weight="600" fill="#334155" text-anchor="middle">tool calling</text>
+  <path d="M640 352 L726 352" fill="none" stroke="#5B6CF0" stroke-width="2.2" marker-end="url(#arr)"/>
+  <text x="683" y="342" font-size="13" font-weight="600" fill="#334155" text-anchor="middle">JPA · Flyway</text>
+  <text x="40" y="446" font-size="13" fill="#64748B">CI GitHub Actions : tests de l’API, du microservice IA et du front à chaque pull request</text>
+</svg>

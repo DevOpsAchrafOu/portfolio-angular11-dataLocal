@@ -1338,7 +1338,34 @@
      "url": "https://devopsachrafou.github.io/smartClientManagement-FrontEnd/redesign/",
      "shot": "img/projects/smartcm-new.jpg"
     }
-   ]
+   ],
+   "demo": {
+    "url": "https://devopsachrafou.github.io/smartClientManagement-FrontEnd/redesign/",
+    "login": "a.admin",
+    "password": "123456789",
+    "note": [
+     "Compte de démo, données fictives. Serveur gratuit : le premier chargement peut prendre environ une minute, le temps qu’il se réveille.",
+     "Demo account, fictional data. Free server: the first load can take about a minute while it wakes up."
+    ]
+   },
+   "clip": {
+    "src": "img/projects/smartcm-ai-demo.webm",
+    "poster": "img/projects/smartcm-ai-01.jpg",
+    "caption": [
+     "L’assistant IA sur une fiche client : il lit le CRM avec les droits de l’utilisateur et propose la prochaine action.",
+     "The AI assistant on a client page: it reads the CRM with the user’s permissions and suggests the next action."
+    ]
+   },
+   "diagram": {
+    "src": [
+     "img/projects/smartcm-architecture-fr.svg",
+     "img/projects/smartcm-architecture-en.svg"
+    ],
+    "caption": [
+     "Le front appelle l’API v2 et le microservice IA ; le microservice lit le CRM par l’API, avec le jeton de l’utilisateur, et interroge Gemini.",
+     "The front end calls API v2 and the AI microservice; the microservice reads the CRM through the API, with the user’s token, and queries Gemini."
+    ]
+   }
   },
   {
    "slug": "gestion-emails",
