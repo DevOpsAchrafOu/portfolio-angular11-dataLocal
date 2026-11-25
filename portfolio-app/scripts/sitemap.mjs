@@ -5,7 +5,7 @@ const data = JSON.parse(readFileSync(new URL('../src/app/data/portfolio.json', i
 const ts = readFileSync(new URL('../src/app/data/portfolio.ts', import.meta.url), 'utf8');
 const SITE = ts.match(/SITE_URL = '([^']+)'/)[1];
 const url = (lang, path) => SITE + (lang === 'en' ? 'en/' : '') + path;
-const paths = ['', 'cv/', ...[...data.experiences, ...data.projects].map((w) => `work/${w.slug}/`)];
+const paths = ['', 'cv/', ...[...data.experiences, ...data.projects.filter((p) => !p.hidden)].map((w) => `work/${w.slug}/`)];
 const today = new Date().toISOString().slice(0, 10);
 const entries = paths.flatMap((path) =>
   ['fr', 'en'].map((lang) => `  <url>

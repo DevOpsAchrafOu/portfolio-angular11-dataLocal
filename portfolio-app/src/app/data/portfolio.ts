@@ -18,6 +18,8 @@ export interface Work {
   slug: string;
   kind: 'experience' | 'project';
   current: boolean;
+  /** Kept in the data but not shown (no card, no page). */
+  hidden?: boolean;
   title: Tr;
   role: Tr | null;
   summary: Tr | null;
@@ -55,7 +57,8 @@ interface Data {
 }
 
 /** Content migrated from the old src/assets/dataLocal/*.json, with typos fixed and English added. */
-export const DATA = raw as unknown as Data;
+const ALL = raw as unknown as Data;
+export const DATA: Data = { ...ALL, projects: ALL.projects.filter((p) => !p.hidden) };
 export const ALL_WORK: Work[] = [...DATA.experiences, ...DATA.projects];
 
 export function workBySlug(slug: string): Work | undefined {
