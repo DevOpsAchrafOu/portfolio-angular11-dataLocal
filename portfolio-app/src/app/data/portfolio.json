@@ -817,6 +817,166 @@
  ],
  "projects": [
   {
+   "slug": "portfolio",
+   "kind": "project",
+   "current": false,
+   "title": [
+    "Portfolio : d’Angular 11 à Angular 22",
+    "Portfolio: from Angular 11 to Angular 22"
+   ],
+   "role": null,
+   "summary": [
+    "Ce portfolio, d’abord en Angular 11 avec Bootstrap, refait en Angular 22 avec Tailwind CSS 4 : pages générées à l’avance, français et anglais, transitions et animations modernes.",
+    "This portfolio, first built in Angular 11 with Bootstrap, rebuilt in Angular 22 with Tailwind CSS 4: prerendered pages, French and English, modern transitions and animations."
+   ],
+   "tech": [
+    "Angular 22",
+    "Tailwind CSS 4",
+    "TypeScript",
+    "SSG (prerendering)",
+    "View Transitions",
+    "Angular 11",
+    "Bootstrap",
+    "Git"
+   ],
+   "cover": "img/projects/portfolio-new.jpg",
+   "illustration": "img/img-tash-portfolio.svg",
+   "gallery": [],
+   "video": false,
+   "tasks": [
+    {
+     "text": [
+      "Version 1 en Angular 11 : services et composants, fichiers JSON locaux utilisés comme API.",
+      "Version 1 in Angular 11: services and components, local JSON files used as an API."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Version 2 en Angular 22 et Tailwind CSS 4 : 36 pages générées à l’avance, une page par expérience et par projet.",
+      "Version 2 in Angular 22 and Tailwind CSS 4: 36 prerendered pages, one page per experience and project."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Contenu bilingue français / anglais, référencement (Open Graph, JSON-LD, plan du site).",
+      "Bilingual French / English content, SEO (Open Graph, JSON-LD, sitemap)."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Transitions entre pages (View Transitions) et animations CSS au défilement.",
+      "Page transitions (View Transitions) and CSS scroll-driven animations."
+     ],
+     "sub": []
+    }
+   ],
+   "git": [
+    "https://github.com/DevOpsAchrafOu/portfolio"
+   ],
+   "web": [],
+   "versions": [
+    {
+     "label": [
+      "Ancienne version (Angular 11)",
+      "Old version (Angular 11)"
+     ],
+     "url": "https://devopsachrafou.github.io/portfolio/",
+     "shot": "img/projects/portfolio-old.jpg"
+    },
+    {
+     "label": [
+      "Nouvelle version (Angular 22)",
+      "New version (Angular 22)"
+     ],
+     "url": "https://devopsachrafou.github.io/portfolio/redesign/",
+     "shot": "img/projects/portfolio-new.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "focal",
+   "kind": "project",
+   "current": false,
+   "title": [
+    "FOCAL : du template à la landing page",
+    "FOCAL: from template to landing page"
+   ],
+   "role": null,
+   "summary": [
+    "Un template Bootstrap 4 transformé en landing page professionnelle pour un atelier de réparation de téléphones (commerce fictif, démo) : design moderne, devis en ligne, badge « ouvert / fermé » selon l’heure, logo et icône.",
+    "A Bootstrap 4 template turned into a professional landing page for a phone repair shop (fictional business, demo): modern design, online quote, live open / closed badge, logo and icon."
+   ],
+   "tech": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "SVG",
+    "Bootstrap 4",
+    "jQuery",
+    "Git"
+   ],
+   "cover": "img/projects/focal-new.jpg",
+   "illustration": "img/img-tash-site.svg",
+   "gallery": [
+    {
+     "src": "img/projects/img-site-1.png",
+     "caption": [
+      "Site web",
+      "Website"
+     ]
+    }
+   ],
+   "video": false,
+   "tasks": [
+    {
+     "text": [
+      "Refonte du template d’origine en landing page orientée conversion : appel, devis, tableau des prix, FAQ.",
+      "Turned the original template into a conversion-focused landing page: call, quote, price table, FAQ."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Badge « ouvert / fermé » calculé selon l’heure locale, formulaire de devis avec vérification.",
+      "Open / closed badge computed from the local time, quote form with validation."
+     ],
+     "sub": []
+    },
+    {
+     "text": [
+      "Nouveau logo et icône (SVG), polices Sora et Inter, animations douces.",
+      "New logo and icon (SVG), Sora and Inter fonts, soft animations."
+     ],
+     "sub": []
+    }
+   ],
+   "git": [
+    "https://github.com/DevOpsAchrafOu/Templates-site-web"
+   ],
+   "web": [],
+   "versions": [
+    {
+     "label": [
+      "Ancienne version (template)",
+      "Old version (template)"
+     ],
+     "url": "https://devopsachrafou.github.io/Templates-site-web/",
+     "shot": "img/projects/focal-old.jpg"
+    },
+    {
+     "label": [
+      "Nouvelle version (landing page)",
+      "New version (landing page)"
+     ],
+     "url": "https://devopsachrafou.github.io/Templates-site-web/redesign/",
+     "shot": "img/projects/focal-new.jpg"
+    }
+   ]
+  },
+  {
    "slug": "nexproma",
    "kind": "project",
    "current": false,
@@ -908,89 +1068,9 @@
    ]
   },
   {
-   "slug": "focal",
-   "kind": "project",
-   "current": false,
-   "title": [
-    "FOCAL : du template à la landing page",
-    "FOCAL: from template to landing page"
-   ],
-   "role": null,
-   "summary": [
-    "Un template Bootstrap 4 transformé en landing page professionnelle pour un atelier de réparation de téléphones (commerce fictif, démo) : design moderne, devis en ligne, badge « ouvert / fermé » selon l’heure, logo et icône.",
-    "A Bootstrap 4 template turned into a professional landing page for a phone repair shop (fictional business, demo): modern design, online quote, live open / closed badge, logo and icon."
-   ],
-   "tech": [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "SVG",
-    "Bootstrap 4",
-    "jQuery",
-    "Git"
-   ],
-   "cover": "img/projects/focal-new.jpg",
-   "illustration": "img/img-tash-site.svg",
-   "gallery": [
-    {
-     "src": "img/projects/img-site-1.png",
-     "caption": [
-      "Site web",
-      "Website"
-     ]
-    }
-   ],
-   "video": false,
-   "tasks": [
-    {
-     "text": [
-      "Refonte du template d’origine en landing page orientée conversion : appel, devis, tableau des prix, FAQ.",
-      "Turned the original template into a conversion-focused landing page: call, quote, price table, FAQ."
-     ],
-     "sub": []
-    },
-    {
-     "text": [
-      "Badge « ouvert / fermé » calculé selon l’heure locale, formulaire de devis avec vérification.",
-      "Open / closed badge computed from the local time, quote form with validation."
-     ],
-     "sub": []
-    },
-    {
-     "text": [
-      "Nouveau logo et icône (SVG), polices Sora et Inter, animations douces.",
-      "New logo and icon (SVG), Sora and Inter fonts, soft animations."
-     ],
-     "sub": []
-    }
-   ],
-   "git": [
-    "https://github.com/DevOpsAchrafOu/Templates-site-web"
-   ],
-   "web": [],
-   "versions": [
-    {
-     "label": [
-      "Ancienne version (template)",
-      "Old version (template)"
-     ],
-     "url": "https://devopsachrafou.github.io/Templates-site-web/",
-     "shot": "img/projects/focal-old.jpg"
-    },
-    {
-     "label": [
-      "Nouvelle version (landing page)",
-      "New version (landing page)"
-     ],
-     "url": "https://devopsachrafou.github.io/Templates-site-web/redesign/",
-     "shot": "img/projects/focal-new.jpg"
-    }
-   ]
-  },
-  {
    "slug": "smartclientmanagement",
    "kind": "project",
-   "current": true,
+   "current": false,
    "title": [
     "SmartClientManagement : CRM avec assistant IA, en Angular 22 et Spring Boot 4",
     "SmartClientManagement: a CRM with an AI assistant, in Angular 22 and Spring Boot 4"
@@ -1261,86 +1341,6 @@
    ]
   },
   {
-   "slug": "portfolio",
-   "kind": "project",
-   "current": false,
-   "title": [
-    "Portfolio : d’Angular 11 à Angular 22",
-    "Portfolio: from Angular 11 to Angular 22"
-   ],
-   "role": null,
-   "summary": [
-    "Ce portfolio, d’abord en Angular 11 avec Bootstrap, refait en Angular 22 avec Tailwind CSS 4 : pages générées à l’avance, français et anglais, transitions et animations modernes.",
-    "This portfolio, first built in Angular 11 with Bootstrap, rebuilt in Angular 22 with Tailwind CSS 4: prerendered pages, French and English, modern transitions and animations."
-   ],
-   "tech": [
-    "Angular 22",
-    "Tailwind CSS 4",
-    "TypeScript",
-    "SSG (prerendering)",
-    "View Transitions",
-    "Angular 11",
-    "Bootstrap",
-    "Git"
-   ],
-   "cover": "img/projects/portfolio-new.jpg",
-   "illustration": "img/img-tash-portfolio.svg",
-   "gallery": [],
-   "video": false,
-   "tasks": [
-    {
-     "text": [
-      "Version 1 en Angular 11 : services et composants, fichiers JSON locaux utilisés comme API.",
-      "Version 1 in Angular 11: services and components, local JSON files used as an API."
-     ],
-     "sub": []
-    },
-    {
-     "text": [
-      "Version 2 en Angular 22 et Tailwind CSS 4 : 36 pages générées à l’avance, une page par expérience et par projet.",
-      "Version 2 in Angular 22 and Tailwind CSS 4: 36 prerendered pages, one page per experience and project."
-     ],
-     "sub": []
-    },
-    {
-     "text": [
-      "Contenu bilingue français / anglais, référencement (Open Graph, JSON-LD, plan du site).",
-      "Bilingual French / English content, SEO (Open Graph, JSON-LD, sitemap)."
-     ],
-     "sub": []
-    },
-    {
-     "text": [
-      "Transitions entre pages (View Transitions) et animations CSS au défilement.",
-      "Page transitions (View Transitions) and CSS scroll-driven animations."
-     ],
-     "sub": []
-    }
-   ],
-   "git": [
-    "https://github.com/DevOpsAchrafOu/portfolio"
-   ],
-   "web": [],
-   "versions": [
-    {
-     "label": [
-      "Ancienne version (Angular 11)",
-      "Old version (Angular 11)"
-     ],
-     "url": "https://devopsachrafou.github.io/portfolio/",
-     "shot": "img/projects/portfolio-old.jpg"
-    },
-    {
-     "label": [
-      "Nouvelle version (Angular 22)",
-      "New version (Angular 22)"
-     ],
-     "url": "https://devopsachrafou.github.io/portfolio/redesign/",
-     "shot": "img/projects/portfolio-new.jpg"
-    }
-   ]
-  },
-  {
    "slug": "gestion-emails",
    "kind": "project",
    "current": false,
@@ -1370,7 +1370,8 @@
     "https://github.com/DevOpsAchrafOu/-MailManagement_TreatmentText_Validation_by_SpringBoot_SIntegration"
    ],
    "web": [],
-   "versions": []
+   "versions": [],
+   "hidden": true
   },
   {
    "slug": "ionic-photo",
@@ -1403,7 +1404,8 @@
     "https://github.com/DevOpsAchrafOu/Ionic4-take-photo-resize-and-take-photo-by-gallery-"
    ],
    "web": [],
-   "versions": []
+   "versions": [],
+   "hidden": true
   },
   {
    "slug": "scanner-codes-barres",
@@ -1434,7 +1436,8 @@
     "https://github.com/DevOpsAchrafOu/codes-barres"
    ],
    "web": [],
-   "versions": []
+   "versions": [],
+   "hidden": true
   }
  ],
  "education": [
