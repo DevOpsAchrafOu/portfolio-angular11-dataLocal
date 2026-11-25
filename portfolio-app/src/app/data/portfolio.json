@@ -1028,20 +1028,6 @@
    "illustration": "img/img-tash-smartCM-01.svg",
    "gallery": [
     {
-     "src": "img/projects/img-smartCM-01.png",
-     "caption": [
-      "Connexion",
-      "Sign-in"
-     ]
-    },
-    {
-     "src": "img/projects/img-smartCM-02.png",
-     "caption": [
-      "Accueil",
-      "Home"
-     ]
-    },
-    {
      "src": "img/projects/smartcm-crm-01.jpg",
      "caption": [
       "Tableau de bord CRM",
@@ -1088,62 +1074,6 @@
      "caption": [
       "Assistant IA sur la fiche client ouverte",
       "AI assistant on the open client page"
-     ]
-    },
-    {
-     "src": "img/projects/img-smartCM-03.png",
-     "caption": [
-      "Gestion des utilisateurs",
-      "User management"
-     ]
-    },
-    {
-     "src": "img/projects/img-smartCM-04.png",
-     "caption": [
-      "Ajout / modification d’un compte utilisateur",
-      "Add / edit a user account"
-     ]
-    },
-    {
-     "src": "img/projects/img-smartCM-05.png",
-     "caption": [
-      "Ajout / modification d’un rôle et de ses privilèges (menu)",
-      "Add / edit a role and its permissions (menu)"
-     ]
-    },
-    {
-     "src": "img/projects/img-smartCM-06.png",
-     "caption": [
-      "Structure du back-end",
-      "Back-end structure"
-     ]
-    },
-    {
-     "src": "img/projects/img-smartCM-07.png",
-     "caption": [
-      "Test de l’API (Postman)",
-      "API testing (Postman)"
-     ]
-    },
-    {
-     "src": "img/projects/img-smartCM-08.png",
-     "caption": [
-      "Documentation de l’API (Swagger)",
-      "API documentation (Swagger)"
-     ]
-    },
-    {
-     "src": "img/projects/img-smartCM-09.png",
-     "caption": [
-      "Structure du front-end",
-      "Front-end structure"
-     ]
-    },
-    {
-     "src": "img/projects/img-smartCM-10.png",
-     "caption": [
-      "Structure détaillée du front-end",
-      "Detailed front-end structure"
      ]
     }
    ],
