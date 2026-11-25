@@ -1042,6 +1042,55 @@
      ]
     },
     {
+     "src": "img/projects/smartcm-crm-01.jpg",
+     "caption": [
+      "Tableau de bord CRM",
+      "CRM dashboard"
+     ]
+    },
+    {
+     "src": "img/projects/smartcm-crm-02.jpg",
+     "caption": [
+      "Clients : filtres par statut, import / export CSV",
+      "Clients: status filters, CSV import / export"
+     ]
+    },
+    {
+     "src": "img/projects/smartcm-crm-05.jpg",
+     "caption": [
+      "Fiche client : contacts, activités, opportunités",
+      "Client page: contacts, activities, opportunities"
+     ]
+    },
+    {
+     "src": "img/projects/smartcm-crm-03.jpg",
+     "caption": [
+      "Pipeline d’opportunités (glisser-déposer)",
+      "Opportunity pipeline (drag and drop)"
+     ]
+    },
+    {
+     "src": "img/projects/smartcm-crm-04.jpg",
+     "caption": [
+      "Activités et tâches",
+      "Activities and tasks"
+     ]
+    },
+    {
+     "src": "img/projects/smartcm-ai-02.jpg",
+     "caption": [
+      "Assistant IA : « Mon brief du jour »",
+      "AI assistant: “My daily brief”"
+     ]
+    },
+    {
+     "src": "img/projects/smartcm-ai-01.jpg",
+     "caption": [
+      "Assistant IA sur la fiche client ouverte",
+      "AI assistant on the open client page"
+     ]
+    },
+    {
      "src": "img/projects/img-smartCM-03.png",
      "caption": [
       "Gestion des utilisateurs",
